@@ -1,37 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  background: #0d0d0d;
+  color: #f2f2f2;
 }
+
 header {
-  background: #222;
-  color: white;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 25px;
+  background: #1a1a1a;
+  border-bottom: 2px solid #333;
 }
-#btn-lang {
-  background: #555;
+
+.lang-buttons button {
+  background: #333;
   color: white;
   border: none;
-  padding: 8px 12px;
+  border-radius: 8px;
+  padding: 8px 14px;
   cursor: pointer;
+  transition: background 0.3s;
 }
-.theory-card {
-  background: white;
-  margin: 20px;
+
+.lang-buttons button:hover {
+  background: #555;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.theory {
+  background: #1a1a1a;
   padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin-top: 10px;
 }
-.theory-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 3px;
-}
-.theory-card h2 {
-  margin-top: 0;
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1a1a1a;
+  border-top: 2px solid #333;
+  color: #aaa;
 }

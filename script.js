@@ -1,51 +1,42 @@
-let currentLang = "en";
-let langData = {};
-let theories = [];
+const en = {
+    title: "Utopia Facts",
+    intro: "Welcome to Utopia Facts! Here we explore the most famous conspiracy theories and uncover the real truth behind them.",
+    theoriesTitle: "Popular Theories",
+    theory1Title: "Moon Landing Hoax",
+    theory1Text: "Some believe the moon landing was staged — we explain why it’s real.",
+    theory2Title: "Flat Earth Theory",
+    theory2Text: "Flat Earth believers claim NASA lies — here’s what science says.",
+    aboutTitle: "About the Project",
+    aboutText: "This site was made for an IT project course. Inspired by the YouTube channel Utopia Show, it presents conspiracy theories and the facts that disprove them.",
+    footerText: "© 2025 Utopia Facts | Made by Misha"
+};
 
-async function loadLang(lang) {
-    const resp = await fetch(`data/lang_${lang}.json`);
-    langData = await resp.json();
+const fi = {
+    title: "Utopia Faktat",
+    intro: "Tervetuloa Utopia Faktat -sivustolle! Täällä tutkimme kuuluisimpia salaliittoteorioita ja paljastamme totuuden niiden takana.",
+    theoriesTitle: "Suositut teoriat",
+    theory1Title: "Kuulentohuijaus",
+    theory1Text: "Jotkut uskovat, että kuulentoa ei koskaan tapahtunut — tässä on syyt, miksi se on totta.",
+    theory2Title: "Litteä maa -teoria",
+    theory2Text: "Litteän maan kannattajat väittävät, että NASA valehtelee — tässä on, mitä tiede sanoo.",
+    aboutTitle: "Tietoa projektista",
+    aboutText: "Tämä sivusto on tehty IT-projektikurssia varten. Se on saanut inspiraationsa YouTube-kanavalta Utopia Show ja esittelee salaliittoteorioita sekä niihin liittyviä faktoja.",
+    footerText: "© 2025 Utopia Faktat | Tekijä: Misha"
+};
+
+function setLanguage(lang) {
+    const dict = lang === "fi" ? fi : en;
+    document.getElementById("title").textContent = dict.title;
+    document.getElementById("intro-text").textContent = dict.intro;
+    document.getElementById("theories-title").textContent = dict.theoriesTitle;
+    document.getElementById("theory1-title").textContent = dict.theory1Title;
+    document.getElementById("theory1-text").textContent = dict.theory1Text;
+    document.getElementById("theory2-title").textContent = dict.theory2Title;
+    document.getElementById("theory2-text").textContent = dict.theory2Text;
+    document.getElementById("about-title").textContent = dict.aboutTitle;
+    document.getElementById("about-text").textContent = dict.aboutText;
+    document.getElementById("footer-text").textContent = dict.footerText;
 }
 
-async function loadTheories(lang) {
-    const resp = await fetch(`data/theories_${lang}.json`);
-    theories = await resp.json();
-}
-
-function renderPage() {
-    document.getElementById("site-title").textContent = langData.title;
-    document.getElementById("btn-lang").textContent =
-        currentLang === "en" ? langData.button_switch_to_fi : langData.button_switch_to_en;
-    document.getElementById("footer-text").textContent = langData.footer;
-
-    const content = document.getElementById("content");
-    content.innerHTML = "";
-    theories.forEach(theory => {
-        const card = document.createElement("div");
-        card.className = "theory-card";
-        const img = document.createElement("img");
-        img.src = `assets/images/${theory.image}`;
-        const h = document.createElement("h2");
-        h.textContent = theory.title;
-        const pDesc = document.createElement("p");
-        pDesc.textContent = theory.description;
-        const pFact = document.createElement("p");
-        pFact.textContent = theory.facts;
-
-        card.append(img, h, pDesc, pFact);
-        content.append(card);
-    });
-}
-
-document.getElementById("btn-lang").addEventListener("click", async () => {
-    currentLang = currentLang === "en" ? "fi" : "en";
-    await loadLang(currentLang);
-    await loadTheories(currentLang);
-    renderPage();
-});
-
-(async () => {
-    await loadLang(currentLang);
-    await loadTheories(currentLang);
-    renderPage();
-})();
+document.getElementById("btn-en").addEventListener("click", () => setLanguage("en"));
+document.getElementById("btn-fi").addEventListener("click", () => setLanguage("fi"));
