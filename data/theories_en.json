@@ -1,0 +1,16 @@
+[
+    {
+        "id": "moon_landing",
+        "title": "Moon Landing Hoax",
+        "description": "Some conspiracy theorists claim the moon landing was faked in 1969.",
+        "facts": "There are moon rock samples, experiments left by astronauts etc.",
+        "image": "moon.jpg"
+    },
+    {
+        "id": "flat_earth",
+        "title": "Flat Earth Theory",
+        "description": "Flat Earthers believe the Earth is not round and that NASA hides the truth.",
+        "facts": "Satellite pictures, flight paths and physics show Earth is spherical.",
+        "image": "earth.jpg"
+    }
+]
