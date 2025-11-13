@@ -13,7 +13,7 @@ const en = {
 
 const fi = {
     title: "Utopia Facts",
-    intro: "Tervetuloa Utopia Faktat -sivustolle! T‰‰ll‰ tutkimme kuuluisimpia salaliittoteorioita ja paljastamme totuuden niiden takana.",
+    intro: "Tervetuloa Utopia Facts -sivustolle! T‰‰ll‰ tutkimme kuuluisimpia salaliittoteorioita ja paljastamme totuuden niiden takana.",
     theoriesTitle: "Suositut teoriat",
     theory1Title: "Kuulentohuijaus",
     theory1Text: "Jotkut uskovat, ett‰ kuulentoa ei koskaan tapahtunut ó t‰ss‰ on syyt, miksi se on totta.",
