@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Kuulentohuijaus",
+        "description": "Monet uskovat, että Yhdysvallat lavasti kuulennon vuonna 1969. Kannattajat väittävät, että lippu heilui tuulessa, varjot näyttivät vääriltä ja tähtiä ei näkynyt.",
+        "facts": "Tiede kuitenkin osoittaa, että lippu liikkui liike-energian vuoksi, varjot vääristyivät epätasaisen maaston takia ja tähdet eivät näkyneet kameran valotuksen vuoksi. Kuulennon aitous on todistettu näytteillä ja itsenäisten maiden havainnoilla.",
+        "conclusion": "Kuulentoa ei lavastettu — todisteet osoittavat, että ihminen todella kävi Kuussa.",
+        "video": "https://youtu.be/YoFJpNxa-Jw"
+    },
+    {
+        "title": "Illuminatin salaliitto",
+        "description": "Illuminatista kerrotaan olevan varjohallitus, joka ohjaa maailman tapahtumia. Heidän väitetään kontrolloivan mediaa, taloutta ja politiikkaa.",
+        "facts": "Todellisuudessa Illuminati oli lyhytikäinen seura 1700-luvulla, joka hajotettiin nopeasti. Nykyinen myytti perustuu popkulttuuriin ja internet-huhuihin.",
+        "conclusion": "Nykyistä Illuminatia ei ole olemassa – se on moderni legenda, ei todellinen järjestö.",
+        "video": "https://youtu.be/kNRtWxEaxDw"
+    },
+    {
+        "title": "Lochin Nessin hirviö",
+        "description": "Skotlannin Loch Ness -järvestä on raportoitu havaintoja suuresta merihirviöstä. Monet uskovat sen olevan esihistoriallinen olento.",
+        "facts": "Useimmat valokuvat ja videot on todettu väärennöksiksi tai virhetulkinnoiksi. Tieteelliset tutkimukset eivät ole löytäneet todisteita hirviön olemassaolosta.",
+        "conclusion": "Lochin Nessin hirviö on kiehtova tarina, mutta todisteita sen olemassaolosta ei ole.",
+        "video": "https://youtu.be/eqZGPTumrNc"
+    },
+    {
+        "title": "Area 51 ja avaruusolennot",
+        "description": "Area 51 -tukikohdan ympärillä on paljon huhuja avaruusolennoista ja salaisista kokeista. Monet uskovat, että Yhdysvaltain hallitus piilottaa todisteita UFOista.",
+        "facts": "Tukikohta on todellinen, mutta se on testialue lentokoneiden kehittämiselle, ei avaruusolentojen säilytyspaikka. Huhut syntyivät kylmän sodan salailun vuoksi.",
+        "conclusion": "Area 51 ei liity avaruusolentoihin – se on vain erittäin salainen sotilasalue.",
+        "video": "https://youtu.be/JEpTWs-Yvcw"
+    }
+]

@@ -37,6 +37,12 @@ function setLanguage(lang) {
     document.getElementById("about-text").textContent = dict.aboutText;
     document.getElementById("footer-text").textContent = dict.footerText;
 }
+async function loadData() {
+    const lang = await fetch("data/lang_fi.json").then(r => r.json());
+    const theories = await fetch("data/theories_fi.json").then(r => r.json());
+    console.log(lang, theories);
+}
+
 
 document.getElementById("btn-en").addEventListener("click", () => setLanguage("en"));
 document.getElementById("btn-fi").addEventListener("click", () => setLanguage("fi"));
