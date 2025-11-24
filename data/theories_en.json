@@ -1,16 +1,64 @@
 [
-    {
-        "id": "moon_landing",
-        "title": "Moon Landing Hoax",
-        "description": "Some conspiracy theorists claim the moon landing was faked in 1969.",
-        "facts": "There are moon rock samples, experiments left by astronauts etc.",
-        "image": "moon.jpg"
-    },
-    {
-        "id": "flat_earth",
-        "title": "Flat Earth Theory",
-        "description": "Flat Earthers believe the Earth is not round and that NASA hides the truth.",
-        "facts": "Satellite pictures, flight paths and physics show Earth is spherical.",
-        "image": "earth.jpg"
-    }
+  {
+    "id": "philadelphia_experiment",
+    "title": "The Philadelphia Experiment",
+    "short": "A secret Navy experiment where a ship allegedly became invisible and teleported.",
+    "content": [
+      {
+        "text": "According to conspiracy theories, in 1943 the USS Eldridge was subject to a secret experiment in Philadelphia, becoming cloaked in green fog and disappearing."
+      },
+      {
+        "text": "Witnesses claim the ship reappeared 300 km away, and parts of the crew allegedly became fused with the ship's metal."
+      },
+      {
+        "text": "The myth was popularized by Morris Jessup in 1955, after he received letters from a man named Carl Allen (also known as Carlos Allende), who claimed to have seen it."
+      },
+      {
+        "text": "Carl Allen said he saw the ship disappear. He later sent heavily annotated copies of Jessup’s book, suggesting there was a deeper conspiracy."
+      },
+      {
+        "text": "Skeptics found that Allen was not a reliable witness – his stories were full of contradictions, and many consider him a fantasist."
+      },
+      {
+        "text": "Some explanations: the U.S. Navy tested ‘degaussing’ (demagnetizing) technology on warships in that era, which may explain claims of green fog and disappearance."
+      },
+      {
+        "text": "Another project, called ‘Project Mogul’, might explain wreckage: it used radar balloon arrays, which could have been mistaken for UFO debris."
+      },
+      {
+        "text": "In summary: no concrete proof of teleportation or invisibility. The story persists because of its mystery, but most evidence points to a mixture of misunderstanding, hoaxes, and real military tech."
+      }
+    ]
+  },
+  {
+    "id": "roswell_autopsy",
+    "title": "Roswell Alien Autopsy",
+    "short": "Claims of bodies and film from a 1947 UFO crash in New Mexico.",
+    "content": [
+      {
+        "text": "The Roswell incident in July 1947 is one of the most famous UFO stories: an alleged alien spacecraft crashed near Roswell, New Mexico."
+      },
+      {
+        "text": "Eyewitnesses and conspiracy theorists claim that bodies of extraterrestrials were recovered and kept secret by the U.S. government."
+      },
+      {
+        "text": "In 1995, British producer Ray Santilli released footage of an alien autopsy, saying the film was real."
+      },
+      {
+        "text": "Skeptics later pointed out that the creature in the film resembles props made by sculptor John Humphreys, who worked on sci-fi movies."
+      },
+      {
+        "text": "Santilli claimed he made a re-enactment because the original film deteriorated — but many believe the whole thing was a hoax to make money."
+      },
+      {
+        "text": "Investigations revealed that a famous ‘alien corpse’ photo might actually show a two-year-old child’s body preserved earlier, not an alien."
+      },
+      {
+        "text": "Moreover, leaked documents reference U.S. projects like ‘High Dive’ (parachute system testing) and ‘Mogul’ (balloon surveillance), which may explain wreckage and observed anomalies."
+      },
+      {
+        "text": "Conclusion: No scientifically verifiable alien bodies. While Roswell remains a cultural touchstone for UFO believers, the strongest evidence points to misidentification, propaganda, and hoaxes."
+      }
+    ]
+  }
 ]

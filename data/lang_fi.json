@@ -1,8 +1,4 @@
 {
-    "title": "Utopia Faktat",
-    "intro": "Tervetuloa Utopia Faktat -sivustolle! Täällä tutkimme kuuluisimpia salaliittoteorioita ja paljastamme totuuden niiden takana.",
-    "theoriesTitle": "Suositut teoriat",
-    "aboutTitle": "Tietoa projektista",
-    "aboutText": "Tämä sivusto on tehty IT-projektikurssia varten. Se on saanut inspiraationsa YouTube-kanavalta Utopia Show ja esittelee salaliittoteorioita sekä niihin liittyviä faktoja ja myyttien oikaisuja.",
-    "footerText": "© 2025 Utopia Faktat | Tekijä: Misha"
+  "title": "Utopia Facts",
+  "footer": "Â© 2025 Utopia Facts"
 }

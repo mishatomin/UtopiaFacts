@@ -1,48 +1,70 @@
-const en = {
-    title: "Utopia Facts",
-    intro: "Welcome to Utopia Facts! Here we explore the most famous conspiracy theories and uncover the real truth behind them.",
-    theoriesTitle: "Popular Theories",
-    theory1Title: "Moon Landing Hoax",
-    theory1Text: "Some believe the moon landing was staged � we explain why it�s real.",
-    theory2Title: "Flat Earth Theory",
-    theory2Text: "Flat Earth believers claim NASA lies � here�s what science says.",
-    aboutTitle: "About the Project",
-    aboutText: "This site was made for an IT project course. Inspired by the YouTube channel Utopia Show, it presents conspiracy theories and the facts that disprove them.",
-    footerText: "� 2025 Utopia Facts | Made by Misha"
-};
+let currentLang = 'en';
+let langData = {};
+let theories = [];
 
-const fi = {
-    title: "Utopia Facts",
-    intro: "Tervetuloa Utopia Facts -sivustolle! T��ll� tutkimme kuuluisimpia salaliittoteorioita ja paljastamme totuuden niiden takana.",
-    theoriesTitle: "Suositut teoriat",
-    theory1Title: "Kuulentohuijaus",
-    theory1Text: "Jotkut uskovat, ett� kuulentoa ei koskaan tapahtunut � t�ss� on syyt, miksi se on totta.",
-    theory2Title: "Litte� maa -teoria",
-    theory2Text: "Litte�n maan kannattajat v�itt�v�t, ett� NASA valehtelee � t�ss� on, mit� tiede sanoo.",
-    aboutTitle: "Tietoa projektista",
-    aboutText: "T�m� sivusto on tehty IT-projektikurssia varten. Se on saanut inspiraationsa YouTube-kanavalta Utopia Show ja esittelee salaliittoteorioita sek� niihin liittyvi� faktoja.",
-    footerText: "� 2025 Utopia Faktat | Tekij�: Misha"
-};
-
-function setLanguage(lang) {
-    const dict = lang === "fi" ? fi : en;
-    document.getElementById("title").textContent = dict.title;
-    document.getElementById("intro-text").textContent = dict.intro;
-    document.getElementById("theories-title").textContent = dict.theoriesTitle;
-    document.getElementById("theory1-title").textContent = dict.theory1Title;
-    document.getElementById("theory1-text").textContent = dict.theory1Text;
-    document.getElementById("theory2-title").textContent = dict.theory2Title;
-    document.getElementById("theory2-text").textContent = dict.theory2Text;
-    document.getElementById("about-title").textContent = dict.aboutTitle;
-    document.getElementById("about-text").textContent = dict.aboutText;
-    document.getElementById("footer-text").textContent = dict.footerText;
-}
-async function loadData() {
-    const lang = await fetch("data/lang_fi.json").then(r => r.json());
-    const theories = await fetch("data/theories_fi.json").then(r => r.json());
-    console.log(lang, theories);
+// Загрузка JSON данных
+async function loadLangData() {
+  const resp = await fetch(`data/lang_${currentLang}.json`);
+  langData = await resp.json();
 }
 
+async function loadTheories() {
+  const resp = await fetch(`data/theories_${currentLang}.json`);
+  theories = await resp.json();
+}
 
-document.getElementById("btn-en").addEventListener("click", () => setLanguage("en"));
-document.getElementById("btn-fi").addEventListener("click", () => setLanguage("fi"));
+// Рендер страницы
+function renderPage() {
+  document.getElementById('site-title').textContent = langData.title;
+  document.getElementById('footer-text').textContent = langData.footer;
+
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+
+  theories.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'theory-card';
+
+    const title = document.createElement('h2');
+    title.textContent = t.title;
+
+    const short = document.createElement('p');
+    short.textContent = t.short;
+
+    card.appendChild(title);
+    card.appendChild(short);
+
+    // Подробный текст
+    if (t.content && Array.isArray(t.content)) {
+      t.content.forEach(block => {
+        const p = document.createElement('p');
+        p.textContent = block.text;
+        card.appendChild(p);
+      });
+    }
+
+    content.appendChild(card);
+  });
+}
+
+// Переключение языка
+document.getElementById('btn-en').addEventListener('click', async () => {
+  currentLang = 'en';
+  await loadLangData();
+  await loadTheories();
+  renderPage();
+});
+
+document.getElementById('btn-fi').addEventListener('click', async () => {
+  currentLang = 'fi';
+  await loadLangData();
+  await loadTheories();
+  renderPage();
+});
+
+// Инициализация
+(async () => {
+  await loadLangData();
+  await loadTheories();
+  renderPage();
+})();

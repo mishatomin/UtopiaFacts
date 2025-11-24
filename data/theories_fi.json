@@ -1,30 +1,65 @@
 [
-    {
-        "title": "Kuulentohuijaus",
-        "description": "Monet uskovat, ett‰ Yhdysvallat lavasti kuulennon vuonna 1969. Kannattajat v‰itt‰v‰t, ett‰ lippu heilui tuulessa, varjot n‰yttiv‰t v‰‰rilt‰ ja t‰hti‰ ei n‰kynyt.",
-        "facts": "Tiede kuitenkin osoittaa, ett‰ lippu liikkui liike-energian vuoksi, varjot v‰‰ristyiv‰t ep‰tasaisen maaston takia ja t‰hdet eiv‰t n‰kyneet kameran valotuksen vuoksi. Kuulennon aitous on todistettu n‰ytteill‰ ja itsen‰isten maiden havainnoilla.",
-        "conclusion": "Kuulentoa ei lavastettu ó todisteet osoittavat, ett‰ ihminen todella k‰vi Kuussa.",
-        "video": "https://youtu.be/YoFJpNxa-Jw"
-    },
-    {
-        "title": "Illuminatin salaliitto",
-        "description": "Illuminatista kerrotaan olevan varjohallitus, joka ohjaa maailman tapahtumia. Heid‰n v‰itet‰‰n kontrolloivan mediaa, taloutta ja politiikkaa.",
-        "facts": "Todellisuudessa Illuminati oli lyhytik‰inen seura 1700-luvulla, joka hajotettiin nopeasti. Nykyinen myytti perustuu popkulttuuriin ja internet-huhuihin.",
-        "conclusion": "Nykyist‰ Illuminatia ei ole olemassa ñ se on moderni legenda, ei todellinen j‰rjestˆ.",
-        "video": "https://youtu.be/kNRtWxEaxDw"
-    },
-    {
-        "title": "Lochin Nessin hirviˆ",
-        "description": "Skotlannin Loch Ness -j‰rvest‰ on raportoitu havaintoja suuresta merihirviˆst‰. Monet uskovat sen olevan esihistoriallinen olento.",
-        "facts": "Useimmat valokuvat ja videot on todettu v‰‰rennˆksiksi tai virhetulkinnoiksi. Tieteelliset tutkimukset eiv‰t ole lˆyt‰neet todisteita hirviˆn olemassaolosta.",
-        "conclusion": "Lochin Nessin hirviˆ on kiehtova tarina, mutta todisteita sen olemassaolosta ei ole.",
-        "video": "https://youtu.be/eqZGPTumrNc"
-    },
-    {
-        "title": "Area 51 ja avaruusolennot",
-        "description": "Area 51 -tukikohdan ymp‰rill‰ on paljon huhuja avaruusolennoista ja salaisista kokeista. Monet uskovat, ett‰ Yhdysvaltain hallitus piilottaa todisteita UFOista.",
-        "facts": "Tukikohta on todellinen, mutta se on testialue lentokoneiden kehitt‰miselle, ei avaruusolentojen s‰ilytyspaikka. Huhut syntyiv‰t kylm‰n sodan salailun vuoksi.",
-        "conclusion": "Area 51 ei liity avaruusolentoihin ñ se on vain eritt‰in salainen sotilasalue.",
-        "video": "https://youtu.be/JEpTWs-Yvcw"
-    }
+  {
+    "id": "philadelphia_experiment",
+    "title": "Filadelfian kokeilu",
+    "short": "Salainen laivakoe, jossa laiva v√§itetysti muuttui n√§kym√§tt√∂m√§ksi ja teleporttasi.",
+    "content": [
+      {
+        "text": "Salaliittoteorioiden mukaan vuonna 1943 USS Eldridge osallistui Filadelfiassa kokeeseen, jossa se peittyi vihre√§√§n sumuun ja katosi."
+      },
+      {
+        "text": "Todistajien mukaan alus ilmestyi uudelleen 300 km p√§√§ss√§, ja osa miehist√∂st√§ v√§itetysti yhdistyi laivan metalliin."
+      },
+      {
+        "text": "Mytan levisi 1955, kun Morris Jessup julkaisi kirjan ja sai kirjett√§ miehelt√§ nimelt√§ Carl Allen (Carlos Allende), joka v√§itti n√§hneens√§ kaiken."
+      },
+      {
+        "text": "Allen kertoi n√§hneens√§ laivan katoamisen ja l√§hetteli merkattuja kopioita Jessupin kirjasta, vihjaten syvemp√§√§n salaliittoon."
+      },
+      {
+        "text": "Kriitikot pit√§v√§t Allenia ep√§luotettavana todistajana ‚Äì h√§nen tarinansa ovat ristiriitaisia ja fantasial√§ht√∂isi√§."
+      },
+      {
+        "text": "Yksi selitys on se, ett√§ laivalla testattiin degaussing-teknologiaa (demagnetointia), mik√§ saattoi synnytt√§√§ vihre√§n sumun ja katoamishy√∂kk√§yksen vaikutelman."
+      },
+      {
+        "text": "Toinen mahdollinen selitys on Project Mogul: ilmapalloj√§rjestelm√§, jota testattiin ja jota saatettiin erehdyksess√§ luulla UFO-romuksi."
+      },
+      {
+        "text": "Yhteenvetona: ei todisteita teleportista tai n√§kym√§tt√∂myydest√§. Tarina el√§√§, koska se on salaper√§inen, mutta todenn√§k√∂isin selitys on sekoitus v√§√§rink√§sityksi√§, huijauksia ja sotilasteknologiaa."
+      }
+    ]
+  },
+  {
+    "id": "roswell_autopsy",
+    "title": "Roswellin vieraiden ruumiinavaus",
+    "short": "V√§itteet ruumiista ja elokuvasta vuoden 1947 nUFO-pudotuksesta New Mexicossa.",
+    "content": [
+      {
+        "text": "Roswellin tapaus hein√§kuussa 1947 on yksi tunnetuimmista UFO-tarinoista: v√§itet√§√§n, ett√§ avaruusalus sy√∂ksyi alas New Mexicon l√§hell√§."
+      },
+      {
+        "text": "Silminn√§kij√§t ja salaliittoteoreetikot kertovat, ett√§ avaruusolioiden ruumiita l√∂ydettiin ja ett√§ Yhdysvallat salasi ne."
+      },
+      {
+        "text": "Vuonna 1995 brittil√§inen tuottaja Ray Santilli julkaisi videon oudosta ruumiinavauksesta ja v√§itti sen olevan totta."
+      },
+      {
+        "text": "Skeptikot huomasivat, ett√§ olento videossa muistuttaa John Humphreysin tekemi√§ lavasteita ‚Äì h√§n teki scifi-hahmoja elokuviin."
+      },
+      {
+        "text": "Santilli sanoi tehneens√§ uudelleenvideon, koska alkuper√§inen filmi oli huonossa kunnossa ‚Äì monet kuitenkin uskovat koko jutun olleen rahankeruuta."
+      },
+      {
+        "text": "Tutkijat tutkivat my√∂s kuuluisaa 'avaruusolion ruumiskuvaa' ja l√∂ysiv√§t tietoja, joiden mukaan kyseess√§ saattaa olla 2-vuotiaan lapsen muumio eik√§ alien."
+      },
+      {
+        "text": "Lis√§ksi salaisia dokumentteja paljastettiin: esimerkiksi projekti High Dive (varjostusharjoituksia varten) ja Project Mogul (ilmapallotarkkailua), jotka voivat selitt√§√§ romuja ja havaintoja."
+      },
+      {
+        "text": "Johtop√§√§t√∂s: ei tieteellisesti varmistettuja alien-ruumiita. Vaikka Roswell on UFO-uskovaisten ikoni, vahvimmat todisteet viittaavat v√§√§rinymm√§rrykseen, propagandaan ja huijauksiin."
+      }
+    ]
+  }
 ]
+
