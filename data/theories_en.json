@@ -1,66 +1,86 @@
 [
   {
-    "id": "philadelphia_experiment",
-    "title": "The Philadelphia Experiment",
-    "short": "A secret Navy experiment where a ship allegedly became invisible and teleported.",
-    "content": [
-      {
-        "text": "According to conspiracy theories, in 1943 the USS Eldridge was subject to a secret experiment in Philadelphia, becoming cloaked in green fog and disappearing."
-      },
-      {
-        "text": "Witnesses claim the ship reappeared 300 km away, and parts of the crew allegedly became fused with the ship's metal."
-      },
-      {
-        "text": "The myth was popularized by Morris Jessup in 1955, after he received letters from a man named Carl Allen (also known as Carlos Allende), who claimed to have seen it."
-      },
-      {
-        "text": "Carl Allen said he saw the ship disappear. He later sent heavily annotated copies of Jessup’s book, suggesting there was a deeper conspiracy."
-      },
-      {
-        "text": "Skeptics found that Allen was not a reliable witness – his stories were full of contradictions, and many consider him a fantasist."
-      },
-      {
-        "text": "Some explanations: the U.S. Navy tested ‘degaussing’ (demagnetizing) technology on warships in that era, which may explain claims of green fog and disappearance."
-      },
-      {
-        "text": "Another project, called ‘Project Mogul’, might explain wreckage: it used radar balloon arrays, which could have been mistaken for UFO debris."
-      },
-      {
-        "text": "In summary: no concrete proof of teleportation or invisibility. The story persists because of its mystery, but most evidence points to a mixture of misunderstanding, hoaxes, and real military tech."
-      }
-    ]
-  },
+  "id": "philadelphia_experiment",
+  "title": "The Philadelphia Experiment",
+  "short": "A legendary secret Navy experiment allegedly involving invisibility and teleportation of a warship.",
+  "content": [
+    {
+      "text": "In 1943, at the Philadelphia Naval Shipyard, a secret experiment was allegedly conducted on the American warship USS Eldridge. The results were bizarre and unpredictable: the entire ship and its crew were enveloped in a strange green fog and gradually disappeared into thin air."
+    },
+    {
+      "text": "Witnesses claim the ship reappeared 300 kilometers away from its original location, only to vanish and return again. But the aftermath was horrific — more than half of the crew supposedly became fused with the ship's metal, with only parts of their bodies visible, while many others lost their sanity."
+    },
+    {
+      "text": "Despite the government’s ongoing secrecy, this story has inspired at least three movies, hundreds of books, and countless websites filled with rumors and theories."
+    },
+    {
+      "text": "The story only emerged publicly more than a decade later, when Morris Jessup, an author fascinated by UFOs, published a book called 'The Case for the UFO'. Though sales were poor, Jessup unexpectedly received letters from a man named Carl Allen claiming to have insider knowledge about the experiment."
+    },
+    {
+      "text": "Carl Allen, who also went by Carlos Allende, claimed he witnessed the disappearance of another ship, the Andrew Furuseth, while aboard the Eldridge. Despite the wildness of his claims, he was a real US Navy sailor who kept his story secret to avoid government trouble."
+    },
+    {
+      "text": "Jessup's annotated book, covered in colorful scribbles supposedly from Allen, was sent to the Navy’s Office of Naval Research, which prompted an official investigation. Jessup was summoned and questioned, where he was told the experiment was real and extremely dangerous—but to keep quiet."
+    },
+    {
+      "text": "Jessup went public with the story, which spread rapidly, but the government has always denied any such experiment. Skeptics argue that the whole tale is fabricated or the result of misunderstandings and hoaxes."
+    },
+    {
+      "text": "In reality, the USS Eldridge never even docked in Philadelphia during the alleged dates of the experiment, and records show it was in New York instead. Former crew members have also dismissed the story as nonsense."
+    },
+    {
+      "text": "The actual basis of the myth likely comes from tests of 'degaussing' technology during WWII, which aimed to protect ships from magnetic mines by reducing their magnetic signature, often producing strange visual effects like fog or haze."
+    },
+    {
+      "text": "Despite all the speculation, no credible evidence supports claims of invisibility, teleportation, or crew members fusing with metal. The Philadelphia Experiment remains a captivating urban legend mixing fact, fiction, and conspiracy theories."
+    }
+  ]
+}
+,
   {
-    "id": "roswell_autopsy",
-    "title": "Roswell Alien Autopsy",
-    "short": "Claims of bodies and film from a 1947 UFO crash in New Mexico.",
-    "content": [
-      {
-        "text": "The Roswell incident in July 1947 is one of the most famous UFO stories: an alleged alien spacecraft crashed near Roswell, New Mexico."
-      },
-      {
-        "text": "Eyewitnesses and conspiracy theorists claim that bodies of extraterrestrials were recovered and kept secret by the U.S. government."
-      },
-      {
-        "text": "In 1995, British producer Ray Santilli released footage of an alien autopsy, saying the film was real."
-      },
-      {
-        "text": "Skeptics later pointed out that the creature in the film resembles props made by sculptor John Humphreys, who worked on sci-fi movies."
-      },
-      {
-        "text": "Santilli claimed he made a re-enactment because the original film deteriorated — but many believe the whole thing was a hoax to make money."
-      },
-      {
-        "text": "Investigations revealed that a famous ‘alien corpse’ photo might actually show a two-year-old child’s body preserved earlier, not an alien."
-      },
-      {
-        "text": "Moreover, leaked documents reference U.S. projects like ‘High Dive’ (parachute system testing) and ‘Mogul’ (balloon surveillance), which may explain wreckage and observed anomalies."
-      },
-      {
-        "text": "Conclusion: No scientifically verifiable alien bodies. While Roswell remains a cultural touchstone for UFO believers, the strongest evidence points to misidentification, propaganda, and hoaxes."
-      }
-    ]
-  },
+  "id": "roswell_alien_autopsy",
+  "title": "Roswell Alien Autopsy",
+  "short": "Claims and controversies around a 1947 UFO crash and alleged alien autopsy footage.",
+  "content": [
+    {
+      "text": "In the summer of 1947, the small town of Roswell, New Mexico became the center of one of the most famous conspiracy theories involving UFOs and extraterrestrials."
+    },
+    {
+      "text": "Legend has it that a flying saucer crashed nearby, and the bodies of alien crew members were recovered and secretly kept by the US government."
+    },
+    {
+      "text": "Roswell quickly transformed from a quiet desert town into a museum-like place, where every shop sells souvenirs like mugs and posters featuring aliens, drawing legions of tourists—though locals might be tired of the constant attention."
+    },
+    {
+      "text": "Real evidence of the crash? Two main items stand out: one alien body displayed in a museum, and a mysterious video called 'Alien Autopsy' showing an alleged dissection of an extraterrestrial being."
+    },
+    {
+      "text": "The idea that real proof of alien life exists would shake everything we know about the universe. Many want to believe we're not alone, but let's dive into the facts about this 'alien body.'"
+    },
+    {
+      "text": "The famous Roswell photo, supposedly depicting a recovered alien, was shown to witnesses who claimed it matched the bodies they saw. However, skeptics later revealed that the image is actually of a two-year-old child's mummy, misrepresented and manipulated."
+    },
+    {
+      "text": "UFO researchers initially fought to prove the alien’s authenticity but eventually had to admit their mistake when more accurate photographs and notes surfaced dating back to 1938."
+    },
+    {
+      "text": "In 1995, British producer Ray Santilli released the 'Alien Autopsy' footage, claiming it was genuine. It was broadcast worldwide, causing a media frenzy and cultural shock."
+    },
+    {
+      "text": "But experts soon discovered glaring flaws: the 'autopsy' was performed by amateurs, not secret government surgeons. John Humphreys, a special effects artist who created aliens for TV and film, admitted his involvement in making the props."
+    },
+    {
+      "text": "Santilli later confessed the footage was a reenactment because the original film had deteriorated, though many believe it was simply a hoax made for money."
+    },
+    {
+      "text": "Despite the hoax, the real Roswell crash remains a mystery. The US military officially revealed two secret projects — 'High Dive' (testing parachutes from high altitudes) and 'Project Mogul' (using balloons to detect nuclear tests) — which likely explain the debris and sightings."
+    },
+    {
+      "text": "The story of Roswell has become a classic example of how misinformation, government secrecy, and public fascination combine to create lasting myths."
+    }
+  ]
+}
+,
 {
   "id": "area51",
   "title": "Area 51",

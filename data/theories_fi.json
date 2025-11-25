@@ -1,66 +1,89 @@
 [
   {
-    "id": "philadelphia_experiment",
-    "title": "Filadelfian kokeilu",
-    "short": "Salainen laivakoe, jossa laiva väitetysti muuttui näkymättömäksi ja teleporttasi.",
-    "content": [
-      {
-        "text": "Salaliittoteorioiden mukaan vuonna 1943 USS Eldridge osallistui Filadelfiassa kokeeseen, jossa se peittyi vihreään sumuun ja katosi."
-      },
-      {
-        "text": "Todistajien mukaan alus ilmestyi uudelleen 300 km päässä, ja osa miehistöstä väitetysti yhdistyi laivan metalliin."
-      },
-      {
-        "text": "Mytan levisi 1955, kun Morris Jessup julkaisi kirjan ja sai kirjettä mieheltä nimeltä Carl Allen (Carlos Allende), joka väitti nähneensä kaiken."
-      },
-      {
-        "text": "Allen kertoi nähneensä laivan katoamisen ja lähetteli merkattuja kopioita Jessupin kirjasta, vihjaten syvempään salaliittoon."
-      },
-      {
-        "text": "Kriitikot pitävät Allenia epäluotettavana todistajana – hänen tarinansa ovat ristiriitaisia ja fantasialähtöisiä."
-      },
-      {
-        "text": "Yksi selitys on se, että laivalla testattiin degaussing-teknologiaa (demagnetointia), mikä saattoi synnyttää vihreän sumun ja katoamishyökkäyksen vaikutelman."
-      },
-      {
-        "text": "Toinen mahdollinen selitys on Project Mogul: ilmapallojärjestelmä, jota testattiin ja jota saatettiin erehdyksessä luulla UFO-romuksi."
-      },
-      {
-        "text": "Yhteenvetona: ei todisteita teleportista tai näkymättömyydestä. Tarina elää, koska se on salaperäinen, mutta todennäköisin selitys on sekoitus väärinkäsityksiä, huijauksia ja sotilasteknologiaa."
-      }
-    ]
-  },
+  "id": "philadelphia_experiment",
+  "title": "Philadelphia-kokeilu",
+  "short": "Salainen laivaston koe, jossa sotalaiva väitetysti teki itsensä näkymättömäksi ja teleporttasi.",
+  "content": [
+    {
+      "text": "Vuonna 1943 Philadelphian laivastotukikohdassa väitettiin suoritetun salainen koe USS Eldridgellä. Tulokset olivat outoja ja arvaamattomia: laiva ja sen miehistö peittyivät vihreään usvaan ja katosivat ilman jälkiä."
+    },
+    {
+      "text": "Kertomusten mukaan laiva ilmestyi uudelleen 300 kilometrin päässä alkuperäisestä sijainnistaan, katosi uudelleen ja palasi lopulta takaisin kokeen aloituspaikalle."
+    },
+    {
+      "text": "Kokeen seuraukset olivat järkyttäviä: yli puolet miehistöstä väitetysti sulautui laivan metalliin, ja vain osia heidän ruumiistaan oli nähtävissä. Monet menettivät myös järkensä."
+    },
+    {
+      "text": "Hallitus on pitänyt tarinaa salassa, mutta se on innoittanut useita elokuvia, satoja kirjoja ja lukemattomia verkkosivustoja täynnä huhuja ja salaliittoteorioita."
+    },
+    {
+      "text": "Tarina tuli julki yli kymmenen vuotta kokeen jälkeen, kun ufokirjailija Morris Jessup julkaisi kirjan 'The Case for the UFO'. Vaikka kirja ei menestynyt kaupallisesti, Jessup sai kirjeitä mieheltä nimeltä Carl Allen, joka väitti tietävänsä kokeesta salaisuuksia."
+    },
+    {
+      "text": "Allen, joka käytti myös nimeä Carlos Allende, väitti nähneensä USS Eldridgen vieressä toisen laivan, Andrew Furusethin, katoamisen. Hän oli oikea Yhdysvaltain laivaston merimies, joka piti tarinansa salassa pelätessään viranomaisten reaktioita."
+    },
+    {
+      "text": "Jessupin värittämät kirjat lähetettiin laivaston tutkimusosastolle, joka käynnisti virallisen tutkimuksen. Jessup kutsuttiin kuulusteluihin, ja hänelle kerrottiin, että koe oli totta ja erittäin vaarallinen, mutta siitä ei saanut puhua julkisesti."
+    },
+    {
+      "text": "Jessup kertoi tarinan julkisuuteen, ja se levisi nopeasti, mutta hallitus on aina kiistänyt kokeen olemassaolon. Skeptikot uskovat, että kyseessä on keksitty tarina tai väärinymmärrys."
+    },
+    {
+      "text": "Todellisuudessa USS Eldridge ei ollut edes Philadelphiassa väitettynä ajankohtana, vaan se oli New Yorkissa. Entiset miehistön jäsenet ovat myös tuominneet tarinan hölynpölyksi."
+    },
+    {
+      "text": "Todellinen alkuperä myytillä lienee toisen maailmansodan aikainen demagnetisointikoe, jossa laivojen magneettista jalanjälkeä pyrittiin vähentämään, jotta ne eivät räjähtäisi magneettimiinoihin. Tämä aiheutti outoja visuaalisia ilmiöitä, kuten usvaa."
+    },
+    {
+      "text": "Vaikka tarina on kiehtova, ei ole olemassa uskottavaa näyttöä näkymättömyydestä, teleportaatioista tai miehistön kiinnittymisestä metalliin. Philadelphia-kokeilu on urbaani legenda, joka sekoittaa faktaa, fiktiota ja salaliittoteorioita."
+    }
+  ]
+}
+,
   {
-    "id": "roswell_autopsy",
-    "title": "Roswellin vieraiden ruumiinavaus",
-    "short": "Väitteet ruumiista ja elokuvasta vuoden 1947 nUFO-pudotuksesta New Mexicossa.",
-    "content": [
-      {
-        "text": "Roswellin tapaus heinäkuussa 1947 on yksi tunnetuimmista UFO-tarinoista: väitetään, että avaruusalus syöksyi alas New Mexicon lähellä."
-      },
-      {
-        "text": "Silminnäkijät ja salaliittoteoreetikot kertovat, että avaruusolioiden ruumiita löydettiin ja että Yhdysvallat salasi ne."
-      },
-      {
-        "text": "Vuonna 1995 brittiläinen tuottaja Ray Santilli julkaisi videon oudosta ruumiinavauksesta ja väitti sen olevan totta."
-      },
-      {
-        "text": "Skeptikot huomasivat, että olento videossa muistuttaa John Humphreysin tekemiä lavasteita – hän teki scifi-hahmoja elokuviin."
-      },
-      {
-        "text": "Santilli sanoi tehneensä uudelleenvideon, koska alkuperäinen filmi oli huonossa kunnossa – monet kuitenkin uskovat koko jutun olleen rahankeruuta."
-      },
-      {
-        "text": "Tutkijat tutkivat myös kuuluisaa 'avaruusolion ruumiskuvaa' ja löysivät tietoja, joiden mukaan kyseessä saattaa olla 2-vuotiaan lapsen muumio eikä alien."
-      },
-      {
-        "text": "Lisäksi salaisia dokumentteja paljastettiin: esimerkiksi projekti High Dive (varjostusharjoituksia varten) ja Project Mogul (ilmapallotarkkailua), jotka voivat selittää romuja ja havaintoja."
-      },
-      {
-        "text": "Johtopäätös: ei tieteellisesti varmistettuja alien-ruumiita. Vaikka Roswell on UFO-uskovaisten ikoni, vahvimmat todisteet viittaavat väärinymmärrykseen, propagandaan ja huijauksiin."
-      }
-    ]
-  },
+  "id": "roswell_alien_autopsy",
+  "title": "Roswellin avaruusolion ruumiinavaus",
+  "short": "Väitteet ja kiistat vuoden 1947 UFO-onnettomuudesta ja väitetystä avaruusolion ruumiinavauksesta.",
+  "content": [
+    {
+      "text": "Kesällä 1947 Roswellin pikkukaupunki New Mexicossa nousi yhdeksi kuuluisimmista UFO-salaliittoteorioiden keskuksista."
+    },
+    {
+      "text": "Legenda kertoo, että lentävä lautanen syöksyi maahan ja avaruusolion ruumiit löydettiin, minkä jälkeen Yhdysvaltain hallitus salasi ne."
+    },
+    {
+      "text": "Roswellista tuli nopeasti kuin museo, jossa kaupat myivät matkamuistoja, kuten mukeja ja julisteita, jotka esittivät avaruusolioita. Turisteja virtaa kaupunkiin, vaikka paikalliset ovat ehkä väsyneitä jatkuvaan huomioon."
+    },
+    {
+      "text": "Todelliset todisteet onnettomuudesta? Kaksi pääasiaa: yksi avaruusolion ruumis museossa ja mystinen video nimeltä 'Alien Autopsy', jossa väitetään nähtävän avaruusolion ruumiinavaus."
+    },
+    {
+      "text": "Ajatus siitä, että olemassa olisi todistettua todisteita vieraan älyn olemassaolosta, mullistaisi käsityksemme maailmankaikkeudesta. Monet haluavat uskoa, ettei olla yksin, mutta katsotaanpa tosiasioita."
+    },
+    {
+      "text": "Kuuluisa Roswellin valokuva, jonka väitetään esittävän löydettyä avaruusoliota, näytettiin todistajille, jotka sanoivat sen vastaavan näkemäänsä. Skeptikot kuitenkin paljastivat, että kuva on itse asiassa kahden vuoden ikäisen lapsen muumio, joka oli väärin tulkittu ja manipuloitu."
+    },
+    {
+      "text": "UFO-tutkijat yrittivät ensin puolustaa kuvan aitoutta, mutta myönsivät virheensä, kun tarkempia valokuvia ja muistiinpanoja vuodelta 1938 ilmestyi."
+    },
+    {
+      "text": "Vuonna 1995 brittiläinen tuottaja Ray Santilli julkaisi 'Alien Autopsy' -videon, jonka väitti olevan aito. Video näytettiin maailmanlaajuisesti ja se aiheutti kulttuurisen shokin."
+    },
+    {
+      "text": "Mutta asiantuntijat löysivät pian suuria puutteita: ruumiinavaus oli tehty amatööreinä, ei salaisina hallituksen kirurgien toimesta. Eräs erikoistehosteiden tekijä, John Humphreys, myönsi osallistuneensa alien-propien tekoon."
+    },
+    {
+      "text": "Santilli tunnusti myöhemmin, että video oli uudelleenfilmatisointi, koska alkuperäinen filmi oli pilaantunut, mutta monet uskovat sen olleen pelkkä huijaus rahan takia."
+    },
+    {
+      "text": "Huijauksesta huolimatta Roswellin onnettomuus on edelleen arvoitus. Yhdysvaltain armeija julkaisi virallisesti kaksi salaisuutta: 'High Dive' (korkealta pudotettavien laskuvarjojen testaus) ja 'Project Mogul' (pallojen käyttö ydinaseiden havaitsemiseen), jotka todennäköisesti selittävät romun ja havaintojen syyt."
+    },
+    {
+      "text": "Roswellin tarina on klassinen esimerkki siitä, kuinka väärä tieto, hallituksen salailu ja yleinen kiinnostus yhdistyvät luomaan pysyviä myyttejä."
+    }
+  ]
+}
+,
  {
   "id": "area51_fi",
   "title": "Alue 51",
