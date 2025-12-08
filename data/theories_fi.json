@@ -4,7 +4,7 @@
   "title": "Philadelphia-kokeilu",
   "short": "Salainen laivaston koe, jossa sotalaiva väitetysti teki itsensä näkymättömäksi ja teleporttasi.",
   
-   "images" : ["pe1.jpg", "pe2.jpeg"],
+   "images": ["img/pe1.jpg", "img/pe2.jpeg"],
 
   "content": [
     {
