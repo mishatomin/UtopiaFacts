@@ -2,27 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UtopiaFacts</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1 id="site-title">UtopiaFacts</h1>
-    <div class="lang-buttons">
-      <button id="btn-en">EN</button>
-      <button id="btn-fi">FI</button>
-    </div>
-  </header>
+  <div class="app-root">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-circle">U</div>
+        <div class="logo-text">
+          <h1>UtopiaFacts</h1>
+          <p>Conspiracy & myth breakdowns</p>
+        </div>
+      </div>
 
-  <main id="content">
-    <!-- Здесь рендерятся теории -->
-  </main>
+      <div class="sidebar-section">
+        <h2 class="sidebar-title">Language</h2>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="fi">FI</button>
+        </div>
+      </div>
 
-  <footer>
-    <p id="footer-text">© 2025 UtopiaFacts</p>
-  </footer>
+      <div class="sidebar-section">
+        <h2 class="sidebar-title">Theories</h2>
+        <ul id="article-list" class="article-list">
+          <!-- статьи будут подставляться из JS -->
+        </ul>
+      </div>
+    </aside>
 
-  <script src="script.js"></script>
+    <!-- MAIN CONTENT -->
+    <main class="content">
+      <header class="content-header">
+        <div>
+          <h2 id="article-title" class="article-title">Select a theory</h2>
+          <p id="article-short" class="article-short">
+            Choose a topic on the left to see details.
+          </p>
+        </div>
+      </header>
+
+      <section id="article-media" class="article-media">
+        <!-- сюда попадут картинки статьи -->
+      </section>
+
+      <article id="article-body" class="article-body">
+        <!-- сюда JS вставит параграфы content -->
+      </article>
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="main.js"></script>
 </body>
 </html>
+
