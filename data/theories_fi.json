@@ -3,6 +3,9 @@
   "id": "philadelphia_experiment",
   "title": "Philadelphia-kokeilu",
   "short": "Salainen laivaston koe, jossa sotalaiva väitetysti teki itsensä näkymättömäksi ja teleporttasi.",
+  
+   "images" : ["pe1.jpg", "pe2.jpeg"],
+
   "content": [
     {
       "text": "Vuonna 1943 Philadelphian laivastotukikohdassa väitettiin suoritetun salainen koe USS Eldridgellä. Tulokset olivat outoja ja arvaamattomia: laiva ja sen miehistö peittyivät vihreään usvaan ja katosivat ilman jälkiä."
