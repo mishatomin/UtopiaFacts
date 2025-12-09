@@ -1,63 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>UtopiaFacts</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtopiaFacts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-root">
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <div class="logo-circle">U</div>
-        <div class="logo-text">
-          <h1>UtopiaFacts</h1>
-          <p>Conspiracy & myth breakdowns</p>
-        </div>
-      </div>
 
-      <div class="sidebar-section">
-        <h2 class="sidebar-title">Language</h2>
-        <div class="lang-switch">
-          <button class="lang-btn active" data-lang="en">EN</button>
-          <button class="lang-btn" data-lang="fi">FI</button>
-        </div>
-      </div>
+<header class="top-bar">
+    <div class="logo">UtopiaFacts</div>
 
-      <div class="sidebar-section">
-        <h2 class="sidebar-title">Theories</h2>
-        <ul id="article-list" class="article-list">
-          <!-- статьи будут подставляться из JS -->
-        </ul>
-      </div>
-    </aside>
+    <div class="menu">
+        <button onclick="toggleMenu()">Theories</button>
+        <button onclick="setLang('en')">EN</button>
+        <button onclick="setLang('fi')">FI</button>
+    </div>
 
-    <!-- MAIN CONTENT -->
-    <main class="content">
-      <header class="content-header">
-        <div>
-          <h2 id="article-title" class="article-title">Select a theory</h2>
-          <p id="article-short" class="article-short">
-            Choose a topic on the left to see details.
-          </p>
-        </div>
-      </header>
+    <div id="dropdown" class="dropdown hidden"></div>
+</header>
 
-      <section id="article-media" class="article-media">
-        <!-- сюда попадут картинки статьи -->
-      </section>
+<section class="hero">
+    <img src="img/stonehenge1.jpg" class="hero-img">
+    <div class="hero-text">
+        <h1>Explore Hidden Mysteries</h1>
+        <p>Discover the world's most fascinating conspiracy theories & unexplained stories.</p>
+    </div>
+</section>
 
-      <article id="article-body" class="article-body">
-        <!-- сюда JS вставит параграфы content -->
-      </article>
-    </main>
-  </div>
+<section id="theory-container" class="cards"></section>
 
-  <div id="toast" class="toast hidden"></div>
-
-  <script src="main.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
+
 

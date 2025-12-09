@@ -3,7 +3,7 @@
   "id": "philadelphia_experiment",
   "title": "The Philadelphia Experiment",
   "short": "A legendary secret Navy experiment allegedly involving invisibility and teleportation of a warship.",
-  "images": ["img/pe1.jpg", "img/pe2.jpeg"],
+  "images": ["pe1.jpg"],
   "content": [
     {
       "text": "In 1943, at the Philadelphia Naval Shipyard, a secret experiment was allegedly conducted on the American warship USS Eldridge. The results were bizarre and unpredictable: the entire ship and its crew were enveloped in a strange green fog and gradually disappeared into thin air."
