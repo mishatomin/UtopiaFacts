@@ -1,3 +1,6 @@
+/* --------------------------
+   GLOBAL STYLES
+--------------------------- */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -5,19 +8,20 @@ body {
     color: white;
 }
 
-/* ---------------- HEADER ---------------- */
-
+/* --------------------------
+   HEADER
+--------------------------- */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 15px 30px;
+    padding: 15px 20px;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(6px);
-    z-index: 100;
+    z-index: 200;
 }
 
 .logo {
@@ -32,6 +36,9 @@ header {
     gap: 15px;
 }
 
+/* --------------------------
+   BUTTONS
+--------------------------- */
 .menu-btn,
 .lang-switch button {
     background: #222;
@@ -42,51 +49,69 @@ header {
     cursor: pointer;
 }
 
+.lang-switch {
+    display: flex;
+    gap: 8px;
+    margin-right: 90px; /* ещё больше влево, чтобы FI точно влезла */
+    position: relative;
+    z-index: 300;
+}
+
 .lang-switch button.active {
     background: #555;
 }
 
-/* ---------------- DROPDOWN MENU ---------------- */
-
+/* --------------------------
+   DROPDOWN
+--------------------------- */
 .dropdown {
     position: absolute;
     top: 60px;
-    right: 100px;
+    right: 170px;           /* примерно под кнопкой Theories */
     background: #111;
     border: 1px solid #333;
-    width: 220px;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    z-index: 200;
+    width: 260px;
+    border-radius: 8px;
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 300;
 }
 
+/* прячем / показываем */
 .hidden {
     display: none;
 }
 
+/* один пункт списка теорий */
 .dropdown-item {
-    padding: 10px;
-    cursor: pointer;
-    border-bottom: 1px solid #222;
-    background: #111;
-    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 14px;
     text-align: left;
+    background: #111;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* разделитель выглядит ярче */
+.dropdown-item + .dropdown-item {
+    border-top: 1px solid #000;
 }
 
 .dropdown-item:hover {
     background: #222;
 }
 
-/* ---------------- HERO SECTION ---------------- */
-
+/* --------------------------
+   HERO SECTION
+--------------------------- */
 .hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 40px;
-    text-align: left;
 }
 
 .hero h1 {
@@ -99,14 +124,14 @@ header {
     opacity: 0.7;
 }
 
-/* ---------------- THEORY GRID ---------------- */
-
+/* --------------------------
+   THEORY GRID
+--------------------------- */
 .theory-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
     padding: 40px;
-    margin-top: 50px;
 }
 
 .card {
@@ -115,7 +140,6 @@ header {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
-    border: 1px solid #222;
 }
 
 .card:hover {
@@ -127,32 +151,35 @@ header {
     border-radius: 8px;
 }
 
-.card h3 {
-    margin: 10px 0 5px;
-}
-
-.card p {
-    opacity: 0.8;
-}
-
-/* ---------------- ARTICLE PAGE ---------------- */
-
+/* --------------------------
+   ARTICLE PAGE
+--------------------------- */
 .article {
     padding: 120px 40px 40px;
     max-width: 900px;
     margin: auto;
 }
 
-.article img {
+.article-img {
     width: 100%;
     margin: 20px 0;
     border-radius: 8px;
 }
 
-.article p {
-    line-height: 1.6;
-    margin-bottom: 18px;
+/* --------------------------
+   FOOTER
+--------------------------- */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    color: #777;
+    font-size: 18px;
+    opacity: 0.8;
 }
+
+
 
 
 
