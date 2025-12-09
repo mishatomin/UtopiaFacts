@@ -1,308 +1,272 @@
 [
   {
-  "id": "philadelphia_experiment",
-  "title": "Philadelphia-kokeilu",
-  "short": "Salainen laivaston koe, jossa sotalaiva väitetysti teki itsensä näkymättömäksi ja teleporttasi.",
-  
-   "images": ["img/pe1.jpg", "img/pe2.jpeg"],
+    "id": "philadelphia_experiment",
+    "title": "Philadelphia-kokeilu",
+    "short": "Salainen laivaston koe, jossa sotalaiva väitetysti teki itsensä näkymättömäksi ja teleporttasi.",
+    "images": ["pe1.jpg", "pe2.jpeg"],
+    "content": [
+      { "text": "Vuonna 1943 Philadelphian laivastotukikohdassa väitettiin suoritetun salainen koe USS Eldridgellä. Tulokset olivat outoja ja arvaamattomia: laiva ja sen miehistö peittyivät vihreään usvaan ja katosivat ilman jälkiä." },
+      { "text": "Kertomusten mukaan laiva ilmestyi uudelleen 300 kilometrin päässä alkuperäisestä sijainnistaan, katosi uudelleen ja palasi lopulta takaisin kokeen aloituspaikalle." },
+      { "text": "Kokeen seuraukset olivat järkyttäviä: yli puolet miehistöstä väitetysti sulautui laivan metalliin, ja vain osia heidän ruumiistaan oli nähtävissä. Monet menettivät myös järkensä." },
+      { "text": "Hallitus on pitänyt tarinaa salassa, mutta se on innoittanut useita elokuvia, satoja kirjoja ja lukemattomia verkkosivustoja täynnä huhuja ja salaliittoteorioita." },
+      { "text": "Tarina tuli julki yli kymmenen vuotta kokeen jälkeen, kun ufokirjailija Morris Jessup julkaisi kirjan 'The Case for the UFO'. Vaikka kirja ei menestynyt kaupallisesti, Jessup sai kirjeitä mieheltä nimeltä Carl Allen, joka väitti tietävänsä kokeesta salaisuuksia." },
+      { "text": "Allen, joka käytti myös nimeä Carlos Allende, väitti nähneensä USS Eldridgen vieressä toisen laivan, Andrew Furusethin, katoamisen. Hän oli oikea Yhdysvaltain laivaston merimies, joka piti tarinansa salassa pelätessään viranomaisten reaktioita." },
+      { "text": "Jessupin värittämät kirjat lähetettiin laivaston tutkimusosastolle, joka käynnisti virallisen tutkimuksen. Jessup kutsuttiin kuulusteluihin, ja hänelle kerrottiin, että koe oli totta ja erittäin vaarallinen, mutta siitä ei saanut puhua julkisesti." },
+      { "text": "Jessup kertoi tarinan julkisuuteen, ja se levisi nopeasti, mutta hallitus on aina kiistänyt kokeen olemassaolon. Skeptikot uskovat, että kyseessä on keksitty tarina tai väärinymmärrys." },
+      { "text": "Todellisuudessa USS Eldridge ei ollut edes Philadelphiassa väitettynä ajankohtana, vaan se oli New Yorkissa. Entiset miehistön jäsenet ovat myös tuominneet tarinan hölynpölyksi." },
+      { "text": "Todellinen alkuperä myytillä lienee toisen maailmansodan aikainen demagnetisointikoe, jossa laivojen magneettista jalanjälkeä pyrittiin vähentämään, jotta ne eivät räjähtäisi magneettimiinoihin. Tämä aiheutti outoja visuaalisia ilmiöitä, kuten usvaa." },
+      { "text": "Vaikka tarina on kiehtova, ei ole olemassa uskottavaa näyttöä näkymättömyydestä, teleportaatioista tai miehistön kiinnittymisestä metalliin. Philadelphia-kokeilu on urbaani legenda, joka sekoittaa faktaa, fiktiota ja salaliittoteorioita." }
+    ]
+  },
 
-  "content": [
-    {
-      "text": "Vuonna 1943 Philadelphian laivastotukikohdassa väitettiin suoritetun salainen koe USS Eldridgellä. Tulokset olivat outoja ja arvaamattomia: laiva ja sen miehistö peittyivät vihreään usvaan ja katosivat ilman jälkiä."
-    },
-    {
-      "text": "Kertomusten mukaan laiva ilmestyi uudelleen 300 kilometrin päässä alkuperäisestä sijainnistaan, katosi uudelleen ja palasi lopulta takaisin kokeen aloituspaikalle."
-    },
-    {
-      "text": "Kokeen seuraukset olivat järkyttäviä: yli puolet miehistöstä väitetysti sulautui laivan metalliin, ja vain osia heidän ruumiistaan oli nähtävissä. Monet menettivät myös järkensä."
-    },
-    {
-      "text": "Hallitus on pitänyt tarinaa salassa, mutta se on innoittanut useita elokuvia, satoja kirjoja ja lukemattomia verkkosivustoja täynnä huhuja ja salaliittoteorioita."
-    },
-    {
-      "text": "Tarina tuli julki yli kymmenen vuotta kokeen jälkeen, kun ufokirjailija Morris Jessup julkaisi kirjan 'The Case for the UFO'. Vaikka kirja ei menestynyt kaupallisesti, Jessup sai kirjeitä mieheltä nimeltä Carl Allen, joka väitti tietävänsä kokeesta salaisuuksia."
-    },
-    {
-      "text": "Allen, joka käytti myös nimeä Carlos Allende, väitti nähneensä USS Eldridgen vieressä toisen laivan, Andrew Furusethin, katoamisen. Hän oli oikea Yhdysvaltain laivaston merimies, joka piti tarinansa salassa pelätessään viranomaisten reaktioita."
-    },
-    {
-      "text": "Jessupin värittämät kirjat lähetettiin laivaston tutkimusosastolle, joka käynnisti virallisen tutkimuksen. Jessup kutsuttiin kuulusteluihin, ja hänelle kerrottiin, että koe oli totta ja erittäin vaarallinen, mutta siitä ei saanut puhua julkisesti."
-    },
-    {
-      "text": "Jessup kertoi tarinan julkisuuteen, ja se levisi nopeasti, mutta hallitus on aina kiistänyt kokeen olemassaolon. Skeptikot uskovat, että kyseessä on keksitty tarina tai väärinymmärrys."
-    },
-    {
-      "text": "Todellisuudessa USS Eldridge ei ollut edes Philadelphiassa väitettynä ajankohtana, vaan se oli New Yorkissa. Entiset miehistön jäsenet ovat myös tuominneet tarinan hölynpölyksi."
-    },
-    {
-      "text": "Todellinen alkuperä myytillä lienee toisen maailmansodan aikainen demagnetisointikoe, jossa laivojen magneettista jalanjälkeä pyrittiin vähentämään, jotta ne eivät räjähtäisi magneettimiinoihin. Tämä aiheutti outoja visuaalisia ilmiöitä, kuten usvaa."
-    },
-    {
-      "text": "Vaikka tarina on kiehtova, ei ole olemassa uskottavaa näyttöä näkymättömyydestä, teleportaatioista tai miehistön kiinnittymisestä metalliin. Philadelphia-kokeilu on urbaani legenda, joka sekoittaa faktaa, fiktiota ja salaliittoteorioita."
-    }
-  ]
-}
-,
   {
-  "id": "roswell_alien_autopsy",
-  "title": "Roswellin avaruusolion ruumiinavaus",
-  "short": "Väitteet ja kiistat vuoden 1947 UFO-onnettomuudesta ja väitetystä avaruusolion ruumiinavauksesta.",
-  "content": [
-    {
-      "text": "Kesällä 1947 Roswellin pikkukaupunki New Mexicossa nousi yhdeksi kuuluisimmista UFO-salaliittoteorioiden keskuksista."
-    },
-    {
-      "text": "Legenda kertoo, että lentävä lautanen syöksyi maahan ja avaruusolion ruumiit löydettiin, minkä jälkeen Yhdysvaltain hallitus salasi ne."
-    },
-    {
-      "text": "Roswellista tuli nopeasti kuin museo, jossa kaupat myivät matkamuistoja, kuten mukeja ja julisteita, jotka esittivät avaruusolioita. Turisteja virtaa kaupunkiin, vaikka paikalliset ovat ehkä väsyneitä jatkuvaan huomioon."
-    },
-    {
-      "text": "Todelliset todisteet onnettomuudesta? Kaksi pääasiaa: yksi avaruusolion ruumis museossa ja mystinen video nimeltä 'Alien Autopsy', jossa väitetään nähtävän avaruusolion ruumiinavaus."
-    },
-    {
-      "text": "Ajatus siitä, että olemassa olisi todistettua todisteita vieraan älyn olemassaolosta, mullistaisi käsityksemme maailmankaikkeudesta. Monet haluavat uskoa, ettei olla yksin, mutta katsotaanpa tosiasioita."
-    },
-    {
-      "text": "Kuuluisa Roswellin valokuva, jonka väitetään esittävän löydettyä avaruusoliota, näytettiin todistajille, jotka sanoivat sen vastaavan näkemäänsä. Skeptikot kuitenkin paljastivat, että kuva on itse asiassa kahden vuoden ikäisen lapsen muumio, joka oli väärin tulkittu ja manipuloitu."
-    },
-    {
-      "text": "UFO-tutkijat yrittivät ensin puolustaa kuvan aitoutta, mutta myönsivät virheensä, kun tarkempia valokuvia ja muistiinpanoja vuodelta 1938 ilmestyi."
-    },
-    {
-      "text": "Vuonna 1995 brittiläinen tuottaja Ray Santilli julkaisi 'Alien Autopsy' -videon, jonka väitti olevan aito. Video näytettiin maailmanlaajuisesti ja se aiheutti kulttuurisen shokin."
-    },
-    {
-      "text": "Mutta asiantuntijat löysivät pian suuria puutteita: ruumiinavaus oli tehty amatööreinä, ei salaisina hallituksen kirurgien toimesta. Eräs erikoistehosteiden tekijä, John Humphreys, myönsi osallistuneensa alien-propien tekoon."
-    },
-    {
-      "text": "Santilli tunnusti myöhemmin, että video oli uudelleenfilmatisointi, koska alkuperäinen filmi oli pilaantunut, mutta monet uskovat sen olleen pelkkä huijaus rahan takia."
-    },
-    {
-      "text": "Huijauksesta huolimatta Roswellin onnettomuus on edelleen arvoitus. Yhdysvaltain armeija julkaisi virallisesti kaksi salaisuutta: 'High Dive' (korkealta pudotettavien laskuvarjojen testaus) ja 'Project Mogul' (pallojen käyttö ydinaseiden havaitsemiseen), jotka todennäköisesti selittävät romun ja havaintojen syyt."
-    },
-    {
-      "text": "Roswellin tarina on klassinen esimerkki siitä, kuinka väärä tieto, hallituksen salailu ja yleinen kiinnostus yhdistyvät luomaan pysyviä myyttejä."
-    }
-  ]
-}
-,
- {
-  "id": "area51_fi",
-  "title": "Alue 51",
-  "short": "Erittäin salainen Yhdysvaltain sotilastukikohta, jota ympäröivät huhut UFOista, avaruusolennoista ja maanalaisista komplekseista.",
-  "content": [
-    { "text": "Alue 51 on tullut tunnetuksi huhujen vuoksi, joiden mukaan siellä tutkitaan avaruusteknologiaa, piilotetaan pudonneita UFOja ja tehdään salaisia kokeita." },
-    { "text": "Tukikohta sijaitsee Nevadassa. Google Maps näyttää alueen, mutta Street View ei toimi lähellä olevilla teillä. Pentagon kielsi pitkään tukikohdan olemassaolon." },
-    { "text": "Faktojen mukaan alueella testataan kehittyneitä lentokoneita, kuten F-117 Nighthawk. Lisäksi Las Vegasissa on salainen terminaali, joka kuljettaa työntekijöitä suoraan Alueelle 51." },
-    { "text": "Tukikohdasta tuli legendaarinen Roswellin tapauksen jälkeen, kun väitetyt avaruusolentojen ruumiit tuotiin tänne tutkittavaksi." },
-    { "text": "Aluetta ympäröivät varoituskyltit, miinat, lämpökamerat, mikrofonit ja aseistetut vartijat, jotka partioivat valkoisilla maastoautoilla." },
-    { "text": "Tunkeilijat pidätetään yleensä, mutta seuraukset voivat olla vakavat." },
-    { "text": "Joidenkin teorioiden mukaan Alue 51:n alla on valtava monikerroksinen maanalainen kompleksi, joka on yhdistetty tunneleilla, lähes kuin 'Resident Evil' -elokuvien Hive." },
-    { "text": "Toiset väittävät, että maailman johtajat tapaavat avaruusolentoja juuri Alue 51:n sisällä." },
-    { "text": "Osa 'entisistä tiedemiehistä' väittää dissekoineensa avaruusolentoja, mutta väitteille ei ole olemassa todellisia todisteita." },
-    { "text": "Totuus pysyy salassa, ellei hallitus päätä kertoa asiasta — ja se on epätodennäköistä." }
-  ]
-},
-{
-  "id": "loch_ness_fi",
-  "title": "Loch Nessin hirviö",
-  "short": "Legendaarinen olento, jonka kerrotaan elävän Skotlannin Loch Ness -järvessä – muinaisista havainnoista moderneihin sonarilöydöksiin.",
-  "content": [
-   
-    { "text": "Legendan mukaan Skotlannin Loch Ness -järvessä elää valtava olento, jota kutsutaan Nessieksi tai Loch Nessin hirviöksi. Jotkut kuvailevat sitä pleesiosaurusta muistuttavaksi matelijaksi, jolla on timantinmuotoiset evät." },
-    { "text": "Varhaisimmat kuvaukset tulevat roomalaisilta legioonalaisilta, jotka kaiversivat esityksiä paikallisista eläimistä – mukaan lukien olento, joka muistutti Nessietä." },
-    { "text": "Myöhempi kirjallinen maininta löytyy irlantilaisen munkin, Pyhän Columban elämäkerrasta. Hän väitetysti näki hirviön hyökkäävän järvessä uimassa olleen tytön kimppuun ja karkotti sen rukouksen avulla." },
-    { "text": "Vuonna 1934 lontoolainen lääkäri Kenneth Wilson julkaisi kuuluisan valokuvan Nessiestä. Maailma uskoi siihen – kunnes hänen kumppaninsa paljastivat sen huijaukseksi." },
-    { "text": "Sonaritutkimukset ovat kuitenkin havainneet valtavia liikkuvia kohteita järven syvyyksissä, kykyneviä nousemaan ja uimaan omin voimin. Kukaan ei tiedä, mitä ne ovat." },
-    { "text": "Vuonna 2007 tutkija Gordon Holmes asetti mikrofoneja järveen ja kuvasi 15-metrisen olennon, joka liikkui 10 km/h. Asiantuntijat vahvistivat videon aitouden, mutta jotkut väittivät sen olevan jättiläismäinen hyönteinen tai mato." },
-    { "text": "Myös Google Earth näytti kerran jotain outoa järvessä – mutta se paljastui veneen varjoksi." },
-    { "text": "Skeptikot sanovat, että järven biomassaa ei ole tarpeeksi elättämään niin suurta petoa ja sen mahdollista perhettä. Lisäksi Skotlanti oli muinoin jään peitossa, eikä mikään tunnettu eläin olisi selvinnyt siellä." },
-    { "text": "Uskovat puolestaan väittävät, että Nessie kulkee salaisia vedenalaisia tunneleita pitkin merelle ja takaisin." },
-    { "text": "Turismi kukoistaa alueella legendan ansiosta, ja monet toivovat Nessien olevan oikeasti olemassa – vaikkei todisteita ole." },
-    { "text": "Erään teorian mukaan olennot, kuten Nessie tai lumimies, voivat ilmestyä väliaikaisista aikarei’istä, mikä selittäisi niiden äkillisen esiintymisen ja katoamisen." }
-  ]
-},
-{
-  "id": "yeti_bigfoot_fi",
-  "title": "Yeti ja Bigfoot",
-  "short": "Salaperäinen ihmisenkaltainen olento, josta on havaintoja ympäri maailmaa — Himalajilta Amerikkaan.",
-  "content": [
-   
-    { "text": "Vuonna 1921 Everestin retkikunta kuuli kauheita huutoja kukkulan takaa. He löysivät valtavia ihmismäisiä jalanjälkiä, ja eurooppalaiset alkoivat kutsua olentoa nimellä 'Lumimies'." },
-    { "text": "Vuonna 1951 Eric Shipton valokuvasi Everestillä suuret paljain jaloin tehdyt jäljet — koko 31×16 cm. Neuvostoliitossa jopa perustettiin komissio, joka tutki Bigfootin olemassaoloa." },
-    { "text": "Eri maissa olennolla on eri nimi: Tiibetissä Yeti, Amerikassa Bigfoot tai Sasquatch (joka tarkoittaa 'villimies'), ja Siperiassa sitä joskus leikillisesti kutsutaan 'Vaeltavaksi tšuktšaksi'." },
-    { "text": "Silminnäkijöiden mukaan eläimet käyttäytyvät oudosti Yetin ilmestyessä: linnut pakenevat, eläimet juoksevat pois ja ihmiset kokevat äkillistä paniikkia." },
-    { "text": "Sanan 'paniikki' väitetään tulevan kreikkalaisesta jumalasta Panista — karvaisesta luonnonhengetä, joka herätti pelkoa kaikissa, jotka näkivät hänet. Hänen kuvansa vaikutti myöhemmin lumimiehen myyttiin." },
-    { "text": "Väitetään, että Yetistä ei voi saada selkeää kuvaa, koska se voi 'ylivalottaa filmin' tai häiritä elektroniikkaa." },
-    { "text": "Vuonna 1967 kaksi amerikkalaista kuvasi kuuluisan videon 'kävelevästä Bigfootista', mutta vuonna 2002 heidän sukulaisensa paljastivat sen olleen mies puvussa." },
-    { "text": "Vuonna 2013 geneetikko Bryan Sykes analysoi kaksi Himalajilta löytynyttä karvanäytettä. DNA vastasi muinaista jääkarhulajia, joka eli yli 40 000 vuotta sitten." },
-    { "text": "Jotkut uskovat, että näitä olentoja on eri lajeja: vuoristoyetit elävät luolissa, metsäiset rakentavat pesiä puihin — ja humoristisesti on olemassa myös 'Sohvayeti'." },
-    { "text": "Muinaisia kuvia lumimiehen kaltaisista olennoista on löydetty Kreikasta, Armeniasta, Roomasta ja monista muista paikoista." },
-    { "text": "Biologien mukaan lajin selviytyminen vaatii vähintään 100 yksilöä — eikä yhtäkään ole todistettavasti löydetty." },
-    { "text": "Takajaloillaan seisova karhu voi helposti näyttää valtavalta ihmiseltä, jopa 5 metrin korkuiselta." },
-    { "text": "Yeti-havaintoja on tehty kaikkialla paitsi Pohjoisnavalla. Erään venäläisen alueen kuvernööri lupasi jopa miljoonan ruplaa sen kiinniottamisesta." },
-    { "text": "Jotkut teoriat väittävät, että yetit ovat ihmisen vaihtoehtoinen evoluutiolinja — psyykkisesti ja fyysisesti kehittyneempiä — ja että niiden läsnäolo voi aiheuttaa päänsärkyä, paniikkia ja jopa kasvaimia." },
-    { "text": "Toisen teorian mukaan nämä olennot voisivat selviytyä, jos ihmiskunta tuhoaisi itsensä, toimien 'varasuunnitelmana' lajillemme." },
-    { "text": "Ei ole olemassa kiistattomia todisteita siitä, että Yeti tai Bigfoot todella on olemassa. Mutta silminnäkijät vannovat nähneensä jotain — eikä heidän tarinansa ehkä olekaan pelkkää hulluutta." }
-  ]
-},
-{
-  "id": "mustat_miehet",
-  "title": "Miehet mustissa",
-  "short": "Salaperäisiä hahmoja, joita yhdistetään usein salaliittoteorioihin ja avaruusolentojen ihmiskauppoihin, ja jotka ilmestyvät yllättäen tutkimaan havaintoja.",
-  "content": [
-    { "text": "Mustiin pukeutuneet miehet esiintyvät usein populaarikulttuurissa ja ufoteorioissa, joissa he ilmestyvät ihmisten koteihin esittäytyen liittovaltion agenteiksi ja selvittävät mitä todistajat ovat nähneet." },
-    { "text": "Termi otettiin käyttöön vuonna 1967 amerikkalaisten kirjailijoiden Gray Barkerin ja John Kelleyn kirjoissa. Barker liitti heidät merkittävään vaikutukseen maailmanhistoriassa, kuten kohtaamisiin Ceasarin, Napoleonin ja Jeffersonin kanssa." },
-    { "text": "Näiden miesten sanotaan ilmestyvän ja katoavan salaperäisesti. Eräs todistaja kertoi seuranneensa mustia Cadillaceja, jotka katosivat yllättäen ahtaassa paikassa." },
-    { "text": "On olemassa verkkosivusto 'theyknewtoomuch.com', joka on omistettu Gray Barkerin työlle, ja hänen kirjoihinsa perustuen on tekeillä elokuva." },
-    { "text": "Varhaisimmat havainnot ovat vuodelta 1880, jolloin pariskunta löysi outoja esineitä ja myöhemmin mustiin pukeutunut mies ilmestyi ostamaan löydön." },
-    { "text": "Vuonna 1953 Albert Bender perusti ufologisen järjestön, joka pian sai lopettamiskäskyn salaperäisiltä miehiltä mustissa Cadillaceissa, jotka pukeutuivat mustiin, mutta valkoisiin paitoihin ja punaisiin solmioihin." },
-    { "text": "Nämä miehet toimivat virallisten lainvalvontaviranomaisten ja hallituksen ulkopuolella, piittaamatta laeista. Heidän vierailunsa ovat luvattomia ja usein pelottavia." },
-    { "text": "Agentit Mulder ja Scully sarjasta 'Arkistojen uudet tapaukset' ovat fiktiivisiä mustia miehiä, jotka kiertävät maailmaa tutkimassa outoja ilmiöitä, kiertäen lakeja ja tukahduttaen muita vastaavia kykyjä omaavia." },
-    { "text": "Joidenkin teorioiden mukaan mustat miehet eivät ole ihmisiä vaan elektromagneettisia älyjä, jotka voivat lähettää eri taajuuksia ja ottaa minkä tahansa muodon, jopa harmittoman kissasi." },
-    { "text": "Vuonna 2008 internetissä levisi video, jossa väitettiin esiintyvän mustia miehiä israelilaisessa hotellissa. Todistajat kuvasivat heidät pitkiksi, identtisen näköisiksi miehiksi mustissa puvuissa ja tummissa aurinkolaseissa." },
-    { "text": "On myös kosminen sodan teoria, jonka mukaan 30 000 vuotta sitten ihmiset taistelivat lohikäärmejumalia vastaan, jotka voittivat ja muuttuivat matelijaolentoiksi, eli mustiksi miehiksi. He puuttuvat ihmiskunnan suuriin tapahtumiin tukahduttaen löytöjä ja innovaatioita." },
-    { "text": "Jotkut sanovat, että nämä olennot voivat näyttää pelottavan robottimaisilta tai matelijamaisilta, ja salaliittoteoreetikot yhdistävät heidät salaisiin hallituksen agenteihin tai avaruusolentoihin, jotka kontrolloivat ihmiskuntaa." },
-    { "text": "Skeptikot pitävät tätä hölynpölynä, mutta uskovat vannovat nähneensä jotain selittämätöntä." }
-  ]
-},
-{
-  "id": "stonehenge_fi",
-  "title": "Stonehenge",
-  "short": "Salaperäinen kivimonumentti Englannissa, jota ympäröivät lukuisat teoriat — avaruusolennoista muinaisiin kalentereihin — mutta sen todellinen tarkoitus on epäselvä.",
-  "content": [
-    { "text": "Stonehenge on kivirakennelmakompleksi Wiltshiressä, Englannissa. Se on yksi kuuluisimmista arkeologisista kohteista ja Unescon maailmanperintökohde." },
-    { "text": "Vaikka se on lähes raunioitunut, Stonehenge kätkee monia mysteereitä, joihin ei ole varmoja vastauksia. Teorioita sen alkuperästä on laidasta laitaan, Atlanteista avaruusolentoihin, druideihin ja ydinreaktoreihin." },
-    { "text": "Kukaan ei tiedä tarkkaa rakennusvuotta tai kuka sen tarkalleen ottaen rakensi. Jäljellä oleva rakenne näyttää erilaiselta kuin alkuperäinen." },
-    { "text": "Jotkut salaliittoteoriat väittävät, että se on kosminen laukaisupaikka tai portti toiseen maailmaan, mutta nämä ovat usein fanaattisten levittämiä eivätkä perustu todisteisiin." },
-    { "text": "Vuonna 1954 jotkut alkoivat uskoa, että Stonehenge rakennettiin tuolloin, kun netissä kiersi väärennettyjä kuvia, joissa näkyy nostureita ja betonia." },
-    { "text": "Todellisuudessa kyse oli restaurointityöstä, ei alkuperäisestä rakentamisesta. Stonehengen restaurointi alkoi jo vuonna 1901, jolloin kiviä nostettiin ja vahvistettiin romahtamisen estämiseksi." },
-    { "text": "Vuoden 1954 restaurointi sisälsi kivien uudelleen sijoittamista, betonivahvistusta ja jopa joidenkin kivien siirtämistä. Osa nykyisistä kivistä on replikoita, ei alkuperäisiä." },
-    { "text": "Dr. Christopher Chippindale, arkeologiamuseon pääkuraattori, vahvistaa, että useimmat kivet siirrettiin ja vahvistettiin restauroinnin aikana." },
-    { "text": "Skeptikot sanovat, että historialliset kaiverrukset ja asiakirjat, kuten vuodelta 1440 oleva puupiirros ja Frederick VI:n vuonna 1668 tekemä kartta, todistavat Stonehengen olemassaolon kauan ennen nykyaikaisia restaurointeja." },
-    { "text": "Stonehenge ei ehkä ole ainutlaatuinen; samanlaisia muinaisia kivirakennelmia on olemassa, mikä viittaa siihen, että se oli osa laajempaa megalittisten rakennusten perinnettä." },
-    { "text": "Hyväksytyin teoria on, että Stonehenge toimi muinaisena kalenterina, jolla seurattiin auringon seisauksia ja mahdollisesti kuunkiertoja ja auringonpimennyksiä — varhainen laskentateknologia ilman robotteja." },
-    { "text": "Paikka on druideja vanhempi, ja he käyttivät sitä myöhemmin rituaaleihin, mutta eivät olleet sen alkuperäisiä rakentajia." },
-    { "text": "Nykyisin vierailijat voivat tutkia Stonehengeä, mutta heidän tulee pitää noin 15 metrin etäisyys; lähelle pääsy on sallittu vain druideja seuraaville." },
-    { "text": "Kriittinen ajattelu on tärkeää Stonehenge-teorioita lähestyttäessä — erottele faktat myyteistä äläkä langeta salaliittoteorioiden ansaan." }
-  ]
-},
-{
-  "id": "john_titor_story",
-  "title": "John Titor — aikamatkustajan legenda",
-  "short": "Salaperäinen aikamatkustaja, joka ilmestyi foorumeille vuonna 2000 väittäen tulevansa vuodesta 2036 ja etsien IBM 5100 -tietokonetta estääkseen tulevan katastrofin.",
-  "content": [
-    { "text": "Vuonna 2000 käyttäjä nimeltä Timetravel_0 ilmestyi Time Travel Institute -foorumille ja väitti olevansa aikamatkustaja vuodesta 2036." },
-    { "text": "Hänen tehtävänään oli löytää IBM 5100 -tietokone, joka auttaisi estämään maailmanlaajuisen katastrofin tekemällä järjestelmäpalautuksia hänen aikajanallaan." },
-    { "text": "John Titor oli nimi, jonka hän myöhemmin otti käyttöön, ja siitä tuli legenda internetissä ja paranormaaleilla foorumeilla." },
-    { "text": "Toisin kuin tavalliset huijaukset, Titor tiesi tarkkoja teknisiä yksityiskohtia IBM 5100:sta, joita ei laajasti tunnettu." },
-    { "text": "Hän julkaisi kuvia aikakoneestaan, joka oli suuri laatikko autossa — muistuttaen tieteiselokuvien aikakoneita kuten 'Paluu tulevaisuuteen'." },
-    { "text": "Tarina mukaan vuonna 2036 virus orjuutti ihmiskunnan, ja hänet lähetettiin takaisin hakemaan tätä tietokonetta pelastaakseen tulevaisuuden." },
-    { "text": "Hän ennusti useita tapahtumia, kuten vuoden 2008 olympialaisten peruutuksen, Yhdysvaltojen sisällissodan vuonna 2004 ja maailman sodan vuonna 2015, joka tappoi 3 miljardia ihmistä — mikään näistä ei toteutunut." },
-    { "text": "Hän väitti, että matkustaminen ajassa taaksepäin siirtää sinut vaihtoehtoiseen todellisuuteen, jossa paradoksit eivät tapahdu, joten voit jopa tappaa itsesi ilman seurauksia." },
-    { "text": "Hänen viimeinen viestinsä oli vuonna 2001, jossa hän antoi outoja neuvoja, kuten 'Ota mukaan bensakanisteri, kun hylkäät auton' ja 'Osta vessapaperia, jos sitä ei ole'." },
-    { "text": "John Titorin ympärille syntyi kulttimaine ja tutkintoja hänen henkilöllisyydestään." },
-    { "text": "Vuonna 2008 italialainen TV-ohjelma palkkasi yksityisetsivän Mike Lynchin, joka totesi, ettei Titor-nimistä perhettä ollut olemassa, vahvistaen sen olevan peitenimi." },
-    { "text": "Heiberin perhe yhdistettiin myyttiin — veljekset Lawrence, Richard, Arthur ja Mori Heiber osallistuivat eri tavoin." },
-    { "text": "Richard Heiber oli IT-asiantuntija, joka olisi tiennyt IBM 5100:sta, ja Mori Heiber oli IT-tietoturva-asiantuntija, jonka kirjoitustyyli vastasi John Titorin viestejä." },
-    { "text": "Arthur Heiber myönsi, että kyseessä oli pitkäaikainen kontrolloitu huijaus, johon koko perhe oli tietoinen." },
-    { "text": "John Titor -säätiö on yhä olemassa ja myy ylihinnoiteltuja kirjoja, jotka sisältävät kierrätettyä internet-sisältöä ja kuvia." },
-    { "text": "Ilmiö osoittaa, miten internet ja nimettömyys luovat myyttejä ja legendoja." },
-    { "text": "Vaikka tarina on valheellinen, monet ihmiset yhä uskovat tai haluavat uskoa John Titorin tarinaan." },
-    { "text": "Tarina käsittelee myös aiheita kuten Stephen Hawking, rinnakkaiset todellisuudet ja faktojen erottamisen vaikeus internetissä." },
-    { "text": "Legenda korostaa ihmisten kiinnostusta aikamatkustukseen, salaliittoihin ja tuntemattomaan." }
-  ]
-},
-{
-  "id": "bermuda_triangle_mystery",
-  "title": "Bermudan kolmion mysteeri: faktat, tapaukset ja teoriat",
-  "short": "Syvällinen katsaus Bermudan kolmioon, sen kuuluisimpiin katoamisiin, tieteellisiin tutkimuksiin ja suosittuihin teorioihin.",
-  "content": [
-    { "text": "Bermudan kolmio, jota kutsutaan myös nimellä 'Paholaisen kolmio', on epäselvästi rajattu alue Pohjois-Atlantin länsiosassa. Se ulottuu suunnilleen Miamin, Bermudan ja Puerto Ricon välillä ja kattaa noin 1,3 miljoonaa neliökilometriä." },
-    { "text": "Alue on saanut huomiota lukuisten lentokoneiden ja laivojen katoamisten vuoksi, joita ei ole pystytty selittämään. Kiinnostus kasvoi erityisesti 1900-luvun puolivälissä useiden merkittävien tapausten myötä." },
-    { "text": "Yksi tunnetuimmista tapauksista on vuonna 1945 kadonnut viiden Yhdysvaltain laivaston pommikoneen ryhmä, Flight 19. Koneet katosivat harjoituslennolla, eikä niitä tai miehistöä koskaan löydetty, mikä on lisännyt tarinoita kolmion salaperäisyydestä." },
-    { "text": "Lisäksi monet muut alukset ja lentokoneet, kuten USS Cyclops vuonna 1918, ovat kadonneet jälkiä jättämättä. USS Cyclops on Yhdysvaltain laivaston suurin ei-taistelutappio, ja sen 300 miehistön jäsentä ei löydetty." },
-    { "text": "Termi 'Bermudan kolmio' tuli tunnetuksi ensimmäisen kerran vuonna 1964, kun kirjailija Vincent Gaddis julkaisi artikkelin Argosy-lehdessä, jossa hän kuvaili alueen outoja katoamisia. Sen jälkeen aiheesta on julkaistu lukemattomia kirjoja ja dokumentteja." },
-    { "text": "Monet teoriat yrittävät selittää katoamiset. Osa perustuu luonnollisiin syihin, kuten voimakkaisiin myrskyihin ja hurrikaaneihin, jotka ovat alueella yleisiä." },
-    { "text": "Toiset huomioivat Golfvirran, voimakkaan merivirran, joka voi nopeasti hajottaa hylyn palasia, mikä vaikeuttaa onnettomuuksien jäljittämistä ja luo vaikutelman äkillisistä katoamisista." },
-    { "text": "Metaanihydraattien purkautumiset merenpohjassa ovat myös suosittu tieteellinen teoria. Nämä purkaukset vapauttavat suuria metaanikuplia, jotka voivat laskea veden tiheyttä ja aiheuttaa alusten nopean uppoamisen." },
-    { "text": "Magneettiset poikkeamat ovat toinen ehdotus. Joidenkin mukaan alue vaikuttaisi kompassien toimintaan, mikä johtaisi navigointivirheisiin. Tieteelliset mittaukset eivät kuitenkaan osoita merkittäviä magneettisia häiriöitä." },
-    { "text": "Spekulatiivisemmat teoriat sisältävät avaruusolentojen sieppaukset, aikasilmukat, vedenalaiset kaupungit ja yliluonnolliset voimat, mutta näille ei ole todisteita." },
-    { "text": "Skeptikot sanovat, että monet raportoiduista tapauksista on liioiteltu tai virheellisesti kuvattu, ja että Bermudan kolmio ei ole vaarallisempi kuin muut vilkkaasti liikennöidyt merialueet." },
-    { "text": "Itse asiassa Yhdysvaltain rannikkovartiosto ei tunnusta Bermudan kolmiota virallisena vaarana, eikä aluetta merkitä kartoille." },
-    { "text": "Tutkimukset osoittavat, että onnettomuuksilla alueella on järkevät selitykset, jotka liittyvät säähän, inhimillisiin virheisiin ja laitevikoihin." },
-    { "text": "Silti mysteeri kiehtoo edelleen ihmisiä ympäri maailmaa, inspiroiden elokuvia, pelejä ja moderneja myyttejä meren vaarallisuudesta." },
-    { "text": "Bermudan kolmio muistuttaa luonnon voimasta, ihmisteknologian rajoista ja ratkaisematonta mysteeriä ihmiskunnan mielissä." }
-  ]
-},
-{
-  "id": "megalodon_myytti_ja_totuus",
-  "title": "Megalodon: myytti, todisteet ja tieteellinen näkökulma",
-  "short": "Yleiskatsaus Megalodon-haikalaan liittyviin väitteisiin, myytteihin, väitettyihin havaintoihin ja tieteelliseen konsensukseen sen sukupuutosta.",
-  "content": [
-    { "text": "Megalodon oli jättimäinen esihistoriallinen hai, suurempi kuin useimmat dinosaurukset, tunnettu pääasiassa fossiloituneista hampaista ja osittaisista luurangoista." },
-    { "text": "Populaarikulttuuri ja internetin otsikot väittävät usein Megalodonin olevan yhä elossa tai että mysteeriset jättimäiset hait aiheuttavat haaksirikkoja ja katoamisia." },
-    { "text": "Tieteellinen näyttö osoittaa, että Megalodon kuoli sukupuuttoon noin 1,6–2,6 miljoonaa vuotta sitten." },
-    { "text": "Nykyisiä havaintoja, syvänmeren videoita ja epätavallisia haipotkuja yhdistetään usein kryptozoologiaan, joka ei ole tieteellisesti hyväksytty ala." },
-    { "text": "Dokumentit ja TV-ohjelmat dramatisoivat ja lavastavat todisteita käyttämällä näyttelijöitä ja tietokonegrafiikkaa katsojamäärien kasvattamiseksi." },
-    { "text": "Vuonna 2013 laajalti levitetty feikki-dokumentti Megalodonista sisälsi lavastettuja kohtauksia ja vääriä raportteja, jotka asiantuntijat ja viranomaiset kumosivat." },
-    { "text": "Oceani on tosiaan suurelta osin tutkimaton, mutta niin suuren huippupedon olemassaolo jättäisi selvät biologiset ja ekologiset jäljet." },
-    { "text": "Megalodonin sukupuutto johtui useista tekijöistä, kuten valtamerten virtausten, happipitoisuuden muutoksista, kilpailusta muiden petojen kuten valkohaiden ja valaskilpikonnien kanssa sekä saaliseläinten vähenemisestä." },
-    { "text": "Fossiililöydöt osoittavat Megalodonin kasvaneen jopa 16 metrin pituiseksi, vaikka aikaisemmat liioittelut puhuivat vieläkin suuremmista mitoista." },
-    { "text": "Tuoreita Megalodonin hampaita tai ruumiita ei ole löydetty; äskettäin löydetyt hampaat ovat fossiileja, joita ympäristöolosuhteet ovat vaikuttaneet." },
-    { "text": "Tieteellinen konsensus on, että Megalodon on sukupuuttoon kuollut, ja monet nykyiset todisteet ovat huijauksia tai virhetulkintoja." },
-    { "text": "Lähteiden kriittinen arviointi ja skeptisyys sensaatiohakuisiin väitteisiin ovat tarpeen, erityisesti silloin kun populaarimedia sekoittaa fiktiota ja faktoja." },
-    { "text": "Megalodon kiinnostaa edelleen, mutta tieteellinen ymmärrys antaa tarkemman kuvan kuin myytit tai internetin huhut." }
-  ]
-},
-{
-  "id": "ihmissudet_ja_lykantropia",
-  "title": "Ihmissudet",
-  "short": "Yhteenveto ihmissusista mytologiassa, niiden kulttuurieroista sekä legendojen taustalla olevista selityksistä, mukaan lukien todelliset lääketieteelliset tilat.",
-  "content": [
-    { "text": "Ihmissudet ovat mytologisia olentoja, jotka pystyvät muuttumaan ihmisestä eläimeksi tai päinvastoin." },
-    { "text": "Termi lykantrooppi viittaa erityisesti susihahmoiseen ihmissuteen." },
-    { "text": "Japanissa ihmiset muuttuvat suden sijaan pieniksi ja harmittomiksi ketuiksi, mikä eroaa länsimaisista myyteistä." },
-    { "text": "Keltin mytologiassa on hylkeihmisiä, jotka yksinkertaisesti muuttuvat hylkeiksi, mikä osoittaa muodonmuutoksen myyttien monimuotoisuuden." },
-    { "text": "Suosituin ihmissusi on ihmisen ja suden hybridi, joka tunnetaan useilla nimillä kuten ihmissusi, volkodlak tai vurdalak." },
-    { "text": "Venäläisessä kansanperinteessä ihmissudet voivat muuttua paitsi eläimiksi myös elottomiksi esineiksi, kuten kepeiksi tai heinäpaaleiksi." },
-    { "text": "Skandinaaviset berserkit uskoivat voivansa muuttua suuriksi karhuiksi taistelun aikana." },
-    { "text": "Ihmissudet jaetaan synnynnäisiin ja käänteisiin tyyppeihin; synnynnäiset liittyvät sukuperäisiin kirouksiin, käänteiset ulkoisiin tekijöihin." },
-    { "text": "Kliininen lykantropia on todellinen psykiatrinen tila, jossa henkilö uskoo muuttuvansa eläimeksi." },
-    { "text": "Hopealuodit ovat kuuluisia ihmissusien tappamiseen, vaikka tarinoissa ruumis usein palautuu ihmiseksi kuoleman jälkeen." },
-    { "text": "Ihmissusien olemassaolon todistaminen on mahdotonta, ja monet karjan katoamiset johtuvat luonnon petoeläimistä tai muista ilmiöistä." },
-    { "text": "Ihmissusimyytti jatkaa tarinoiden, elokuvien ja kulttuuristen keskustelujen inspirointia ympäri maailmaa." }
-  ]
-},
-{
-  "id": "poltergeist_ilmiö",
-  "title": "Poltergeist-ilmiö",
-  "short": "Yhteenveto poltergeist-ilmiöstä, sen ilmentymistä, kulttuurisesta kontekstista ja tieteellisistä tulkinnoista.",
-  "content": [
-    { "text": "Poltergeist on saksankielinen termi, joka tarkoittaa 'meluisaa henkeä', ja viittaa selittämättömään ilmiöön, johon liittyy ääniä, liikkuvia esineitä, itsestään syttyviä tulipaloja ja muita häiriöitä." },
-    { "text": "Yleisiä ilmentymiä ovat lentävät esineet, ovien itsestään aukeaminen ja sulkeutuminen, valojen syttyminen ja sammuminen sekä oudot äänet." },
-    { "text": "Poltergeistit liittyvät usein ihmisiin, yleensä lapsiin tai nuoriin, jotka käyvät läpi murrosiän vaihetta, eivät paikkoihin." },
-    { "text": "Parapsykologia tutkii tätä ilmiötä, vaikka valtavirran tiede suhtautuu siihen skeptisesti." },
-    { "text": "Tyypillisiä merkkejä ovat kovat äänet, huudot, valitukset, esineiden liikkuminen, selittämättömät nesteet, itsestään syttyvät tulipalot ja ovien itsestään lukkiutuminen." },
-    { "text": "Poltergeistit pelottavat yleensä, eivätkä aiheuta fyysistä vahinkoa, vaikka tarinoita on esineistä, jotka pysähtyvät juuri ennen ihmisiin osumista." },
-    { "text": "Jotkut tulkinnat väittävät poltergeistien puuttuvan kriittisissä hetkissä, kuten pelastavan itsemurhan tekemässä olevan ihmisen leikkaamalla noosea lentävällä veitsellä." },
-    { "text": "Tutkija D. Sherwood erottaa poltergeist-toiminnassa useita vaiheita, kuten aistimukset, hajut, äänet, sähkölaitteiden toimintahäiriöt, esineiden heittäminen, puremat, vammat, veren ilmestyminen seinille, uhkaavat viestit ja uhrin kivut." },
-    { "text": "Historiallisia viittauksia poltergeist-tyyppisiin ilmiöihin löytyy, mukaan lukien kreikkalaisten ja roomalaisten historiankirjoittajien sekä Grimmien veljesten kertomukset." },
-    { "text": "Venäjällä ensimmäinen dokumentoitu tapaus on vuodelta 1666, jolloin Moskovan vanhainkodissa Ivanovin luostarin lähellä havaittiin ääniä ja esineiden lentelyä." },
-    { "text": "19. vuosisadan puoliväliin asti poltergeistit yhdistettiin paholaiseen ja tehtiin rituaaleja niiden karkottamiseksi, mutta tieteellinen lähestymistapa alkoi vasta 1900-luvulla." },
-    { "text": "Nykypsykologia näkee poltergeist-ilmiöt usein keskittyneenä tunneilmaisuna, kuten vihana tai turhautumisena, usein yhteydessä murrosikäisten psyykeen." },
-    { "text": "Murrosiän energia saattaa purkautua levottomana henkenä, joka heittelee esineitä ja aiheuttaa tuhoa, joskus myös vaarallisena tulen sytyttäjänä." },
-    { "text": "On olemassa kaksi pääasiallista tulkintaa: poltergeist-ilmiöt ovat joko yliluonnollisia tai psykologisia." },
-    { "text": "Perinteiset slaavilaiset menetelmät poltergeistien karkottamiseen sisältävät kiroilun voimakkaasti ja symbolien käyttämisen niiden poistamiseksi." },
-    { "text": "Skeptisyydestä huolimatta ilmiö jatkuu kansanperinteessä ja henkilökohtaisissa kertomuksissa, ollen edelleen mysteeri ja keskustelun aihe." }
-  ]
-}
+    "id": "roswell_alien_autopsy",
+    "title": "Roswellin avaruusolion ruumiinavaus",
+    "short": "Väitteet ja kiistat vuoden 1947 UFO-onnettomuudesta ja väitetystä avaruusolion ruumiinavauksesta.",
+    "images": ["roswell1.webp", "rosewell2.jpg"],
+    "content": [
+      { "text": "Kesällä 1947 Roswellin pikkukaupunki New Mexicossa nousi yhdeksi kuuluisimmista UFO-salaliittoteorioiden keskuksista." },
+      { "text": "Legenda kertoo, että lentävä lautanen syöksyi maahan ja avaruusolion ruumiit löydettiin, minkä jälkeen Yhdysvaltain hallitus salasi ne." },
+      { "text": "Roswellista tuli nopeasti kuin museo, jossa kaupat myivät matkamuistoja, kuten mukeja ja julisteita, jotka esittivät avaruusolioita. Turisteja virtaa kaupunkiin, vaikka paikalliset ovat ehkä väsyneitä jatkuvaan huomioon." },
+      { "text": "Todelliset todisteet onnettomuudesta? Kaksi pääasiaa: yksi avaruusolion ruumis museossa ja mystinen video nimeltä 'Alien Autopsy', jossa väitetään nähtävän avaruusolion ruumiinavaus." },
+      { "text": "Ajatus siitä, että olemassa olisi todistettua todisteita vieraan älyn olemassaolosta, mullistaisi käsityksemme maailmankaikkeudesta. Monet haluavat uskoa, ettei olla yksin, mutta katsotaanpa tosiasioita." },
+      { "text": "Kuuluisa Roswellin valokuva, jonka väitetään esittävän löydettyä avaruusoliota, näytettiin todistajille, jotka sanoivat sen vastaavan näkemäänsä. Skeptikot kuitenkin paljastivat, että kuva on itse asiassa kahden vuoden ikäisen lapsen muumio, joka oli väärin tulkittu ja manipuloitu." },
+      { "text": "UFO-tutkijat yrittivät ensin puolustaa kuvan aitoutta, mutta myönsivät virheensä, kun tarkempia valokuvia ja muistiinpanoja vuodelta 1938 ilmestyi." },
+      { "text": "Vuonna 1995 brittiläinen tuottaja Ray Santilli julkaisi 'Alien Autopsy' -videon, jonka väitti olevan aito. Video näytettiin maailmanlaajuisesti ja se aiheutti kulttuurisen shokin." },
+      { "text": "Mutta asiantuntijat löysivät pian suuria puutteita: ruumiinavaus oli tehty amatööreinä, ei salaisina hallituksen kirurgien toimesta. Eräs erikoistehosteiden tekijä, John Humphreys, myönsi osallistuneensa alien-propien tekoon." },
+      { "text": "Santilli tunnusti myöhemmin, että video oli uudelleenfilmatisointi, koska alkuperäinen filmi oli pilaantunut, mutta monet uskovat sen olleen pelkkä huijaus rahan takia." },
+      { "text": "Huijauksesta huolimatta Roswellin onnettomuus on edelleen arvoitus. Yhdysvaltain armeija julkaisi virallisesti kaksi salaisuutta: 'High Dive' (korkealta pudotettavien laskuvarjojen testaus) ja 'Project Mogul' (pallojen käyttö ydinaseiden havaitsemiseen), jotka todennäköisesti selittävät romun ja havaintojen syyt." },
+      { "text": "Roswellin tarina on klassinen esimerkki siitä, kuinka väärä tieto, hallituksen salailu ja yleinen kiinnostus yhdistyvät luomaan pysyviä myyttejä." }
+    ]
+  },
 
+  {
+    "id": "area51",
+    "title": "Alue 51",
+    "short": "Erittäin salainen Yhdysvaltain sotilastukikohta, jota ympäröivät huhut UFOista, avaruusolennoista ja maanalaisista komplekseista.",
+    "images": ["area511.jpeg", "area512.jpg"],
+    "content": [
+      { "text": "Alue 51 on tullut tunnetuksi huhujen vuoksi, joiden mukaan siellä tutkitaan avaruusteknologiaa, piilotetaan pudonneita UFOja ja tehdään salaisia kokeita." },
+      { "text": "Tukikohta sijaitsee Nevadassa. Google Maps näyttää alueen, mutta Street View ei toimi lähellä olevilla teillä. Pentagon kielsi pitkään tukikohdan olemassaolon." },
+      { "text": "Faktojen mukaan alueella testataan kehittyneitä lentokoneita, kuten F-117 Nighthawk. Lisäksi Las Vegasissa on salainen terminaali, joka kuljettaa työntekijöitä suoraan Alueelle 51." },
+      { "text": "Tukikohdasta tuli legendaarinen Roswellin tapauksen jälkeen, kun väitetyt avaruusolentojen ruumiit tuotiin tänne tutkittavaksi." },
+      { "text": "Aluetta ympäröivät varoituskyltit, miinat, lämpökamerat, mikrofonit ja aseistetut vartijat, jotka partioivat valkoisilla maastoautoilla." },
+      { "text": "Tunkeilijat pidätetään yleensä, mutta seuraukset voivat olla vakavat." },
+      { "text": "Joidenkin teorioiden mukaan Alue 51:n alla on valtava monikerroksinen maanalainen kompleksi, joka on yhdistetty tunneleilla, lähes kuin 'Resident Evil' -elokuvien Hive." },
+      { "text": "Toiset väittävät, että maailman johtajat tapaavat avaruusolentoja juuri Alue 51:n sisällä." },
+      { "text": "Osa 'entisistä tiedemiehistä' väittää dissekoineensa avaruusolentoja, mutta väitteille ei ole olemassa todellisia todisteita." },
+      { "text": "Totuus pysyy salassa, ellei hallitus päätä kertoa asiasta — ja se on epätodennäköistä." }
+    ]
+  },
 
+  {
+    "id": "loch_ness",
+    "title": "Loch Nessin hirviö",
+    "short": "Legendaarinen olento, jonka kerrotaan elävän Skotlannin Loch Ness -järvessä – muinaisista havainnoista moderneihin sonarilöydöksiin.",
+    "images": ["lochness1.webp", "lochness2.webp"],
+    "content": [
+      { "text": "Legendan mukaan Skotlannin Loch Ness -järvessä elää valtava olento, jota kutsutaan Nessieksi tai Loch Nessin hirviöksi. Jotkut kuvailevat sitä pleesiosaurusta muistuttavaksi matelijaksi, jolla on timantinmuotoiset evät." },
+      { "text": "Varhaisimmat kuvaukset tulevat roomalaisilta legioonalaisilta, jotka kaiversivat esityksiä paikallisista eläimistä – mukaan lukien olento, joka muistutti Nessietä." },
+      { "text": "Myöhempi kirjallinen maininta löytyy irlantilaisen munkin, Pyhän Columban elämäkerrasta. Hän väitetysti näki hirviön hyökkäävän järvessä uimassa olleen tytön kimppuun ja karkotti sen rukouksen avulla." },
+      { "text": "Vuonna 1934 lontoolainen lääkäri Kenneth Wilson julkaisi kuuluisan valokuvan Nessiestä. Maailma uskoi siihen – kunnes hänen kumppaninsa paljastivat sen huijaukseksi." },
+      { "text": "Sonaritutkimukset ovat kuitenkin havainneet valtavia liikkuvia kohteita järven syvyyksissä, kykyneviä nousemaan ja uimaan omin voimin. Kukaan ei tiedä, mitä ne ovat." },
+      { "text": "Vuonna 2007 tutkija Gordon Holmes asetti mikrofoneja järveen ja kuvasi 15-metrisen olennon, joka liikkui 10 km/h. Asiantuntijat vahvistivat videon aitouden, mutta jotkut väittivät sen olevan jättiläismäinen hyönteinen tai mato." },
+      { "text": "Myös Google Earth näytti kerran jotain outoa järvessä – mutta se paljastui veneen varjoksi." },
+      { "text": "Skeptikot sanovat, että järven biomassaa ei ole tarpeeksi elättämään niin suurta petoa ja sen mahdollista perhettä. Lisäksi Skotlanti oli muinoin jään peitossa, eikä mikään tunnettu eläin olisi selvinnyt siellä." },
+      { "text": "Uskovat puolestaan väittävät, että Nessie kulkee salaisia vedenalaisia tunneleita pitkin merelle ja takaisin." },
+      { "text": "Turismi kukoistaa alueella legendan ansiosta, ja monet toivovat Nessien olevan oikeasti olemassa – vaikkei todisteita ole." },
+      { "text": "Erään teorian mukaan olennot, kuten Nessie tai lumimies, voivat ilmestyä väliaikaisista aikarei’istä, mikä selittäisi niiden äkillisen esiintymisen ja katoamisen." }
+    ]
+  },
 
+  {
+    "id": "yeti_bigfoot",
+    "title": "Yeti ja Bigfoot",
+    "short": "Salaperäinen ihmisenkaltainen olento, josta on havaintoja ympäri maailmaa — Himalajilta Amerikkaan.",
+    "images": ["bigfoot1.jpg", "bigfoot2.webp"],
+    "content": [
+      { "text": "Vuonna 1921 Everestin retkikunta kuuli kauheita huutoja kukkulan takaa. He löysivät valtavia ihmismäisiä jalanjälkiä, ja eurooppalaiset alkoivat kutsua olentoa nimellä 'Lumimies'." },
+      { "text": "Vuonna 1951 Eric Shipton valokuvasi Everestillä suuret paljain jaloin tehdyt jäljet — koko 31×16 cm. Neuvostoliitossa jopa perustettiin komissio, joka tutki Bigfootin olemassaoloa." },
+      { "text": "Eri maissa olennolla on eri nimi: Tiibetissä Yeti, Amerikassa Bigfoot tai Sasquatch (joka tarkoittaa 'villimies'), ja Siperiassa sitä joskus leikillisesti kutsutaan 'Vaeltavaksi tšuktšaksi'." },
+      { "text": "Silminnäkijöiden mukaan eläimet käyttäytyvät oudosti Yetin ilmestyessä: linnut pakenevat, eläimet juoksevat pois ja ihmiset kokevat äkillistä paniikkia." },
+      { "text": "Sanan 'paniikki' väitetään tulevan kreikkalaisesta jumalasta Panista — karvaisesta luonnonhengetä, joka herätti pelkoa kaikissa, jotka näkivät hänet. Hänen kuvansa vaikutti myöhemmin lumimiehen myyttiin." },
+      { "text": "Väitetään, että Yetistä ei voi saada selkeää kuvaa, koska se voi 'ylivalottaa filmin' tai häiritä elektroniikkaa." },
+      { "text": "Vuonna 1967 kaksi amerikkalaista kuvasi kuuluisan videon 'kävelevästä Bigfootista', mutta vuonna 2002 heidän sukulaisensa paljastivat sen olleen mies puvussa." },
+      { "text": "Vuonna 2013 geneetikko Bryan Sykes analysoi kaksi Himalajilta löytynyttä karvanäytettä. DNA vastasi muinaista jääkarhulajia, joka eli yli 40 000 vuotta sitten." },
+      { "text": "Jotkut uskovat, että näitä olentoja on eri lajeja: vuoristoyetit elävät luolissa, metsäiset rakentavat pesiä puihin — ja humoristisesti on olemassa myös 'Sohvayeti'." },
+      { "text": "Muinaisia kuvia lumimiehen kaltaisista olennoista on löydetty Kreikasta, Armeniasta, Roomasta ja monista muista paikoista." },
+      { "text": "Biologien mukaan lajin selviytyminen vaatii vähintään 100 yksilöä — eikä yhtäkään ole todistettavasti löydetty." },
+      { "text": "Takajaloillaan seisova karhu voi helposti näyttää valtavalta ihmiseltä, jopa 5 metrin korkuiselta." },
+      { "text": "Yeti-havaintoja on tehty kaikkialla paitsi Pohjoisnavalla. Erään venäläisen alueen kuvernööri lupasi jopa miljoonan ruplaa sen kiinniottamisesta." },
+      { "text": "Jotkut teoriat väittävät, että yetit ovat ihmisen vaihtoehtoinen evoluutiolinja — psyykkisesti ja fyysisesti kehittyneempiä — ja että niiden läsnäolo voi aiheuttaa päänsärkyä, paniikkia ja jopa kasvaimia." },
+      { "text": "Toisen teorian mukaan nämä olennot voisivat selviytyä, jos ihmiskunta tuhoaisi itsensä, toimien 'varasuunnitelmana' lajillemme." },
+      { "text": "Ei ole olemassa kiistattomia todisteita siitä, että Yeti tai Bigfoot todella on olemassa. Mutta silminnäkijät vannovat nähneensä jotain — eikä heidän tarinansa ehkä olekaan pelkkää hulluutta." }
+    ]
+  },
 
+  {
+    "id": "men_in_black",
+    "title": "Miehet mustissa",
+    "short": "Salaperäisiä hahmoja, joita yhdistetään usein salaliittoteorioihin ja avaruusolentojen kohtaamisiin.",
+    "images": ["men-in-black1.webp", "meninblack2.webp"],
+    "content": [
+      { "text": "Mustiin pukeutuneet miehet esiintyvät usein populaarikulttuurissa ja ufoteorioissa, joissa he ilmestyvät ihmisten koteihin esittäytyen liittovaltion agenteiksi ja selvittävät mitä todistajat ovat nähneet." },
+      { "text": "Termi otettiin käyttöön vuonna 1967 amerikkalaisten kirjailijoiden Gray Barkerin ja John Kelleyn kirjoissa. Barker liitti heidät merkittävään vaikutukseen maailmanhistoriassa, kuten kohtaamisiin Ceasarin, Napoleonin ja Jeffersonin kanssa." },
+      { "text": "Näiden miesten sanotaan ilmestyvän ja katoavan salaperäisesti. Eräs todistaja kertoi seuranneensa mustia Cadillaceja, jotka katosivat yllättäen ahtaassa paikassa." },
+      { "text": "On olemassa verkkosivusto 'theyknewtoomuch.com', joka on omistettu Gray Barkerin työlle, ja hänen kirjoihinsa perustuen on tekeillä elokuva." },
+      { "text": "Varhaisimmat havainnot ovat vuodelta 1880, jolloin pariskunta löysi outoja esineitä ja myöhemmin mustiin pukeutunut mies ilmestyi ostamaan löydön." },
+      { "text": "Vuonna 1953 Albert Bender perusti ufologisen järjestön, joka pian sai lopettamiskäskyn salaperäisiltä miehiltä mustissa Cadillaceissa, jotka pukeutuivat mustiin, mutta valkoisiin paitoihin ja punaisiin solmioihin." },
+      { "text": "Nämä miehet toimivat virallisten lainvalvontaviranomaisten ja hallituksen ulkopuolella, piittaamatta laeista. Heidän vierailunsa ovat luvattomia ja usein pelottavia." },
+      { "text": "Agentit Mulder ja Scully sarjasta 'Arkistojen uudet tapaukset' ovat fiktiivisiä mustia miehiä, jotka kiertävät maailmaa tutkimassa outoja ilmiöitä, kiertäen lakeja ja tukahduttaen muita vastaavia kykyjä omaavia." },
+      { "text": "Joidenkin teorioiden mukaan mustat miehet eivät ole ihmisiä vaan elektromagneettisia älyjä, jotka voivat lähettää eri taajuuksia ja ottaa minkä tahansa muodon, jopa harmittoman kissasi." },
+      { "text": "Vuonna 2008 internetissä levisi video, jossa väitettiin esiintyvän mustia miehiä israelilaisessa hotellissa. Todistajat kuvasivat heidät pitkiksi, identtisen näköisiksi miehiksi mustissa puvuissa ja tummissa aurinkolaseissa." },
+      { "text": "On myös kosminen sodan teoria, jonka mukaan 30 000 vuotta sitten ihmiset taistelivat lohikäärmejumalia vastaan, jotka voittivat ja muuttuivat matelijaolentoiksi, eli mustiksi miehiksi. He puuttuvat ihmiskunnan suuriin tapahtumiin tukahduttaen löytöjä ja innovaatioita." },
+      { "text": "Jotkut sanovat, että nämä olennot voivat näyttää pelottavan robottimaisilta tai matelijamaisilta, ja salaliittoteoreetikot yhdistävät heidät salaisiin hallituksen agenteihin tai avaruusolentoihin, jotka kontrolloivat ihmiskuntaa." },
+      { "text": "Skeptikot pitävät tätä hölynpölynä, mutta uskovat vannovat nähneensä jotain selittämätöntä." }
+    ]
+  },
 
+  {
+    "id": "stonehenge",
+    "title": "Stonehenge",
+    "short": "Salaperäinen kivimonumentti Englannissa, jota ympäröivät lukuisat teoriat — avaruusolennoista muinaisiin kalentereihin — mutta sen todellinen tarkoitus on epäselvä.",
+    "images": ["stonehenge1.jpg", "stonehenge2.avif"],
+    "content": [
+      { "text": "Stonehenge on kivirakennelmakompleksi Wiltshiressä, Englannissa. Se on yksi kuuluisimmista arkeologisista kohteista ja Unescon maailmanperintökohde." },
+      { "text": "Vaikka se on lähes raunioitunut, Stonehenge kätkee monia mysteereitä, joihin ei ole varmoja vastauksia. Teorioita sen alkuperästä on laidasta laitaan, Atlanteista avaruusolentoihin, druideihin ja ydinreaktoreihin." },
+      { "text": "Kukaan ei tiedä tarkkaa rakennusvuotta tai kuka sen tarkalleen ottaen rakensi. Jäljellä oleva rakenne näyttää erilaiselta kuin alkuperäinen." },
+      { "text": "Jotkut salaliittoteoriat väittävät, että se on kosminen laukaisupaikka tai portti toiseen maailmaan, mutta nämä ovat usein fanaattisten levittämiä eivätkä perustu todisteisiin." },
+      { "text": "Vuonna 1954 jotkut alkoivat uskoa, että Stonehenge rakennettiin tuolloin, kun netissä kiersi väärennettyjä kuvia, joissa näkyy nostureita ja betonia." },
+      { "text": "Todellisuudessa kyse oli restaurointityöstä, ei alkuperäisestä rakentamisesta. Stonehengen restaurointi alkoi jo vuonna 1901, jolloin kiviä nostettiin ja vahvistettiin romahtamisen estämiseksi." },
+      { "text": "Vuoden 1954 restaurointi sisälsi kivien uudelleen sijoittamista, betonivahvistusta ja jopa joidenkin kivien siirtämistä. Osa nykyisistä kivistä on replikoita, ei alkuperäisiä." },
+      { "text": "Dr. Christopher Chippindale, arkeologiamuseon pääkuraattori, vahvistaa, että useimmat kivet siirrettiin ja vahvistettiin restauroinnin aikana." },
+      { "text": "Skeptikot sanovat, että historialliset kaiverrukset ja asiakirjat, kuten vuodelta 1440 oleva puupiirros ja Frederick VI:n vuonna 1668 tekemä kartta, todistavat Stonehengen olemassaolon kauan ennen nykyaikaisia restaurointeja." },
+      { "text": "Stonehenge ei ehkä ole ainutlaatuinen; samanlaisia muinaisia kivirakennelmia on olemassa, mikä viittaa siihen, että se oli osa laajempaa megalittisten rakennusten perinnettä." },
+      { "text": "Hyväksytyin teoria on, että Stonehenge toimi muinaisena kalenterina, jolla seurattiin auringon seisauksia ja mahdollisesti kuunkiertoja ja auringonpimennyksiä — varhainen laskentateknologia ilman robotteja." },
+      { "text": "Paikka on druideja vanhempi, ja he käyttivät sitä myöhemmin rituaaleihin, mutta eivät olleet sen alkuperäisiä rakentajia." },
+      { "text": "Nykyisin vierailijat voivat tutkia Stonehengeä, mutta heidän tulee pitää noin 15 metrin etäisyys; lähelle pääsy on sallittu vain druideja seuraaville." },
+      { "text": "Kriittinen ajattelu on tärkeää Stonehenge-teorioita lähestyttäessä — erottele faktat myyteistä äläkä langeta salaliittoteorioiden ansaan." }
+    ]
+  },
 
+  {
+    "id": "john_titor_story",
+    "title": "John Titor — aikamatkustajan legenda",
+    "short": "Salaperäinen aikamatkustaja, joka ilmestyi foorumeille vuonna 2000 väittäen tulevansa vuodesta 2036 ja etsien IBM 5100 -tietokonetta estääkseen tulevan katastrofin.",
+    "images": ["johntitor1.jpg", "johntitor2.jpg"],
+    "content": [
+      { "text": "Vuonna 2000 käyttäjä nimeltä Timetravel_0 ilmestyi Time Travel Institute -foorumille ja väitti olevansa aikamatkustaja vuodesta 2036." },
+      { "text": "Hänen tehtävänään oli löytää IBM 5100 -tietokone, joka auttaisi estämään maailmanlaajuisen katastrofin tekemällä järjestelmäpalautuksia hänen aikajanallaan." },
+      { "text": "John Titor oli nimi, jonka hän myöhemmin otti käyttöön, ja siitä tuli legenda internetissä ja paranormaaleilla foorumeilla." },
+      { "text": "Toisin kuin tavalliset huijaukset, Titor tiesi tarkkoja teknisiä yksityiskohtia IBM 5100:sta, joita ei laajasti tunnettu." },
+      { "text": "Hän julkaisi kuvia aikakoneestaan, joka oli suuri laatikko autossa — muistuttaen tieteiselokuvien aikakoneita kuten 'Paluu tulevaisuuteen'." },
+      { "text": "Tarina mukaan vuonna 2036 virus orjuutti ihmiskunnan, ja hänet lähetettiin takaisin hakemaan tätä tietokonetta pelastaakseen tulevaisuuden." },
+      { "text": "Hän ennusti useita tapahtumia, kuten vuoden 2008 olympialaisten peruutuksen, Yhdysvaltojen sisällissodan vuonna 2004 ja maailman sodan vuonna 2015, joka tappoi 3 miljardia ihmistä — mikään näistä ei toteutunut." },
+      { "text": "Hän väitti, että matkustaminen ajassa taaksepäin siirtää sinut vaihtoehtoiseen todellisuuteen, jossa paradoksit eivät tapahdu, joten voit jopa tappaa itsesi ilman seurauksia." },
+      { "text": "Hänen viimeinen viestinsä oli vuonna 2001, jossa hän antoi outoja neuvoja, kuten 'Ota mukaan bensakanisteri, kun hylkäät auton' ja 'Osta vessapaperia, jos sitä ei ole'." },
+      { "text": "John Titorin ympärille syntyi kulttimaine ja tutkintoja hänen henkilöllisyydestään." },
+      { "text": "Vuonna 2008 italialainen TV-ohjelma palkkasi yksityisetsivän Mike Lynchin, joka totesi, ettei Titor-nimistä perhettä ollut olemassa, vahvistaen sen olevan peitenimi." },
+      { "text": "Heiberin perhe yhdistettiin myyttiin — veljekset Lawrence, Richard, Arthur ja Mori Heiber osallistuivat eri tavoin." },
+      { "text": "Richard Heiber oli IT-asiantuntija, joka olisi tiennyt IBM 5100:sta, ja Mori Heiber oli IT-tietoturva-asiantuntija, jonka kirjoitustyyli vastasi John Titorin viestejä." },
+      { "text": "Arthur Heiber myönsi, että kyseessä oli pitkäaikainen kontrolloitu huijaus, johon koko perhe oli tietoinen." },
+      { "text": "John Titor -säätiö on yhä olemassa ja myy ylihinnoiteltuja kirjoja, jotka sisältävät kierrätettyä internet-sisältöä ja kuvia." },
+      { "text": "Ilmiö osoittaa, miten internet ja nimettömyys luovat myyttejä ja legendoja." },
+      { "text": "Vaikka tarina on valheellinen, monet ihmiset yhä uskovat tai haluavat uskoa John Titorin tarinaan." },
+      { "text": "Tarina käsittelee myös aiheita kuten Stephen Hawking, rinnakkaiset todellisuudet ja faktojen erottamisen vaikeus internetissä." },
+      { "text": "Legenda korostaa ihmisten kiinnostusta aikamatkustukseen, salaliittoihin ja tuntemattomaan." }
+    ]
+  },
+
+  {
+    "id": "bermuda_triangle_mystery",
+    "title": "Bermudan kolmion mysteeri: faktat, tapaukset ja teoriat",
+    "short": "Syvällinen katsaus Bermudan kolmioon, sen kuuluisimpiin katoamisiin ja tieteellisiin selityksiin.",
+    "images": ["bermudatriangle1.jpg", "bermudatriangle2.jpg"],
+    "content": [
+      { "text": "Bermudan kolmio, jota kutsutaan myös nimellä 'Paholaisen kolmio', on epäselvästi rajattu alue Pohjois-Atlantin länsiosassa. Se ulottuu suunnilleen Miamin, Bermudan ja Puerto Ricon välillä ja kattaa noin 1,3 miljoonaa neliökilometriä." },
+      { "text": "Alue on saanut huomiota lukuisten lentokoneiden ja laivojen katoamisten vuoksi, joita ei ole pystytty selittämään. Kiinnostus kasvoi erityisesti 1900-luvun puolivälissä useiden merkittävien tapausten myötä." },
+      { "text": "Yksi tunnetuimmista tapauksista on vuonna 1945 kadonnut viiden Yhdysvaltain laivaston pommikoneen ryhmä, Flight 19. Koneet katosivat harjoituslennolla, eikä niitä tai miehistöä koskaan löydetty, mikä on lisännyt tarinoita kolmion salaperäisyydestä." },
+      { "text": "Lisäksi monet muut alukset ja lentokoneet, kuten USS Cyclops vuonna 1918, ovat kadonneet jälkiä jättämättä. USS Cyclops on Yhdysvaltain laivaston suurin ei-taistelutappio, ja sen 300 miehistön jäsentä ei löydetty." },
+      { "text": "Termi 'Bermudan kolmio' tuli tunnetuksi ensimmäisen kerran vuonna 1964, kun kirjailija Vincent Gaddis julkaisi artikkelin Argosy-lehdessä, jossa hän kuvaili alueen outoja katoamisia. Sen jälkeen aiheesta on julkaistu lukemattomia kirjoja ja dokumentteja." },
+      { "text": "Monet teoriat yrittävät selittää katoamiset. Osa perustuu luonnollisiin syihin, kuten voimakkaisiin myrskyihin ja hurrikaaneihin, jotka ovat alueella yleisiä." },
+      { "text": "Toiset huomioivat Golfvirran, voimakkaan merivirran, joka voi nopeasti hajottaa hylyn palasia, mikä vaikeuttaa onnettomuuksien jäljittämistä ja luo vaikutelman äkillisistä katoamisista." },
+      { "text": "Metaanihydraattien purkautumiset merenpohjassa ovat myös suosittu tieteellinen teoria. Nämä purkaukset vapauttavat suuria metaanikuplia, jotka voivat laskea veden tiheyttä ja aiheuttaa alusten nopean uppoamisen." },
+      { "text": "Magneettiset poikkeamat ovat toinen ehdotus. Joidenkin mukaan alue vaikuttaisi kompassien toimintaan, mikä johtaisi navigointivirheisiin. Tieteelliset mittaukset eivät kuitenkaan osoita merkittäviä magneettisia häiriöitä." },
+      { "text": "Spekulatiivisemmat teoriat sisältävät avaruusolentojen sieppaukset, aikasilmukat, vedenalaiset kaupungit ja yliluonnolliset voimat, mutta näille ei ole todisteita." },
+      { "text": "Skeptikot sanovat, että monet raportoidut tapaukset on liioiteltu tai virheellisesti kuvattu, ja että Bermudan kolmio ei ole vaarallisempi kuin muut vilkkaasti liikennöidyt merialueet." },
+      { "text": "Itse asiassa Yhdysvaltain rannikkovartiosto ei tunnusta Bermudan kolmiota virallisena vaarana, eikä aluetta merkitä kartoille." },
+      { "text": "Tutkimukset osoittavat, että onnettomuuksilla alueella on järkevät selitykset, jotka liittyvät säähän, inhimillisiin virheisiin ja laitevikoihin." },
+      { "text": "Silti mysteeri kiehtoo edelleen ihmisiä ympäri maailmaa, inspiroiden elokuvia, pelejä ja moderneja myyttejä meren vaarallisuudesta." },
+      { "text": "Bermudan kolmio muistuttaa luonnon voimasta, ihmisteknologian rajoista ja ratkaisematonta mysteeriä ihmiskunnan mielissä." }
+    ]
+  },
+
+  {
+    "id": "megalodon_myth_and_facts",
+    "title": "Megalodon: myytti, todisteet ja tieteellinen näkökulma",
+    "short": "Yleiskatsaus Megalodon-haikalaan liittyviin väitteisiin, myytteihin ja tieteelliseen näkemykseen sen sukupuutosta.",
+    "images": ["megaladon1.avif", "megaladon2.jpg"],
+    "content": [
+      { "text": "Megalodon oli jättimäinen esihistoriallinen hai, suurempi kuin useimmat dinosaurukset, tunnettu pääasiassa fossiloituneista hampaista ja osittaisista luurangoista." },
+      { "text": "Populaarikulttuuri ja internetin otsikot väittävät usein Megalodonin olevan yhä elossa tai että mysteeriset jättimäiset hait aiheuttavat haaksirikkoja ja katoamisia." },
+      { "text": "Tieteellinen näyttö osoittaa, että Megalodon kuoli sukupuuttoon noin 1,6–2,6 miljoonaa vuotta sitten." },
+      { "text": "Nykyisiä havaintoja, syvänmeren videoita ja epätavallisia haipotkuja yhdistetään usein kryptozoologiaan, joka ei ole tieteellisesti hyväksytty ala." },
+      { "text": "Dokumentit ja TV-ohjelmat dramatisoivat ja lavastavat todisteita käyttämällä näyttelijöitä ja tietokonegrafiikkaa katsojamäärien kasvattamiseksi." },
+      { "text": "Vuonna 2013 laajalti levitetty feikki-dokumentti Megalodonista sisälsi lavastettuja kohtauksia ja vääriä raportteja, jotka asiantuntijat ja viranomaiset kumosivat." },
+      { "text": "Oceani on tosiaan suurelta osin tutkimaton, mutta niin suuren huippupedon olemassaolo jättäisi selvät biologiset ja ekologiset jäljet." },
+      { "text": "Megalodonin sukupuutto johtui useista tekijöistä, kuten valtamerten virtausten, happipitoisuuden muutoksista, kilpailusta muiden petojen kuten valkohaiden ja valaskilpikonnien kanssa sekä saaliseläinten vähenemisestä." },
+      { "text": "Fossiililöydöt osoittavat Megalodonin kasvaneen jopa 16 metrin pituiseksi, vaikka aikaisemmat liioittelut puhuivat vieläkin suuremmista mitoista." },
+      { "text": "Tuoreita Megalodonin hampaita tai ruumiita ei ole löydetty; äskettäin löydetyt hampaat ovat fossiileja, joita ympäristöolosuhteet ovat vaikuttaneet." },
+      { "text": "Tieteellinen konsensus on, että Megalodon on sukupuuttoon kuollut, ja monet nykyiset todisteet ovat huijauksia tai virhetulkintoja." },
+      { "text": "Lähteiden kriittinen arviointi ja skeptisyys sensaatiohakuisiin väitteisiin ovat tarpeen, erityisesti silloin kun populaarimedia sekoittaa fiktiota ja faktoja." },
+      { "text": "Megalodon kiinnostaa edelleen, mutta tieteellinen ymmärrys antaa tarkemman kuvan kuin myytit tai internetin huhut." }
+    ]
+  },
+
+  {
+    "id": "werewolves",
+    "title": "Ihmissudet",
+    "short": "Yhteenveto ihmissusista mytologiassa, niiden kulttuurieroista ja legendojen taustalla olevista selityksistä.",
+    "images": ["werewolf1.webp", "werewolf2.webp"],
+    "content": [
+      { "text": "Ihmissudet ovat mytologisia olentoja, jotka pystyvät muuttumaan ihmisestä eläimeksi tai päinvastoin." },
+      { "text": "Termi lykantrooppi viittaa erityisesti susihahmoiseen ihmissuteen." },
+      { "text": "Japanissa ihmiset muuttuvat suden sijaan pieniksi ja harmittomiksi ketuiksi, mikä eroaa länsimaisista myyteistä." },
+      { "text": "Keltin mytologiassa on hylkeihmisiä, jotka yksinkertaisesti muuttuvat hylkeiksi, mikä osoittaa muodonmuutoksen myyttien monimuotoisuuden." },
+      { "text": "Suosituin ihmissusi on ihmisen ja suden hybridi, joka tunnetaan useilla nimillä kuten ihmissusi, volkodlak tai vurdalak." },
+      { "text": "Venäläisessä kansanperinteessä ihmissudet voivat muuttua paitsi eläimiksi myös elottomiksi esineiksi, kuten kepeiksi tai heinäpaaleiksi." },
+      { "text": "Skandinaaviset berserkit uskoivat voivansa muuttua suuriksi karhuiksi taistelun aikana." },
+      { "text": "Ihmissudet jaetaan synnynnäisiin ja käänteisiin tyyppeihin; synnynnäiset liittyvät sukuperäisiin kirouksiin, käänteiset ulkoisiin tekijöihin." },
+      { "text": "Kliininen lykantropia on todellinen psykiatrinen tila, jossa henkilö uskoo muuttuvansa eläimeksi." },
+      { "text": "Hopealuodit ovat kuuluisia ihmissusien tappamiseen, vaikka tarinoissa ruumis usein palautuu ihmiseksi kuoleman jälkeen." },
+      { "text": "Ihmissusien olemassaolon todistaminen on mahdotonta, ja monet karjan katoamiset johtuvat luonnon petoeläimistä tai muista ilmiöistä." },
+      { "text": "Ihmissusimyytti jatkaa tarinoiden, elokuvien ja kulttuuristen keskustelujen inspirointia ympäri maailmaa." }
+    ]
+  },
+
+  {
+    "id": "poltergeist",
+    "title": "Poltergeist-ilmiö",
+    "short": "Yhteenveto poltergeist-ilmiöstä, sen ilmentymistä ja tieteellisistä tulkinnoista.",
+    "images": ["polteheist1.jpg", "polterheist2.jpg"],
+    "content": [
+      { "text": "Poltergeist on saksankielinen termi, joka tarkoittaa 'meluisaa henkeä', ja viittaa selittämättömään ilmiöön, johon liittyy ääniä, liikkuvia esineitä, itsestään syttyviä tulipaloja ja muita häiriöitä." },
+      { "text": "Yleisiä ilmentymiä ovat lentävät esineet, ovien itsestään aukeaminen ja sulkeutuminen, valojen syttyminen ja sammuminen sekä oudot äänet." },
+      { "text": "Poltergeistit liittyvät usein ihmisiin, yleensä lapsiin tai nuoriin, jotka käyvät läpi murrosiän vaihetta, eivät paikkoihin." },
+      { "text": "Parapsykologia tutkii tätä ilmiötä, vaikka valtavirran tiede suhtautuu siihen skeptisesti." },
+      { "text": "Tyypillisiä merkkejä ovat kovat äänet, huudot, valitukset, esineiden liikkuminen, selittämättömät nesteet, itsestään syttyvät tulipalot ja ovien itsestään lukkiutuminen." },
+      { "text": "Poltergeistit pelottavat yleensä, eivätkä aiheuta fyysistä vahinkoa, vaikka tarinoita on esineistä, jotka pysähtyvät juuri ennen ihmisiin osumista." },
+      { "text": "Jotkut tulkinnat väittävät poltergeistien puuttuvan kriittisissä hetkissä, kuten pelastavan itsemurhan tekemässä olevan ihmisen leikkaamalla noosea lentävällä veitsellä." },
+      { "text": "Tutkija D. Sherwood erottaa poltergeist-toiminnassa useita vaiheita, kuten aistimukset, hajut, äänet, sähkölaitteiden toimintahäiriöt, esineiden heittäminen, puremat, vammat, veren ilmestyminen seinille, uhkaavat viestit ja uhrin kivut." },
+      { "text": "Historiallisia viittauksia poltergeist-tyyppisiin ilmiöihin löytyy, mukaan lukien kreikkalaisten ja roomalaisten historiankirjoittajien sekä Grimmien veljesten kertomukset." },
+      { "text": "Venäjällä ensimmäinen dokumentoitu tapaus on vuodelta 1666, jolloin Moskovan vanhainkodissa Ivanovin luostarin lähellä havaittiin ääniä ja esineiden lentelyä." },
+      { "text": "19. vuosisadan puoliväliin asti poltergeistit yhdistettiin paholaiseen ja tehtiin rituaaleja niiden karkottamiseksi, mutta tieteellinen lähestymistapa alkoi vasta 1900-luvulla." },
+      { "text": "Nykypsykologia näkee poltergeist-ilmiöt usein keskittyneenä tunneilmaisuna, kuten vihana tai turhautumisena, usein yhteydessä murrosikäisten psyykeen." },
+      { "text": "Murrosiän energia saattaa purkautua levottomana henkenä, joka heittelee esineitä ja aiheuttaa tuhoa, joskus myös vaarallisena tulen sytyttäjänä." },
+      { "text": "On olemassa kaksi pääasiallista tulkintaa: poltergeist-ilmiöt ovat joko yliluonnollisia tai psykologisia." },
+      { "text": "Perinteiset slaavilaiset menetelmät poltergeistien karkottamiseen sisältävät kiroilun voimakkaasti ja symbolien käyttämisen niiden poistamiseksi." },
+      { "text": "Skeptisyydestä huolimatta ilmiö jatkuu kansanperinteessä ja henkilökohtaisissa kertomuksissa, ollen edelleen mysteeri ja keskustelun aihe." }
+    ]
+  }
 ]
 

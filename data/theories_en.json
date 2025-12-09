@@ -1,301 +1,272 @@
 [
   {
-  "id": "philadelphia_experiment",
-  "title": "The Philadelphia Experiment",
-  "short": "A legendary secret Navy experiment allegedly involving invisibility and teleportation of a warship.",
-  
-  "content": [
-    {
-      "text": "In 1943, at the Philadelphia Naval Shipyard, a secret experiment was allegedly conducted on the American warship USS Eldridge. The results were bizarre and unpredictable: the entire ship and its crew were enveloped in a strange green fog and gradually disappeared into thin air."
-    },
-    {
-      "text": "Witnesses claim the ship reappeared 300 kilometers away from its original location, only to vanish and return again. But the aftermath was horrific — more than half of the crew supposedly became fused with the ship's metal, with only parts of their bodies visible, while many others lost their sanity."
-    },
-    {
-      "text": "Despite the government’s ongoing secrecy, this story has inspired at least three movies, hundreds of books, and countless websites filled with rumors and theories."
-    },
-    {
-      "text": "The story only emerged publicly more than a decade later, when Morris Jessup, an author fascinated by UFOs, published a book called 'The Case for the UFO'. Though sales were poor, Jessup unexpectedly received letters from a man named Carl Allen claiming to have insider knowledge about the experiment."
-    },
-    {
-      "text": "Carl Allen, who also went by Carlos Allende, claimed he witnessed the disappearance of another ship, the Andrew Furuseth, while aboard the Eldridge. Despite the wildness of his claims, he was a real US Navy sailor who kept his story secret to avoid government trouble."
-    },
-    {
-      "text": "Jessup's annotated book, covered in colorful scribbles supposedly from Allen, was sent to the Navy’s Office of Naval Research, which prompted an official investigation. Jessup was summoned and questioned, where he was told the experiment was real and extremely dangerous—but to keep quiet."
-    },
-    {
-      "text": "Jessup went public with the story, which spread rapidly, but the government has always denied any such experiment. Skeptics argue that the whole tale is fabricated or the result of misunderstandings and hoaxes."
-    },
-    {
-      "text": "In reality, the USS Eldridge never even docked in Philadelphia during the alleged dates of the experiment, and records show it was in New York instead. Former crew members have also dismissed the story as nonsense."
-    },
-    {
-      "text": "The actual basis of the myth likely comes from tests of 'degaussing' technology during WWII, which aimed to protect ships from magnetic mines by reducing their magnetic signature, often producing strange visual effects like fog or haze."
-    },
-    {
-      "text": "Despite all the speculation, no credible evidence supports claims of invisibility, teleportation, or crew members fusing with metal. The Philadelphia Experiment remains a captivating urban legend mixing fact, fiction, and conspiracy theories."
-    }
-  ]
-}
-,
+    "id": "philadelphia_experiment",
+    "title": "The Philadelphia Experiment",
+    "short": "A legendary secret Navy experiment allegedly involving invisibility and teleportation of a warship.",
+    "images": ["pe1.jpg", "pe2.jpeg"],
+    "content": [
+      { "text": "In 1943, at the Philadelphia Naval Shipyard, a secret experiment was allegedly conducted on the American warship USS Eldridge. The results were bizarre and unpredictable: the entire ship and its crew were enveloped in a strange green fog and gradually disappeared into thin air." },
+      { "text": "Witnesses claim the ship reappeared 300 kilometers away from its original location, only to vanish and return again. But the aftermath was horrific — more than half of the crew supposedly became fused with the ship's metal, with only parts of their bodies visible, while many others lost their sanity." },
+      { "text": "Despite the government’s ongoing secrecy, this story has inspired at least three movies, hundreds of books, and countless websites filled with rumors and theories." },
+      { "text": "The story only emerged publicly more than a decade later, when Morris Jessup, an author fascinated by UFOs, published a book called 'The Case for the UFO'. Though sales were poor, Jessup unexpectedly received letters from a man named Carl Allen claiming to have insider knowledge about the experiment." },
+      { "text": "Carl Allen, who also went by Carlos Allende, claimed he witnessed the disappearance of another ship, the Andrew Furuseth, while aboard the Eldridge. Despite the wildness of his claims, he was a real US Navy sailor who kept his story secret to avoid government trouble." },
+      { "text": "Jessup's annotated book, covered in colorful scribbles supposedly from Allen, was sent to the Navy’s Office of Naval Research, which prompted an official investigation. Jessup was summoned and questioned, where he was told the experiment was real and extremely dangerous—but to keep quiet." },
+      { "text": "Jessup went public with the story, which spread rapidly, but the government has always denied any such experiment. Skeptics argue that the whole tale is fabricated or the result of misunderstandings and hoaxes." },
+      { "text": "In reality, the USS Eldridge never even docked in Philadelphia during the alleged dates of the experiment, and records show it was in New York instead. Former crew members have also dismissed the story as nonsense." },
+      { "text": "The actual basis of the myth likely comes from tests of 'degaussing' technology during WWII, which aimed to protect ships from magnetic mines by reducing their magnetic signature, often producing strange visual effects like fog or haze." },
+      { "text": "Despite all the speculation, no credible evidence supports claims of invisibility, teleportation, or crew members fusing with metal. The Philadelphia Experiment remains a captivating urban legend mixing fact, fiction, and conspiracy theories." }
+    ]
+  },
+
   {
-  "id": "roswell_alien_autopsy",
-  "title": "Roswell Alien Autopsy",
-  "short": "Claims and controversies around a 1947 UFO crash and alleged alien autopsy footage.",
-  "content": [
-    {
-      "text": "In the summer of 1947, the small town of Roswell, New Mexico became the center of one of the most famous conspiracy theories involving UFOs and extraterrestrials."
-    },
-    {
-      "text": "Legend has it that a flying saucer crashed nearby, and the bodies of alien crew members were recovered and secretly kept by the US government."
-    },
-    {
-      "text": "Roswell quickly transformed from a quiet desert town into a museum-like place, where every shop sells souvenirs like mugs and posters featuring aliens, drawing legions of tourists—though locals might be tired of the constant attention."
-    },
-    {
-      "text": "Real evidence of the crash? Two main items stand out: one alien body displayed in a museum, and a mysterious video called 'Alien Autopsy' showing an alleged dissection of an extraterrestrial being."
-    },
-    {
-      "text": "The idea that real proof of alien life exists would shake everything we know about the universe. Many want to believe we're not alone, but let's dive into the facts about this 'alien body.'"
-    },
-    {
-      "text": "The famous Roswell photo, supposedly depicting a recovered alien, was shown to witnesses who claimed it matched the bodies they saw. However, skeptics later revealed that the image is actually of a two-year-old child's mummy, misrepresented and manipulated."
-    },
-    {
-      "text": "UFO researchers initially fought to prove the alien’s authenticity but eventually had to admit their mistake when more accurate photographs and notes surfaced dating back to 1938."
-    },
-    {
-      "text": "In 1995, British producer Ray Santilli released the 'Alien Autopsy' footage, claiming it was genuine. It was broadcast worldwide, causing a media frenzy and cultural shock."
-    },
-    {
-      "text": "But experts soon discovered glaring flaws: the 'autopsy' was performed by amateurs, not secret government surgeons. John Humphreys, a special effects artist who created aliens for TV and film, admitted his involvement in making the props."
-    },
-    {
-      "text": "Santilli later confessed the footage was a reenactment because the original film had deteriorated, though many believe it was simply a hoax made for money."
-    },
-    {
-      "text": "Despite the hoax, the real Roswell crash remains a mystery. The US military officially revealed two secret projects — 'High Dive' (testing parachutes from high altitudes) and 'Project Mogul' (using balloons to detect nuclear tests) — which likely explain the debris and sightings."
-    },
-    {
-      "text": "The story of Roswell has become a classic example of how misinformation, government secrecy, and public fascination combine to create lasting myths."
-    }
-  ]
-}
-,
-{
-  "id": "area51",
-  "title": "Area 51",
-  "short": "A highly classified U.S. military base surrounded by rumors about UFOs, aliens, and underground complexes.",
-  "content": [
-    { "text": "Area 51 became legendary thanks to rumors that the government studies alien technology there, hides crashed UFOs, and conducts secret experiments." },
-    { "text": "The base is located in Nevada. Google Maps shows it, but Street View refuses to load nearby roads. For years, the Pentagon denied its existence." },
-    { "text": "Facts show the base tests advanced aircraft like the F-117 Nighthawk. A secret terminal in Las Vegas flies employees directly to Area 51, operated by NASA." },
-    { "text": "The base became widely known after the Roswell incident, when supposed alien bodies were allegedly transported here, inspiring claims of autopsies." },
-    { "text": "The perimeter has warning signs, mines, thermal cameras, microphones, and armed private contractors who patrol in white trucks." },
-    { "text": "Intruders are usually arrested rather than shot, but the consequences can be serious." },
-    { "text": "Some theories say the base has a massive underground multi-level complex connected by tunnels, similar to the Hive in 'Resident Evil'." },
-    { "text": "Others claim world leaders meet with extraterrestrial civilizations inside Area 51." },
-    { "text": "Some 'former scientists' claim they dissected aliens, but there is no real proof." },
-    { "text": "The truth will remain hidden until the government decides to talk — which is unlikely." }
-  ]
-},
-{
-  "id": "loch_ness",
-  "title": "The Loch Ness Monster",
-  "short": "A legendary creature said to inhabit Loch Ness in Scotland — from ancient sightings to modern sonar scans.",
-  "content": [
-   
-    { "text": "The legend tells of a giant creature living in Scotland’s Loch Ness, known as the Loch Ness Monster — or Nessie. Some describe it as a plesiosaur-like reptile with diamond-shaped fins." },
-    { "text": "The earliest known mention comes from Roman legionaries, who carved strange beasts they saw in Scotland — including a creature resembling Nessie." },
-    { "text": "A later written account appears in the biography of St. Columba, an Irish monk. He supposedly witnessed the creature attacking a girl in the lake, and drove it away with a prayer." },
-    { "text": "In 1934, London doctor Kenneth Wilson published the most famous 'photo' of Nessie. The world believed it — until his partners later exposed it as a hoax." },
-    { "text": "However, sonar research showed massive moving objects deep in the lake, able to rise and swim independently. What they are remains unknown." },
-    { "text": "In 2007, researcher Gordon Holmes placed microphones in the lake and filmed a 15-meter creature moving at 10 km/h. Experts confirmed the footage was real, but some scientists argued it could have been an unusually large insect or worm." },
-    { "text": "Even Google Earth once showed something mysterious in the lake — but it turned out to be a boat shadow." },
-    { "text": "Skeptics say the lake’s biomass is too small to support a giant predator and its family. They also note that Scotland was once covered by ice, and no known animal could survive such conditions." },
-    { "text": "Believers claim Nessie swims in and out of the lake through hidden underwater tunnels connecting to the sea." },
-    { "text": "Tourism in the area thrives thanks to the legend, and many hope Nessie is real — even without proof." },
-    { "text": "A curious theory suggests creatures like Nessie or Bigfoot may appear through temporary rifts in time, explaining why they show up and vanish." }
-  ]
-},
-{
-  "id": "yeti_bigfoot",
-  "title": "The Yeti and Bigfoot",
-  "short": "A mysterious humanoid creature reported around the world — from the Himalayas to America.",
-  "content": [
-    
-    { "text": "In 1921, an expedition climbing Everest heard terrifying screams behind a hill. When they went to investigate, they found huge human-like footprints. Europeans started calling the creature the 'Abominable Snowman'." },
-    { "text": "In 1951, explorer Eric Shipton photographed giant barefoot tracks on Everest — a 31×16 cm footprint. The USSR even formed a commission dedicated to catching Bigfoot." },
-    { "text": "Different cultures have different names for this creature: in Tibet it’s Yeti, in America it’s Bigfoot or Sasquatch (meaning 'wild man'), and in Siberia some joke that it’s the 'Wandering Chukcha'." },
-    { "text": "According to witnesses, animals behave strangely when Yeti appears: birds scatter, beasts run away, and humans feel panic." },
-    { "text": "The word 'panic' supposedly comes from the Greek god Pan — a hairy nature spirit who terrified those who saw him, and whose image later influenced the concept of the snowman." },
-    { "text": "People claim that Yeti cannot be photographed clearly because he can 'overexpose film' or disrupt electronics." },
-    { "text": "In 1967, two Americans filmed a famous video of a 'walking Bigfoot', but in 2002 their relatives admitted it was a man in a costume." },
-    { "text": "In 2013, geneticist Bryan Sykes analyzed two hair samples from the Himalayas. DNA showed they belonged to an ancient polar bear species that lived over 40,000 years ago." },
-    { "text": "Some believe there are different types of these creatures: mountain Yetis living in caves, forest ones building tree shelters, and — jokingly — the 'Couch Yeti'." },
-    { "text": "Ancient depictions of snowman-like creatures were found in Greece, Armenia, Rome, and elsewhere, suggesting the myth is very old." },
-    { "text": "Biologists argue that for a species to survive, at least 100 individuals must exist — yet none have been definitively documented." },
-    { "text": "A standing bear can easily be mistaken for a huge humanoid, reaching up to 5 meters when upright." },
-    { "text": "The Yeti has reportedly been seen everywhere except the North Pole. In one region of Russia, the governor even offered a million rubles for capturing one." },
-    { "text": "Some theories suggest Yetis are an alternate evolutionary branch of humans — more psychophysical than social — and that their presence causes headaches, panic, and even tumors." },
-    { "text": "A more dramatic theory claims these beings may survive if humanity destroys itself, acting as a 'backup version' of Homo sapiens." },
-    { "text": "There is no solid evidence that the Yeti or Bigfoot truly exists. But eyewitnesses insist they saw something — and maybe their stories aren’t pure insanity after all." }
-  ]
-},
-{
-  "id": "men_in_black",
-  "title": "Men in Black",
-  "short": "Mysterious figures often linked to conspiracy theories and alien abductions, who show up unexpectedly and act like federal agents investigating what you’ve seen.",
-  "content": [
-    { "text": "Men in Black frequently appear in mass culture and conspiracy theories related to UFOs and alien abductions. They often show up at people’s homes, claiming to be federal agents trying to find out what witnesses have seen." },
-    { "text": "The term was first introduced by American writers Gray Barker and John Kelley in 1967. Barker attributed them significant influence on world history, claiming they had encounters with figures like Caesar, Napoleon, and Jefferson." },
-    { "text": "These men are said to appear and disappear mysteriously. One witness described chasing black Cadillacs that vanished suddenly when cornered." },
-    { "text": "There’s a website called 'theyknewtoomuch.com' dedicated to Gray Barker's work, and ironically, a movie is being made based on his books." },
-    { "text": "The earliest reported sighting dates back to 1880, when a couple found strange objects, only to be approached later by a man in black claiming to be a collector who bought their find." },
-    { "text": "In 1953, Albert Bender created a UFO organization but was ordered to disband it by mysterious men in black Cadillacs dressed in all black, except their white shirts and red ties." },
-    { "text": "These men operate outside official law enforcement or government, caring little about laws. Their visits are unapproved and often intimidating." },
-    { "text": "Agents Mulder and Scully from 'The X-Files' are basically fictional Men in Black, traveling the world investigating strange phenomena while bending laws and suppressing others with similar abilities." },
-    { "text": "Some theories say Men in Black aren't even human but electromagnetic intelligences capable of emitting different frequencies and taking any form, even your harmless cat." },
-    { "text": "In 2008, a viral video surfaced allegedly showing Men in Black in an Israeli hotel. Witnesses described them as tall, identical-looking men wearing black suits and dark glasses." },
-    { "text": "There’s a cosmic war theory claiming 30,000 years ago humans fought dragon gods, who after winning, became the reptilian aliens known as Men in Black. They supposedly interfere with all major events, suppressing discovery and innovation." },
-    { "text": "Some say these beings can appear terrifyingly robotic or lizard-like, and conspiracy fans link them to secret government operatives or alien overlords controlling human society." },
-    { "text": "Skeptics dismiss it all as nonsense, but believers swear they’ve seen something unexplainable." }
-  ]
-},
-{
-  "id": "stonehenge",
-  "title": "Stonehenge",
-  "short": "A mysterious stone monument in England, surrounded by countless theories — from aliens to ancient calendars — but its true purpose remains unclear.",
-  "content": [
-    { "text": "Stonehenge is a complex of stone structures located in Wiltshire, England. It is one of the most famous archaeological sites and a UNESCO World Heritage Site." },
-    { "text": "Despite being almost ruined, Stonehenge still holds many mysteries with no definite answers. Theories about its origin range from Atlanteans and aliens to druids and even nuclear reactors." },
-    { "text": "No one knows the exact year it was built or who exactly constructed it. The remaining structure looks different from how it originally was." },
-    { "text": "Some conspiracy theories claim it’s a cosmic launch pad or a portal to another world, but these are often spread by fanatics and are not supported by evidence." },
-    { "text": "In 1954, some people started to believe that Stonehenge was actually built then, fueled by fake photos circulating online showing cranes and concrete being used." },
-    { "text": "However, this was just restoration work, not original construction. Restoration at Stonehenge began as early as 1901, with stones being raised and stabilized to prevent collapse." },
-    { "text": "The 1954 restoration involved repositioning stones, concrete reinforcement, and even moving some stones. Some stones today are replicas, not originals." },
-    { "text": "Dr. Christopher Chippindale, chief curator at the Archaeology Museum, confirms that most stones were moved and reinforced during restorations." },
-    { "text": "Skeptics claim that historical engravings and documents, such as the 1440 woodcut and the 1668 Frederick VI map, also prove Stonehenge existed long before the modern restorations." },
-    { "text": "Stonehenge might not be unique; similar ancient stone structures exist, suggesting it was part of a broader tradition of megalithic construction." },
-    { "text": "The most accepted theory is that Stonehenge functioned as an ancient calendar, used to track the sun’s solstices and possibly lunar cycles and eclipses — an early computational technology without robots." },
-    { "text": "The site predates the druids, who later used it for rituals, but they were not its original builders." },
-    { "text": "Visitors today can explore Stonehenge but must keep a distance of about 15 meters, with close access reserved only for those following druidic traditions." },
-    { "text": "Critical thinking is important when approaching theories about Stonehenge — separate facts from myths and don't fall for conspiracy traps." }
-  ]
-},
-{
-  "id": "john_titor_story",
-  "title": "John Titor — The Time Traveler Legend",
-  "short": "A mysterious time traveler who appeared on forums in 2000 claiming to come from 2036, searching for an IBM 5100 computer to prevent a future catastrophe.",
-  "content": [
-    { "text": "In 2000, a user named Timetravel_0 appeared on the Time Travel Institute forum claiming to be a time traveler from the year 2036." },
-    { "text": "He said his mission was to find an IBM 5100 computer to help avoid a global disaster by rolling back systems in his timeline." },
-    { "text": "John Titor was the name he later gave, which became legendary on the internet and paranormal forums." },
-    { "text": "Unlike typical fake stories, Titor knew specific technical details about the IBM 5100 that were not widely known." },
-    { "text": "He posted photos of his time machine, which was a large box installed inside a car — reminiscent of sci-fi time machines like in 'Back to the Future'." },
-    { "text": "According to his story, in 2036, a virus enslaved humanity and he was sent back to retrieve this computer to help fix the future." },
-    { "text": "He predicted multiple events such as the cancellation of the 2008 Olympics, a civil war in the USA in 2004, and a world war in 2015 killing 3 billion people — none of which happened." },
-    { "text": "He claimed that traveling back in time sends you to an alternate reality where paradoxes don’t occur, so you can even kill yourself without consequence." },
-    { "text": "His last post was in 2001, giving strange advice like 'Take a gas can when abandoning your car' and 'Buy toilet paper if you run out'." },
-    { "text": "The hype around John Titor sparked a cult following and investigations into his identity." },
-    { "text": "In 2008, an Italian TV show hired a private detective, Mike Lynch, who found no real family named Titor, confirming it was a pseudonym." },
-    { "text": "The Heiber family was linked to the myth — brothers Lawrence, Richard, Arthur, and Mori Heiber were involved in varying degrees." },
-    { "text": "Richard Heiber was an IT expert who would have known about the IBM 5100, and Mori Heiber was an IT security specialist with a writing style matching John Titor's posts." },
-    { "text": "Arthur Heiber admitted it was a long-term controlled hoax with full family awareness." },
-    { "text": "A John Titor foundation exists, selling overpriced books with recycled internet content and photos." },
-    { "text": "The phenomenon shows how the internet creates myths and legends, fueled by anonymity and mystery." },
-    { "text": "Despite the falsehoods, many people still believe or want to believe in John Titor’s story." },
-    { "text": "The story also touched on topics like Stephen Hawking, parallel realities, and the difficulty of distinguishing fact from fiction online." },
-    { "text": "The legend highlights human fascination with time travel, conspiracies, and the unknown." }
-  ]
-},
-{
-  "id": "bermuda_triangle_mystery",
-  "title": "The Mystery of the Bermuda Triangle: Facts, Incidents, and Theories",
-  "short": "An in-depth look at the Bermuda Triangle, exploring famous disappearances, scientific research, and popular theories behind the mystery.",
-  "content": [
-    { "text": "The Bermuda Triangle, also known as the 'Devil’s Triangle,' is a loosely defined region in the western part of the North Atlantic Ocean. It stretches roughly between Miami, Bermuda, and Puerto Rico, covering about 500,000 square miles." },
-    { "text": "This area gained notoriety because of a number of aircraft and ships reportedly disappearing under mysterious circumstances. The fascination began to grow mainly in the mid-20th century with several high-profile incidents that sparked curiosity and fear." },
-    { "text": "One of the most famous cases is the disappearance of Flight 19, a squadron of five U.S. Navy bombers that vanished during a training flight in December 1945. Despite extensive searches, neither the planes nor their crew were ever found, fueling legends about the triangle." },
-    { "text": "Besides Flight 19, many other ships and planes have gone missing, including the USS Cyclops in 1918, which remains the largest non-combat loss of life in U.S. Navy history. The ship and over 300 crew members vanished without distress signals." },
-    { "text": "The term 'Bermuda Triangle' was popularized by writer Vincent Gaddis in 1964, who described several mysterious disappearances in an article for 'Argosy' magazine. Since then, countless books, documentaries, and investigations have focused on the area." },
-    { "text": "Many theories attempt to explain the disappearances. Some suggest natural causes such as violent weather, including sudden storms and hurricanes that are common in the region." },
-    { "text": "Others point to the Gulf Stream, a powerful ocean current that can quickly disperse debris, making it harder to find wreckage and giving the illusion of sudden disappearances." },
-    { "text": "Methane hydrate eruptions on the seafloor are another popular scientific hypothesis. These eruptions release large bubbles of methane gas, which can reduce water density, causing ships to lose buoyancy and sink rapidly." },
-    { "text": "Magnetic anomalies have also been proposed. Some claim the area affects compass readings, leading to navigational errors. However, scientific measurements show no significant magnetic irregularities in the triangle." },
-    { "text": "There are also more speculative ideas, including alien abductions, time warps, underwater cities, and supernatural forces, though none have credible evidence supporting them." },
-    { "text": "Skeptics argue that many reported incidents were either exaggerated or misreported, and that the Bermuda Triangle is no more dangerous than any other heavily traveled ocean area." },
-    { "text": "In fact, the U.S. Coast Guard does not recognize the Bermuda Triangle as an official hazard, and the region is not marked on official maps." },
-    { "text": "Analysis of the data shows that accidents in the area have plausible explanations related to weather, human error, and equipment failure." },
-    { "text": "Still, the mystery continues to captivate people worldwide, inspiring pop culture references from movies to video games, and serving as a modern myth about the sea’s unknown dangers." },
-    { "text": "The Bermuda Triangle stands as a reminder of the ocean’s power, the limits of human technology, and the enduring allure of unsolved mysteries." }
-  ]
-},
-{
-  "id": "megalodon_myth_and_facts",
-  "title": "Megalodon: Myth, Evidence, and Scientific Perspective",
-  "short": "An overview of popular claims about the Megalodon shark, analyzing the myths, alleged sightings, and the scientific consensus on its extinction.",
-  "content": [
-    { "text": "Megalodon was a giant prehistoric shark, larger than most dinosaurs, known primarily from fossilized teeth and partial skeletons." },
-    { "text": "Popular culture and internet headlines often claim Megalodon still exists or that mysterious giant sharks cause shipwrecks and disappearances." },
-    { "text": "Scientific evidence shows Megalodon went extinct approximately 1.6 to 2.6 million years ago." },
-    { "text": "Claims of modern sightings, videos from ocean depths, and unusual shark attacks are often linked to cryptozoology, which is not recognized as a scientific discipline." },
-    { "text": "Documentaries and TV shows sometimes dramatize and fabricate evidence, using actors and CGI to create suspense and increase viewership." },
-    { "text": "In 2013, a widely publicized fake documentary about Megalodon included staged footage and false reports, which were debunked by experts and official sources." },
-    { "text": "The ocean is indeed largely unexplored, but the existence of a top predator as large as Megalodon today would leave clear biological and ecological evidence." },
-    { "text": "Megalodon’s extinction is attributed to a combination of factors including changes in ocean currents, oxygen levels, competition from other predators like great white sharks and orcas, and the decline of prey species." },
-    { "text": "Fossil records indicate Megalodon reached lengths of up to 16 meters, though earlier exaggerated claims suggested even larger sizes." },
-    { "text": "No fresh Megalodon teeth or bodies have been found; teeth discovered recently are reinterpreted as fossilized and affected by environmental conditions." },
-    { "text": "Scientific consensus is that Megalodon is extinct, and many supposed modern evidences are hoaxes or misidentifications." },
-    { "text": "Critical evaluation of sources and skepticism toward sensational claims is necessary, especially with popular media mixing fiction and facts." },
-    { "text": "Interest in Megalodon remains high, but scientific understanding provides a more accurate picture than myths or internet rumors." }
-  ]
-},
-{
-  "id": "werewolves_and_lycanthropy",
-  "title": "Werewolves",
-  "short": "An overview of werewolves in mythology, their cultural variations, and explanations behind the legends including real-world medical conditions.",
-  "content": [
-    { "text": "Werewolves are mythological creatures capable of transforming from humans into animals or vice versa." },
-    { "text": "The term lycanthrope specifically refers to a werewolf taking the form of a wolf." },
-    { "text": "In Japan, instead of wolves, people are said to transform into small, harmless foxes, which is quite different from Western myths." },
-    { "text": "Celtic mythology includes seal people, who simply transform into seals, showing the diversity of shapeshifting myths." },
-    { "text": "The most popular werewolf remains the human-wolf hybrid, known by various names such as werewolf, volkodlak, or vurdalak." },
-    { "text": "In Russian folklore, werewolves can transform not only into animals but also into inanimate objects like sticks or haystacks." },
-    { "text": "Scandinavian berserkers were believed to transform into huge bears during battle." },
-    { "text": "Werewolves are classified into congenital and reversible types, the former being linked to family curses and the latter to external factors." },
-    { "text": "Clinical lycanthropy is a real psychiatric condition where a person believes they transform into an animal." },
-    { "text": "Silver bullets are famously believed to be effective against werewolves, although stories show the corpse often reverts to a human form after death." },
-    { "text": "Proving the existence of werewolves is impossible, and many livestock disappearances are more likely caused by natural predators or other phenomena." },
-    { "text": "The werewolf myth continues to inspire stories, movies, and cultural discussions worldwide." }
-  ]
-},
-{
-  "id": "poltergeist_phenomenon",
-  "title": "Poltergeist Phenomenon",
-  "short": "An overview of the poltergeist phenomenon, its manifestations, cultural context, and scientific interpretations.",
-  "content": [
-    { "text": "Poltergeist is a term derived from German words meaning 'noisy spirit,' referring to an unexplained phenomenon involving noises, moving objects, spontaneous fires, and other disturbances." },
-    { "text": "Common manifestations include flying objects, doors opening and closing by themselves, lights turning on and off, and strange sounds." },
-    { "text": "Poltergeists are often linked not to places but to people, usually children or adolescents undergoing puberty." },
-    { "text": "Parapsychology studies this phenomenon, though mainstream science remains skeptical about its existence." },
-    { "text": "Typical signs include loud noises, cries, moans, movement of objects, unexplained liquids, spontaneous fires, and doors locking by themselves." },
-    { "text": "Poltergeists generally frighten rather than physically harm, though stories exist of objects stopping just before hitting people." },
-    { "text": "Some interpretations suggest poltergeists intervene in critical moments, such as saving someone from suicide by cutting a noose with a flying knife." },
-    { "text": "Researcher D. Sherwood identifies stages of poltergeist activity including sensations, smells, voices, electrical malfunctions, object throwing, bites, injuries, blood appearing on walls, threatening messages, and victim's pain." },
-    { "text": "Historical references to poltergeist-like phenomena exist, including accounts by Greek and Roman historians and the Brothers Grimm." },
-    { "text": "The first reported case in Russia dates back to 1666 in a Moscow almshouse near Ivanov Monastery, where noises and objects flying out of beds were recorded." },
-    { "text": "Until the mid-19th century, poltergeists were associated with devil worship and exorcisms, but a scientific approach began only in the 20th century." },
-    { "text": "Modern psychology considers poltergeist phenomena as expressions of concentrated emotions like anger or frustration, often linked to suppressed adolescent psychics." },
-    { "text": "Energy released during puberty may manifest as a restless spirit throwing objects and causing destruction, sometimes developing into dangerous fire-starting behavior." },
-    { "text": "There are two main interpretations: poltergeist phenomena are either supernatural or psychological in origin." },
-    { "text": "Traditional Slavic methods to repel poltergeists include cursing them forcefully and using symbols to drive them away." },
-    { "text": "Despite skepticism, the phenomenon persists in folklore and personal testimonies, remaining a mysterious and debated subject." }
-  ]
-}
+    "id": "roswell_alien_autopsy",
+    "title": "Roswell Alien Autopsy",
+    "short": "Claims and controversies around a 1947 UFO crash and alleged alien autopsy footage.",
+    "images": ["roswell1.webp", "rosewell2.jpg"],
+    "content": [
+      { "text": "In the summer of 1947, the small town of Roswell, New Mexico became the center of one of the most famous conspiracy theories involving UFOs and extraterrestrials." },
+      { "text": "Legend has it that a flying saucer crashed nearby, and the bodies of alien crew members were recovered and secretly kept by the US government." },
+      { "text": "Roswell quickly transformed from a quiet desert town into a museum-like place, where every shop sells souvenirs like mugs and posters featuring aliens, drawing legions of tourists—though locals might be tired of the constant attention." },
+      { "text": "Real evidence of the crash? Two main items stand out: one alien body displayed in a museum, and a mysterious video called 'Alien Autopsy' showing an alleged dissection of an extraterrestrial being." },
+      { "text": "The idea that real proof of alien life exists would shake everything we know about the universe. Many want to believe we're not alone, but let's dive into the facts about this 'alien body.'" },
+      { "text": "The famous Roswell photo, supposedly depicting a recovered alien, was shown to witnesses who claimed it matched the bodies they saw. However, skeptics later revealed that the image is actually of a two-year-old child's mummy, misrepresented and manipulated." },
+      { "text": "UFO researchers initially fought to prove the alien’s authenticity but eventually had to admit their mistake when more accurate photographs and notes surfaced dating back to 1938." },
+      { "text": "In 1995, British producer Ray Santilli released the 'Alien Autopsy' footage, claiming it was genuine. It was broadcast worldwide, causing a media frenzy and cultural shock." },
+      { "text": "But experts soon discovered glaring flaws: the 'autopsy' was performed by amateurs, not secret government surgeons. John Humphreys, a special effects artist who created aliens for TV and film, admitted his involvement in making the props." },
+      { "text": "Santilli later confessed the footage was a reenactment because the original film had deteriorated, though many believe it was simply a hoax made for money." },
+      { "text": "Despite the hoax, the real Roswell crash remains a mystery. The US military officially revealed two secret projects — 'High Dive' (testing parachutes from high altitudes) and 'Project Mogul' (using balloons to detect nuclear tests) — which likely explain the debris and sightings." },
+      { "text": "The story of Roswell has become a classic example of how misinformation, government secrecy, and public fascination combine to create lasting myths." }
+    ]
+  },
 
+  {
+    "id": "area51",
+    "title": "Area 51",
+    "short": "A highly classified U.S. military base surrounded by rumors about UFOs, aliens, and underground complexes.",
+    "images": ["area511.jpeg", "area512.jpg"],
+    "content": [
+      { "text": "Area 51 became legendary thanks to rumors that the government studies alien technology there, hides crashed UFOs, and conducts secret experiments." },
+      { "text": "The base is located in Nevada. Google Maps shows it, but Street View refuses to load nearby roads. For years, the Pentagon denied its existence." },
+      { "text": "Facts show the base tests advanced aircraft like the F-117 Nighthawk. A secret terminal in Las Vegas flies employees directly to Area 51, operated by NASA." },
+      { "text": "The base became widely known after the Roswell incident, when supposed alien bodies were allegedly transported here, inspiring claims of autopsies." },
+      { "text": "The perimeter has warning signs, mines, thermal cameras, microphones, and armed private contractors who patrol in white trucks." },
+      { "text": "Intruders are usually arrested rather than shot, but the consequences can be serious." },
+      { "text": "Some theories say the base has a massive underground multi-level complex connected by tunnels, similar to the Hive in 'Resident Evil'." },
+      { "text": "Others claim world leaders meet with extraterrestrial civilizations inside Area 51." },
+      { "text": "Some 'former scientists' claim they dissected aliens, but there is no real proof." },
+      { "text": "The truth will remain hidden until the government decides to talk — which is unlikely." }
+    ]
+  },
 
+  {
+    "id": "loch_ness",
+    "title": "The Loch Ness Monster",
+    "short": "A legendary creature said to inhabit Loch Ness in Scotland — from ancient sightings to modern sonar scans.",
+    "images": ["lochness1.webp", "lochness2.webp"],
+    "content": [
+      { "text": "The legend tells of a giant creature living in Scotland’s Loch Ness, known as the Loch Ness Monster — or Nessie. Some describe it as a plesiosaur-like reptile with diamond-shaped fins." },
+      { "text": "The earliest known mention comes from Roman legionaries, who carved strange beasts they saw in Scotland — including a creature resembling Nessie." },
+      { "text": "A later written account appears in the biography of St. Columba, an Irish monk. He supposedly witnessed the creature attacking a girl in the lake, and drove it away with a prayer." },
+      { "text": "In 1934, London doctor Kenneth Wilson published the most famous 'photo' of Nessie. The world believed it — until his partners later exposed it as a hoax." },
+      { "text": "However, sonar research showed massive moving objects deep in the lake, able to rise and swim independently. What they are remains unknown." },
+      { "text": "In 2007, researcher Gordon Holmes placed microphones in the lake and filmed a 15-meter creature moving at 10 km/h. Experts confirmed the footage was real, but some scientists argued it could have been an unusually large insect or worm." },
+      { "text": "Even Google Earth once showed something mysterious in the lake — but it turned out to be a boat shadow." },
+      { "text": "Skeptics say the lake’s biomass is too small to support a giant predator and its family. They also note that Scotland was once covered by ice, and no known animal could survive such conditions." },
+      { "text": "Believers claim Nessie swims in and out of the lake through hidden underwater tunnels connecting to the sea." },
+      { "text": "Tourism in the area thrives thanks to the legend, and many hope Nessie is real — even without proof." },
+      { "text": "A curious theory suggests creatures like Nessie or Bigfoot may appear through temporary rifts in time, explaining why they show up and vanish." }
+    ]
+  },
 
+  {
+    "id": "yeti_bigfoot",
+    "title": "The Yeti and Bigfoot",
+    "short": "A mysterious humanoid creature reported around the world — from the Himalayas to America.",
+    "images": ["bigfoot1.jpg", "bigfoot2.webp"],
+    "content": [
+      { "text": "In 1921, an expedition climbing Everest heard terrifying screams behind a hill. When they went to investigate, they found huge human-like footprints. Europeans started calling the creature the 'Abominable Snowman'." },
+      { "text": "In 1951, explorer Eric Shipton photographed giant barefoot tracks on Everest — a 31×16 cm footprint. The USSR even formed a commission dedicated to catching Bigfoot." },
+      { "text": "Different cultures have different names for this creature: in Tibet it’s Yeti, in America it’s Bigfoot or Sasquatch (meaning 'wild man'), and in Siberia some joke that it’s the 'Wandering Chukcha'." },
+      { "text": "According to witnesses, animals behave strangely when Yeti appears: birds scatter, beasts run away, and humans feel panic." },
+      { "text": "The word 'panic' supposedly comes from the Greek god Pan — a hairy nature spirit who terrified those who saw him, and whose image later influenced the concept of the snowman." },
+      { "text": "People claim that Yeti cannot be photographed clearly because he can 'overexpose film' or disrupt electronics." },
+      { "text": "In 1967, two Americans filmed a famous video of a 'walking Bigfoot', but in 2002 their relatives admitted it was a man in a costume." },
+      { "text": "In 2013, geneticist Bryan Sykes analyzed two hair samples from the Himalayas. DNA showed they belonged to an ancient polar bear species that lived over 40,000 years ago." },
+      { "text": "Some believe there are different types of these creatures: mountain Yetis living in caves, forest ones building tree shelters, and — jokingly — the 'Couch Yeti'." },
+      { "text": "Ancient depictions of snowman-like creatures were found in Greece, Armenia, Rome, and elsewhere, suggesting the myth is very old." },
+      { "text": "Biologists argue that for a species to survive, at least 100 individuals must exist — yet none have been definitively documented." },
+      { "text": "A standing bear can easily be mistaken for a huge humanoid, reaching up to 5 meters when upright." },
+      { "text": "The Yeti has reportedly been seen everywhere except the North Pole. In one region of Russia, the governor even offered a million rubles for capturing one." },
+      { "text": "Some theories suggest Yetis are an alternate evolutionary branch of humans — more psychophysical than social — and that their presence causes headaches, panic, and even tumors." },
+      { "text": "A more dramatic theory claims these beings may survive if humanity destroys itself, acting as a 'backup version' of Homo sapiens." },
+      { "text": "There is no solid evidence that the Yeti or Bigfoot truly exists. But eyewitnesses insist they saw something — and maybe their stories aren’t pure insanity after all." }
+    ]
+  },
 
+  {
+    "id": "men_in_black",
+    "title": "Men in Black",
+    "short": "Mysterious figures linked to conspiracy theories and alien encounters.",
+    "images": ["men-in-black1.webp", "meninblack2.webp"],
+    "content": [
+      { "text": "Men in Black frequently appear in mass culture and conspiracy theories related to UFOs and alien abductions. They often show up at people’s homes, claiming to be federal agents trying to find out what witnesses have seen." },
+      { "text": "The term was first introduced by American writers Gray Barker and John Kelley in 1967. Barker attributed them significant influence on world history, claiming they had encounters with figures like Caesar, Napoleon, and Jefferson." },
+      { "text": "These men are said to appear and disappear mysteriously. One witness described chasing black Cadillacs that vanished suddenly when cornered." },
+      { "text": "There’s a website called 'theyknewtoomuch.com' dedicated to Gray Barker's work, and ironically, a movie is being made based on his books." },
+      { "text": "The earliest reported sighting dates back to 1880, when a couple found strange objects, only to be approached later by a man in black claiming to be a collector who bought their find." },
+      { "text": "In 1953, Albert Bender created a UFO organization but was ordered to disband it by mysterious men in black Cadillacs dressed in all black, except their white shirts and red ties." },
+      { "text": "These men operate outside official law enforcement or government, caring little about laws. Their visits are unapproved and often intimidating." },
+      { "text": "Agents Mulder and Scully from 'The X-Files' are basically fictional Men in Black, traveling the world investigating strange phenomena while bending laws and suppressing others with similar abilities." },
+      { "text": "Some theories say Men in Black aren't even human but electromagnetic intelligences capable of emitting different frequencies and taking any form, even your harmless cat." },
+      { "text": "In 2008, a viral video surfaced allegedly showing Men in Black in an Israeli hotel. Witnesses described them as tall, identical-looking men wearing black suits and dark glasses." },
+      { "text": "There’s a cosmic war theory claiming 30,000 years ago humans fought dragon gods, who after winning, became the reptilian aliens known as Men in Black. They supposedly interfere with all major events, suppressing discovery and innovation." },
+      { "text": "Some say these beings can appear terrifyingly robotic or lizard-like, and conspiracy fans link them to secret government operatives or alien overlords controlling human society." },
+      { "text": "Skeptics dismiss it all as nonsense, but believers swear they’ve seen something unexplainable." }
+    ]
+  },
+
+  {
+    "id": "stonehenge",
+    "title": "Stonehenge",
+    "short": "A mysterious stone monument surrounded by theories ranging from aliens to ancient calendars.",
+    "images": ["stonehenge1.jpg", "stonehenge2.avif"],
+    "content": [
+      { "text": "Stonehenge is a complex of stone structures located in Wiltshire, England. It is one of the most famous archaeological sites and a UNESCO World Heritage Site." },
+      { "text": "Despite being almost ruined, Stonehenge still holds many mysteries with no definite answers. Theories about its origin range from Atlanteans and aliens to druids and even nuclear reactors." },
+      { "text": "No one knows the exact year it was built or who exactly constructed it. The remaining structure looks different from how it originally was." },
+      { "text": "Some conspiracy theories claim it’s a cosmic launch pad or a portal to another world, but these are often spread by fanatics and are not supported by evidence." },
+      { "text": "In 1954, some people started to believe that Stonehenge was actually built then, fueled by fake photos circulating online showing cranes and concrete being used." },
+      { "text": "However, this was just restoration work, not original construction. Restoration at Stonehenge began as early as 1901, with stones being raised and stabilized to prevent collapse." },
+      { "text": "The 1954 restoration involved repositioning stones, concrete reinforcement, and even moving some stones. Some stones today are replicas, not originals." },
+      { "text": "Dr. Christopher Chippindale, chief curator at the Archaeology Museum, confirms that most stones were moved and reinforced during restorations." },
+      { "text": "Skeptics claim that historical engravings and documents, such as the 1440 woodcut and the 1668 Frederick VI map, also prove Stonehenge existed long before the modern restorations." },
+      { "text": "Stonehenge might not be unique; similar ancient stone structures exist, suggesting it was part of a broader tradition of megalithic construction." },
+      { "text": "The most accepted theory is that Stonehenge functioned as an ancient calendar, used to track the sun’s solstices and possibly lunar cycles and eclipses — an early computational technology without robots." },
+      { "text": "The site predates the druids, who later used it for rituals, but they were not its original builders." },
+      { "text": "Visitors today can explore Stonehenge but must keep a distance of about 15 meters, with close access reserved only for those following druidic traditions." },
+      { "text": "Critical thinking is important when approaching theories about Stonehenge — separate facts from myths and don't fall for conspiracy traps." }
+    ]
+  },
+
+  {
+    "id": "john_titor_story",
+    "title": "John Titor — The Time Traveler Legend",
+    "short": "A mysterious time traveler from 2036 claiming to prevent future catastrophe.",
+    "images": ["johntitor1.jpg", "johntitor2.jpg"],
+    "content": [
+      { "text": "In 2000, a user named Timetravel_0 appeared on the Time Travel Institute forum claiming to be a time traveler from the year 2036." },
+      { "text": "He said his mission was to find an IBM 5100 computer to help avoid a global disaster by rolling back systems in his timeline." },
+      { "text": "John Titor was the name he later gave, which became legendary on the internet and paranormal forums." },
+      { "text": "Unlike typical fake stories, Titor knew specific technical details about the IBM 5100 that were not widely known." },
+      { "text": "He posted photos of his time machine, which was a large box installed inside a car — reminiscent of sci-fi time machines like in 'Back to the Future'." },
+      { "text": "According to his story, in 2036, a virus enslaved humanity and he was sent back to retrieve this computer to help fix the future." },
+      { "text": "He predicted multiple events such as the cancellation of the 2008 Olympics, a civil war in the USA in 2004, and a world war in 2015 killing 3 billion people — none of which happened." },
+      { "text": "He claimed that traveling back in time sends you to an alternate reality where paradoxes don’t occur, so you can even kill yourself without consequence." },
+      { "text": "His last post was in 2001, giving strange advice like 'Take a gas can when abandoning your car' and 'Buy toilet paper if you run out'." },
+      { "text": "The hype around John Titor sparked a cult following and investigations into his identity." },
+      { "text": "In 2008, an Italian TV show hired a private detective, Mike Lynch, who found no real family named Titor, confirming it was a pseudonym." },
+      { "text": "The Heiber family was linked to the myth — brothers Lawrence, Richard, Arthur, and Mori Heiber were involved in varying degrees." },
+      { "text": "Richard Heiber was an IT expert who would have known about the IBM 5100, and Mori Heiber was an IT security specialist with a writing style matching John Titor's posts." },
+      { "text": "Arthur Heiber admitted it was a long-term controlled hoax with full family awareness." },
+      { "text": "A John Titor foundation exists, selling overpriced books with recycled internet content and photos." },
+      { "text": "The phenomenon shows how the internet creates myths and legends, fueled by anonymity and mystery." },
+      { "text": "Despite the falsehoods, many people still believe or want to believe in John Titor’s story." },
+      { "text": "The story also touched on topics like Stephen Hawking, parallel realities, and the difficulty of distinguishing fact from fiction online." },
+      { "text": "The legend highlights human fascination with time travel, conspiracies, and the unknown." }
+    ]
+  },
+
+  {
+    "id": "bermuda_triangle_mystery",
+    "title": "The Mystery of the Bermuda Triangle: Facts, Incidents, and Theories",
+    "short": "An in-depth look at disappearances, research, and theories surrounding the Bermuda Triangle.",
+    "images": ["bermudatriangle1.jpg", "bermudatriangle2.jpg"],
+    "content": [
+      { "text": "The Bermuda Triangle, also known as the 'Devil’s Triangle,' is a loosely defined region in the western part of the North Atlantic Ocean. It stretches roughly between Miami, Bermuda, and Puerto Rico, covering about 500,000 square miles." },
+      { "text": "This area gained notoriety because of a number of aircraft and ships reportedly disappearing under mysterious circumstances. The fascination began to grow mainly in the mid-20th century with several high-profile incidents that sparked curiosity and fear." },
+      { "text": "One of the most famous cases is the disappearance of Flight 19, a squadron of five U.S. Navy bombers that vanished during a training flight in December 1945. Despite extensive searches, neither the planes nor their crew were ever found, fueling legends about the triangle." },
+      { "text": "Besides Flight 19, many other ships and planes have gone missing, including the USS Cyclops in 1918, which remains the largest non-combat loss of life in U.S. Navy history. The ship and over 300 crew members vanished without distress signals." },
+      { "text": "The term 'Bermuda Triangle' was popularized by writer Vincent Gaddis in 1964, who described several mysterious disappearances in an article for 'Argosy' magazine. Since then, countless books, documentaries, and investigations have focused on the area." },
+      { "text": "Many theories attempt to explain the disappearances. Some suggest natural causes such as violent weather, including sudden storms and hurricanes that are common in the region." },
+      { "text": "Others point to the Gulf Stream, a powerful ocean current that can quickly disperse debris, making it harder to find wreckage and giving the illusion of sudden disappearances." },
+      { "text": "Methane hydrate eruptions on the seafloor are another popular scientific hypothesis. These eruptions release large bubbles of methane gas, which can reduce water density, causing ships to lose buoyancy and sink rapidly." },
+      { "text": "Magnetic anomalies have also been proposed. Some claim the area affects compass readings, leading to navigational errors. However, scientific measurements show no significant magnetic irregularities in the triangle." },
+      { "text": "There are also more speculative ideas, including alien abductions, time warps, underwater cities, and supernatural forces, though none have credible evidence supporting them." },
+      { "text": "Skeptics argue that many reported incidents were either exaggerated or misreported, and that the Bermuda Triangle is no more dangerous than any other heavily traveled ocean area." },
+      { "text": "In fact, the U.S. Coast Guard does not recognize the Bermuda Triangle as an official hazard, and the region is not marked on official maps." },
+      { "text": "Analysis of the data shows that accidents in the area have plausible explanations related to weather, human error, and equipment failure." },
+      { "text": "Still, the mystery continues to captivate people worldwide, inspiring pop culture references from movies to video games, and serving as a modern myth about the sea’s unknown dangers." },
+      { "text": "The Bermuda Triangle stands as a reminder of the ocean’s power, the limits of human technology, and the enduring allure of unsolved mysteries." }
+    ]
+  },
+
+  {
+    "id": "megalodon_myth_and_facts",
+    "title": "Megalodon: Myth, Evidence, and Scientific Perspective",
+    "short": "Examining the myths, alleged sightings, and science behind Megalodon's extinction.",
+    "images": ["megaladon1.avif", "megaladon2.jpg"],
+    "content": [
+      { "text": "Megalodon was a giant prehistoric shark, larger than most dinosaurs, known primarily from fossilized teeth and partial skeletons." },
+      { "text": "Popular culture and internet headlines often claim Megalodon still exists or that mysterious giant sharks cause shipwrecks and disappearances." },
+      { "text": "Scientific evidence shows Megalodon went extinct approximately 1.6 to 2.6 million years ago." },
+      { "text": "Claims of modern sightings, videos from ocean depths, and unusual shark attacks are often linked to cryptozoology, which is not recognized as a scientific discipline." },
+      { "text": "Documentaries and TV shows sometimes dramatize and fabricate evidence, using actors and CGI to create suspense and increase viewership." },
+      { "text": "In 2013, a widely publicized fake documentary about Megalodon included staged footage and false reports, which were debunked by experts and official sources." },
+      { "text": "The ocean is indeed largely unexplored, but the existence of a top predator as large as Megalodon today would leave clear biological and ecological evidence." },
+      { "text": "Megalodon’s extinction is attributed to a combination of factors including changes in ocean currents, oxygen levels, competition from other predators like great white sharks and orcas, and the decline of prey species." },
+      { "text": "Fossil records indicate Megalodon reached lengths of up to 16 meters, though earlier exaggerated claims suggested even larger sizes." },
+      { "text": "No fresh Megalodon teeth or bodies have been found; teeth discovered recently are reinterpreted as fossilized and affected by environmental conditions." },
+      { "text": "Scientific consensus is that Megalodon is extinct, and many supposed modern evidences are hoaxes or misidentifications." },
+      { "text": "Critical evaluation of sources and skepticism toward sensational claims is necessary, especially with popular media mixing fiction and facts." },
+      { "text": "Interest in Megalodon remains high, but scientific understanding provides a more accurate picture than myths or internet rumors." }
+    ]
+  },
+
+  {
+    "id": "werewolves_and_lycanthropy",
+    "title": "Werewolves",
+    "short": "Mythology, global variations, and real medical explanations behind the werewolf legend.",
+    "images": ["werewolf1.webp", "werewolf2.webp"],
+    "content": [
+      { "text": "Werewolves are mythological creatures capable of transforming from humans into animals or vice versa." },
+      { "text": "The term lycanthrope specifically refers to a werewolf taking the form of a wolf." },
+      { "text": "In Japan, instead of wolves, people are said to transform into small, harmless foxes, which is quite different from Western myths." },
+      { "text": "Celtic mythology includes seal people, who simply transform into seals, showing the diversity of shapeshifting myths." },
+      { "text": "The most popular werewolf remains the human-wolf hybrid, known by various names such as werewolf, volkodlak, or vurdalak." },
+      { "text": "In Russian folklore, werewolves can transform not only into animals but also into inanimate objects like sticks or haystacks." },
+      { "text": "Scandinavian berserkers were believed to transform into huge bears during battle." },
+      { "text": "Werewolves are classified into congenital and reversible types, the former being linked to family curses and the latter to external factors." },
+      { "text": "Clinical lycanthropy is a real psychiatric condition where a person believes they transform into an animal." },
+      { "text": "Silver bullets are famously believed to be effective against werewolves, although stories show the corpse often reverts to a human form after death." },
+      { "text": "Proving the existence of werewolves is impossible, and many livestock disappearances are more likely caused by natural predators or other phenomena." },
+      { "text": "The werewolf myth continues to inspire stories, movies, and cultural discussions worldwide." }
+    ]
+  },
+
+  {
+    "id": "poltergeist_phenomenon",
+    "title": "Poltergeist Phenomenon",
+    "short": "Unexplained disturbances involving noises, moving objects, and mysterious activity.",
+    "images": ["polteheist1.jpg", "polterheist2.jpg"],
+    "content": [
+      { "text": "Poltergeist is a term derived from German words meaning 'noisy spirit,' referring to an unexplained phenomenon involving noises, moving objects, spontaneous fires, and other disturbances." },
+      { "text": "Common manifestations include flying objects, doors opening and closing by themselves, lights turning on and off, and strange sounds." },
+      { "text": "Poltergeists are often linked not to places but to people, usually children or adolescents undergoing puberty." },
+      { "text": "Parapsychology studies this phenomenon, though mainstream science remains skeptical about its existence." },
+      { "text": "Typical signs include loud noises, cries, moans, movement of objects, unexplained liquids, spontaneous fires, and doors locking by themselves." },
+      { "text": "Poltergeists generally frighten rather than physically harm, though stories exist of objects stopping just before hitting people." },
+      { "text": "Some interpretations suggest poltergeists intervene in critical moments, such as saving someone from suicide by cutting a noose with a flying knife." },
+      { "text": "Researcher D. Sherwood identifies stages of poltergeist activity including sensations, smells, voices, electrical malfunctions, object throwing, bites, injuries, blood appearing on walls, threatening messages, and victim's pain." },
+      { "text": "Historical references to poltergeist-like phenomena exist, including accounts by Greek and Roman historians and the Brothers Grimm." },
+      { "text": "The first reported case in Russia dates back to 1666 in a Moscow almshouse near Ivanov Monastery, where noises and objects flying out of beds were recorded." },
+      { "text": "Until the mid-19th century, poltergeists were associated with devil worship and exorcisms, but a scientific approach began only in the 20th century." },
+      { "text": "Modern psychology considers poltergeist phenomena as expressions of concentrated emotions like anger or frustration, often linked to suppressed adolescent psychics." },
+      { "text": "Energy released during puberty may manifest as a restless spirit throwing objects and causing destruction, sometimes developing into dangerous fire-starting behavior." },
+      { "text": "There are two main interpretations: poltergeist phenomena are either supernatural or psychological in origin." },
+      { "text": "Traditional Slavic methods to repel poltergeists include cursing them forcefully and using symbols to drive them away." },
+      { "text": "Despite skepticism, the phenomenon persists in folklore and personal testimonies, remaining a mysterious and debated subject." }
+    ]
+  }
 ]
+
 
