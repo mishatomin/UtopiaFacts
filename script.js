@@ -1,82 +1,122 @@
-console.log("JS IS WORKING!");
+console.log("JS LOADED OK");
+
 let currentLang = sessionStorage.getItem("lang") || "en";
 
+// === Main Page Loader ===
+async function loadHome() {
+    console.log("loadHome() started");
+
+    try {
+        const response = await fetch(`theories_${currentLang}.json`);
+        console.log("Fetching:", `theories_${currentLang}.json`);
+
+        const data = await response.json();
+        console.log("Loaded JSON:", data);
+
+        const container = document.getElementById("theory-container");
+        const dropdown = document.getElementById("dropdown");
+
+        container.innerHTML = "";
+        dropdown.innerHTML = "";
+
+        data.forEach(t => {
+            // Dropdown item
+            const item = document.createElement("div");
+            item.className = "drop-item";
+            item.textContent = t.title;
+            item.onclick = () => openArticle(t.id);
+            dropdown.appendChild(item);
+
+            // Grid Cards
+            const card = document.createElement("div");
+            card.className = "card";
+            card.onclick = () => openArticle(t.id);
+
+            card.innerHTML = `
+                <img src="img/${t.image[0]}" class="thumb">
+                <h3>${t.title}</h3>
+                <p>${t.short}</p>
+            `;
+
+            container.appendChild(card);
+        });
+    } catch (err) {
+        console.error("Error loading theories:", err);
+    }
+}
+
+
+// === Open Article Page ===
+function openArticle(id) {
+    sessionStorage.setItem("article", id);
+    window.location.href = "article.html";
+}
+
+
+// === Article Page Loader ===
+async function loadArticle() {
+    console.log("loadArticle() started");
+
+    const id = sessionStorage.getItem("article");
+    if (!id) return;
+
+    try {
+        const response = await fetch(`theories_${currentLang}.json`);
+        const data = await response.json();
+
+        const article = data.find(t => t.id === id);
+        const content = document.getElementById("article-content");
+
+        content.innerHTML = `
+            <h1>${article.title}</h1>
+        `;
+
+        // Images
+        article.image.forEach(img => {
+            content.innerHTML += `<img src="img/${img}" class="article-img">`;
+        });
+
+        // Paragraphs
+        article.content.forEach(txt => {
+            content.innerHTML += `<p>${txt.text}</p>`;
+        });
+
+    } catch (err) {
+        console.error("Error loading article:", err);
+    }
+}
+
+
+// === Language Switcher ===
 function setLang(lang) {
+    console.log("Language changed to", lang);
+
     currentLang = lang;
     sessionStorage.setItem("lang", lang);
-    loadPage();
+
+    if (window.location.pathname.includes("index")) loadHome();
+    if (window.location.pathname.includes("article")) loadArticle();
 }
 
-function loadPage() {
-    if (location.pathname.includes("index.html")) loadHome();
-    if (location.pathname.includes("article.html")) loadArticle();
-}
 
+// === Dropdown Menu ===
 function toggleMenu() {
     document.getElementById("dropdown").classList.toggle("hidden");
 }
 
-async function loadHome() {
-    const data = await fetch(`./theories_${currentLang}.json`).then(res => res.json());
-    const lang = await fetch(`./lang_${currentLang}.json`).then(res => res.json());
 
-    document.getElementById("hero-title").textContent = lang.hero_title;
-    document.getElementById("hero-subtitle").textContent = lang.hero_subtitle;
+// === AUTO RUN on page load ===
+window.onload = () => {
+    console.log("window.onload fired, lang =", currentLang);
 
-    const container = document.getElementById("theory-container");
-    const dropdown = document.getElementById("dropdown");
+    if (window.location.pathname.includes("index")) {
+        loadHome();
+    }
+    if (window.location.pathname.includes("article")) {
+        loadArticle();
+    }
+};
 
-    container.innerHTML = "";
-    dropdown.innerHTML = "";
-
-    data.forEach(t => {
-        const d = document.createElement("div");
-        d.textContent = t.title;
-        d.className = "drop-item";
-        d.onclick = () => openArticle(t.id);
-        dropdown.appendChild(d);
-
-        const card = document.createElement("div");
-        card.className = "card";
-        card.onclick = () => openArticle(t.id);
-
-        const img = t.image ? t.image[0] : "placeholder.jpg";
-
-        card.innerHTML = `
-            <img src="img/${img}">
-            <h3>${t.title}</h3>
-            <p>${t.short}</p>
-        `;
-
-        container.appendChild(card);
-    });
-}
-
-function openArticle(id) {
-    sessionStorage.setItem("article", id);
-    location.href = "article.html";
-}
-
-async function loadArticle() {
-    const id = sessionStorage.getItem("article");
-    if (!id) return;
-
-    const data = await fetch(`./theories_${currentLang}.json`).then(res => res.json());
-    const article = data.find(t => t.id === id);
-
-    const container = document.getElementById("article-content");
-    container.innerHTML = `<h1>${article.title}</h1>`;
-
-    article.image?.forEach(img => {
-        container.innerHTML += `<img class="article-img" src="img/${img}">`;
-    });
-
-    article.content?.forEach(block => {
-        container.innerHTML += `<p>${block.text}</p>`;
-    });
-}
-
-window.onload = loadPage;
 
 
 
