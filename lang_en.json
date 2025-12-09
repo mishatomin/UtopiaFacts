@@ -1,4 +1,10 @@
 {
     "hero_title": "Explore Hidden Mysteries",
-    "hero_subtitle": "Discover the world's most fascinating conspiracy theories & unexplained stories."
+    "hero_subtitle": "Discover the world's most fascinating conspiracy theories & unexplained stories.",
+    
+    "menuTheories": "Theories",
+    
+    "langEN": "EN",
+    "langFI": "FI"
 }
+

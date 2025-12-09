@@ -5,6 +5,8 @@ body {
     color: white;
 }
 
+/* ---------------- HEADER ---------------- */
+
 header {
     position: fixed;
     top: 0;
@@ -30,7 +32,8 @@ header {
     gap: 15px;
 }
 
-.menu-btn, .lang-switch button {
+.menu-btn,
+.lang-switch button {
     background: #222;
     color: white;
     border: 1px solid #444;
@@ -43,29 +46,39 @@ header {
     background: #555;
 }
 
+/* ---------------- DROPDOWN MENU ---------------- */
+
 .dropdown {
     position: absolute;
     top: 60px;
     right: 100px;
     background: #111;
     border: 1px solid #333;
-    width: 200px;
+    width: 220px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
 }
 
 .hidden {
     display: none;
 }
 
-.drop-item {
+.dropdown-item {
     padding: 10px;
     cursor: pointer;
     border-bottom: 1px solid #222;
+    background: #111;
+    color: white;
+    text-align: left;
 }
 
-.drop-item:hover {
+.dropdown-item:hover {
     background: #222;
 }
+
+/* ---------------- HERO SECTION ---------------- */
 
 .hero {
     height: 100vh;
@@ -73,6 +86,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 20px 40px;
+    text-align: left;
 }
 
 .hero h1 {
@@ -85,11 +99,14 @@ header {
     opacity: 0.7;
 }
 
+/* ---------------- THEORY GRID ---------------- */
+
 .theory-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
     padding: 40px;
+    margin-top: 50px;
 }
 
 .card {
@@ -98,6 +115,7 @@ header {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
+    border: 1px solid #222;
 }
 
 .card:hover {
@@ -109,16 +127,32 @@ header {
     border-radius: 8px;
 }
 
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    opacity: 0.8;
+}
+
+/* ---------------- ARTICLE PAGE ---------------- */
+
 .article {
     padding: 120px 40px 40px;
     max-width: 900px;
     margin: auto;
 }
 
-.article-img {
+.article img {
     width: 100%;
     margin: 20px 0;
     border-radius: 8px;
 }
+
+.article p {
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
 
 

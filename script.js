@@ -1,130 +1,194 @@
-console.log("JS loaded!");
+console.log("JS LOADED!");
 
-fetch("theories_en.json")
-  .then(r => {
-    console.log("Status:", r.status);
-    return r.json();
-  })
-  .then(data => console.log("Loaded EN theories:", data))
-  .catch(err => console.error("JSON LOAD ERROR:", err));
-console.log("JS LOADED OK");
+// ------------------------------
+// GLOBAL STATE
+// ------------------------------
+let currentLang = "en";
+let theories = [];
 
-let currentLang = sessionStorage.getItem("lang") || "en";
-
-// === Main Page Loader ===
-async function loadHome() {
-    console.log("loadHome() started");
-
+// ------------------------------
+// LANGUAGE
+// ------------------------------
+async function loadLanguage(lang) {
     try {
-        const response = await fetch(`theories_${currentLang}.json`);
-        console.log("Fetching:", `theories_${currentLang}.json`);
+        const res = await fetch(`lang_${lang}.json`);
+        const data = await res.json();
 
-        const data = await response.json();
-        console.log("Loaded JSON:", data);
+        const titleEl = document.getElementById("hero-title");
+        const subEl = document.getElementById("hero-subtitle");
 
-        const container = document.getElementById("theory-container");
-        const dropdown = document.getElementById("dropdown");
+        // Эти элементы есть только на index.html, поэтому проверяем
+        if (titleEl) titleEl.textContent = data.hero_title;
+        if (subEl) subEl.textContent = data.hero_subtitle;
 
-        container.innerHTML = "";
-        dropdown.innerHTML = "";
-
-        data.forEach(t => {
-            // Dropdown item
-            const item = document.createElement("div");
-            item.className = "drop-item";
-            item.textContent = t.title;
-            item.onclick = () => openArticle(t.id);
-            dropdown.appendChild(item);
-
-            // Grid Cards
-            const card = document.createElement("div");
-            card.className = "card";
-            card.onclick = () => openArticle(t.id);
-
-            card.innerHTML = `
-                <img src="img/${t.image[0]}" class="thumb">
-                <h3>${t.title}</h3>
-                <p>${t.short}</p>
-            `;
-
-            container.appendChild(card);
-        });
     } catch (err) {
-        console.error("Error loading theories:", err);
+        console.error("Language load error:", err);
     }
 }
 
+// ------------------------------
+// LOAD THEORIES (EN / FI)
+// ------------------------------
+async function loadTheories(lang) {
+    try {
+        const res = await fetch(`theories_${lang}.json`);
+        theories = await res.json();
+        console.log("Theories loaded:", theories);
 
-// === Open Article Page ===
+        buildDropdown();
+        buildCards();
+    } catch (err) {
+        console.error("Theories load error:", err);
+    }
+}
+
+// ------------------------------
+// BUILD DROPDOWN MENU
+// ------------------------------
+function buildDropdown() {
+    const dropdown = document.getElementById("dropdown");
+    if (!dropdown) return;
+
+    dropdown.innerHTML = "";
+
+    theories.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "drop-item";
+        div.textContent = item.title;
+        div.onclick = () => openArticle(item.id);
+        dropdown.appendChild(div);
+    });
+}
+
+// ------------------------------
+// BUILD CARDS ON HOME PAGE
+// ------------------------------
+function buildCards() {
+    const container = document.getElementById("theory-container");
+    if (!container) return; // на article.html этого блока нет
+
+    container.innerHTML = "";
+
+    theories.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.onclick = () => openArticle(item.id);
+
+        const img = document.createElement("img");
+        // image — это массив имён файлов, папка называется img
+        img.src = "img/" + item.image[0];
+        img.alt = item.title;
+
+        const title = document.createElement("h3");
+        title.textContent = item.title;
+
+        const p = document.createElement("p");
+        p.textContent = item.short;
+
+        card.appendChild(img);
+        card.appendChild(title);
+        card.appendChild(p);
+
+        container.appendChild(card);
+    });
+}
+
+// ------------------------------
+// OPEN ARTICLE (NAVIGATE)
+// ------------------------------
 function openArticle(id) {
-    sessionStorage.setItem("article", id);
-    window.location.href = "article.html";
+    sessionStorage.setItem("articleId", id);
+    window.location.href = "article.html"; // без s
 }
 
+// ------------------------------
+// LOAD ARTICLE PAGE CONTENT
+// ------------------------------
+async function loadArticlePage() {
+    const articleSection = document.getElementById("article-content");
+    if (!articleSection) return; // мы не на странице статьи
 
-// === Article Page Loader ===
-async function loadArticle() {
-    console.log("loadArticle() started");
-
-    const id = sessionStorage.getItem("article");
-    if (!id) return;
+    const id = sessionStorage.getItem("articleId");
+    if (!id) {
+        articleSection.innerHTML = "<h2>Article not found.</h2>";
+        return;
+    }
 
     try {
-        const response = await fetch(`theories_${currentLang}.json`);
-        const data = await response.json();
+        const res = await fetch(`theories_${currentLang}.json`);
+        const data = await res.json();
+        const item = data.find(t => t.id === id);
 
-        const article = data.find(t => t.id === id);
-        const content = document.getElementById("article-content");
+        if (!item) {
+            articleSection.innerHTML = "<h2>Article not found.</h2>";
+            return;
+        }
 
-        content.innerHTML = `
-            <h1>${article.title}</h1>
-        `;
+        let html = `<h1>${item.title}</h1>`;
 
-        // Images
-        article.image.forEach(img => {
-            content.innerHTML += `<img src="img/${img}" class="article-img">`;
+        // картинки
+        item.image.forEach(file => {
+            html += `<img src="img/${file}" class="article-img" alt="${item.title}">`;
         });
 
-        // Paragraphs
-        article.content.forEach(txt => {
-            content.innerHTML += `<p>${txt.text}</p>`;
+        // текстовые блоки
+        item.content.forEach(block => {
+            html += `<p>${block.text}</p>`;
         });
+
+        articleSection.innerHTML = html;
+
+        // заполнить dropdown и на странице статьи
+        theories = data;
+        buildDropdown();
 
     } catch (err) {
-        console.error("Error loading article:", err);
+        console.error("Article load error:", err);
+        articleSection.innerHTML = "<h2>Error loading article.</h2>";
     }
 }
 
+// ------------------------------
+// MENU TOGGLE
+// ------------------------------
+function toggleMenu() {
+    const dd = document.getElementById("dropdown");
+    if (dd) dd.classList.toggle("hidden");
+}
 
-// === Language Switcher ===
+// ------------------------------
+// SWITCH LANGUAGE
+// ------------------------------
 function setLang(lang) {
-    console.log("Language changed to", lang);
-
     currentLang = lang;
     sessionStorage.setItem("lang", lang);
 
-    if (window.location.pathname.includes("index")) loadHome();
-    if (window.location.pathname.includes("article")) loadArticle();
+    // подсветка активной кнопки
+    const enBtn = document.getElementById("en-btn");
+    const fiBtn = document.getElementById("fi-btn");
+    if (enBtn && fiBtn) {
+        enBtn.classList.toggle("active", lang === "en");
+        fiBtn.classList.toggle("active", lang === "fi");
+    }
+
+    loadLanguage(lang);
+    loadTheories(lang);
+
+    // если мы на странице статьи — перегружаем её контент на новом языке
+    setTimeout(loadArticlePage, 100);
 }
 
-
-// === Dropdown Menu ===
-function toggleMenu() {
-    document.getElementById("dropdown").classList.toggle("hidden");
-}
-
-
-// === AUTO RUN on page load ===
+// ------------------------------
+// STARTUP
+// ------------------------------
 window.onload = () => {
-    console.log("window.onload fired, lang =", currentLang);
+    const savedLang = sessionStorage.getItem("lang") || "en";
+    currentLang = savedLang;
 
-    if (window.location.pathname.includes("index")) {
-        loadHome();
-    }
-    if (window.location.pathname.includes("article")) {
-        loadArticle();
-    }
+    setLang(currentLang);      // язык + теории (карточки + меню)
+    loadArticlePage();         // если мы на article.html — подгрузит статью
 };
+
 
 
 
