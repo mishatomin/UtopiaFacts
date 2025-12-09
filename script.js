@@ -1,9 +1,15 @@
-let currentLang = "en";
+console.log("JS IS WORKING!");
+let currentLang = sessionStorage.getItem("lang") || "en";
 
 function setLang(lang) {
     currentLang = lang;
     sessionStorage.setItem("lang", lang);
-    location.reload();
+    loadPage();
+}
+
+function loadPage() {
+    if (location.pathname.includes("index.html")) loadHome();
+    if (location.pathname.includes("article.html")) loadArticle();
 }
 
 function toggleMenu() {
@@ -11,7 +17,12 @@ function toggleMenu() {
 }
 
 async function loadHome() {
-    const data = await fetch(`data/theories_${currentLang}.json`).then(r => r.json());
+    const data = await fetch(`./theories_${currentLang}.json`).then(res => res.json());
+    const lang = await fetch(`./lang_${currentLang}.json`).then(res => res.json());
+
+    document.getElementById("hero-title").textContent = lang.hero_title;
+    document.getElementById("hero-subtitle").textContent = lang.hero_subtitle;
+
     const container = document.getElementById("theory-container");
     const dropdown = document.getElementById("dropdown");
 
@@ -19,25 +30,24 @@ async function loadHome() {
     dropdown.innerHTML = "";
 
     data.forEach(t => {
-        // --- Dropdown item ---
         const d = document.createElement("div");
         d.textContent = t.title;
         d.className = "drop-item";
         d.onclick = () => openArticle(t.id);
         dropdown.appendChild(d);
 
-        // --- Card ---
         const card = document.createElement("div");
         card.className = "card";
         card.onclick = () => openArticle(t.id);
 
-        const img = t.image ? t.image[0] : "";
+        const img = t.image ? t.image[0] : "placeholder.jpg";
 
         card.innerHTML = `
-            <img src="img/${img}" class="thumb">
+            <img src="img/${img}">
             <h3>${t.title}</h3>
             <p>${t.short}</p>
         `;
+
         container.appendChild(card);
     });
 }
@@ -48,31 +58,25 @@ function openArticle(id) {
 }
 
 async function loadArticle() {
-    const articleId = sessionStorage.getItem("article");
-    const data = await fetch(`data/theories_${currentLang}.json`).then(r => r.json());
-    const article = data.find(t => t.id === articleId);
+    const id = sessionStorage.getItem("article");
+    if (!id) return;
 
-    const section = document.getElementById("article-content");
-    section.innerHTML = `<h1>${article.title}</h1>`;
+    const data = await fetch(`./theories_${currentLang}.json`).then(res => res.json());
+    const article = data.find(t => t.id === id);
 
-    // Images
-    if (article.image) {
-        article.image.forEach(img => {
-            section.innerHTML += `<img src="img/${img}" class="article-img">`;
-        });
-    }
+    const container = document.getElementById("article-content");
+    container.innerHTML = `<h1>${article.title}</h1>`;
 
-    // Text blocks
-    article.content.forEach(block => {
-        section.innerHTML += `<p>${block.text}</p>`;
+    article.image?.forEach(img => {
+        container.innerHTML += `<img class="article-img" src="img/${img}">`;
+    });
+
+    article.content?.forEach(block => {
+        container.innerHTML += `<p>${block.text}</p>`;
     });
 }
 
-window.onload = () => {
-    currentLang = sessionStorage.getItem("lang") || "en";
+window.onload = loadPage;
 
-    if (location.pathname.includes("index.html")) loadHome();
-    if (location.pathname.includes("article.html")) loadArticle();
-};
 
 

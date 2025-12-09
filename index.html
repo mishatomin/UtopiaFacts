@@ -2,31 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UtopiaFacts</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<header>
-    <div class="logo">UtopiaFacts</div>
 
-    <div class="nav">
-        <button onclick="toggleMenu()">Theories</button>
-        <button onclick="setLang('en')">EN</button>
-        <button onclick="setLang('fi')">FI</button>
-    </div>
+    <header>
+        <div class="logo">UtopiaFacts</div>
 
-    <div id="dropdown" class="hidden dropdown"></div>
-</header>
+        <nav class="nav">
+            <button onclick="toggleMenu()" class="menu-btn">Theories</button>
+            <div id="dropdown" class="dropdown hidden"></div>
 
-<section class="hero">
-    <h1>Explore Hidden Mysteries</h1>
-    <p>Discover the world’s most fascinating conspiracy theories & unexplained stories.</p>
-</section>
+            <div class="lang-switch">
+                <button onclick="setLang('en')" id="en-btn">EN</button>
+                <button onclick="setLang('fi')" id="fi-btn">FI</button>
+            </div>
+        </nav>
+    </header>
 
-<section id="theory-container" class="grid"></section>
+    <section class="hero">
+        <h1 id="hero-title">Explore Hidden Mysteries</h1>
+        <p id="hero-subtitle">Discover the world's most fascinating conspiracy theories & unexplained stories.</p>
+    </section>
 
-<script src="script.js"></script>
+    <section id="theory-container" class="theory-grid"></section>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
