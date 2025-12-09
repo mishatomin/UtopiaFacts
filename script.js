@@ -1,3 +1,12 @@
+console.log("JS loaded!");
+
+fetch("theories_en.json")
+  .then(r => {
+    console.log("Status:", r.status);
+    return r.json();
+  })
+  .then(data => console.log("Loaded EN theories:", data))
+  .catch(err => console.error("JSON LOAD ERROR:", err));
 console.log("JS LOADED OK");
 
 let currentLang = sessionStorage.getItem("lang") || "en";

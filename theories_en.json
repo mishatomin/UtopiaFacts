@@ -3,7 +3,7 @@
     "id": "philadelphia_experiment",
     "title": "The Philadelphia Experiment",
     "short": "A legendary secret Navy experiment allegedly involving invisibility and teleportation of a warship.",
-    "images": ["pe1.jpg", "pe2.jpeg"],
+    "image": ["pe1.jpg", "pe2.jpeg"],
     "content": [
       { "text": "In 1943, at the Philadelphia Naval Shipyard, a secret experiment was allegedly conducted on the American warship USS Eldridge. The results were bizarre and unpredictable: the entire ship and its crew were enveloped in a strange green fog and gradually disappeared into thin air." },
       { "text": "Witnesses claim the ship reappeared 300 kilometers away from its original location, only to vanish and return again. But the aftermath was horrific — more than half of the crew supposedly became fused with the ship's metal, with only parts of their bodies visible, while many others lost their sanity." },
@@ -22,7 +22,7 @@
     "id": "roswell_alien_autopsy",
     "title": "Roswell Alien Autopsy",
     "short": "Claims and controversies around a 1947 UFO crash and alleged alien autopsy footage.",
-    "images": ["roswell1.webp", "rosewell2.jpg"],
+    "image": ["roswell1.webp", "rosewell2.jpg"],
     "content": [
       { "text": "In the summer of 1947, the small town of Roswell, New Mexico became the center of one of the most famous conspiracy theories involving UFOs and extraterrestrials." },
       { "text": "Legend has it that a flying saucer crashed nearby, and the bodies of alien crew members were recovered and secretly kept by the US government." },
@@ -43,7 +43,7 @@
     "id": "area51",
     "title": "Area 51",
     "short": "A highly classified U.S. military base surrounded by rumors about UFOs, aliens, and underground complexes.",
-    "images": ["area511.jpeg", "area512.jpg"],
+    "image": ["area511.jpeg", "area512.jpg"],
     "content": [
       { "text": "Area 51 became legendary thanks to rumors that the government studies alien technology there, hides crashed UFOs, and conducts secret experiments." },
       { "text": "The base is located in Nevada. Google Maps shows it, but Street View refuses to load nearby roads. For years, the Pentagon denied its existence." },
@@ -62,7 +62,7 @@
     "id": "loch_ness",
     "title": "The Loch Ness Monster",
     "short": "A legendary creature said to inhabit Loch Ness in Scotland — from ancient sightings to modern sonar scans.",
-    "images": ["lochness1.webp", "lochness2.webp"],
+    "image": ["lochness1.webp", "lochness2.webp"],
     "content": [
       { "text": "The legend tells of a giant creature living in Scotland’s Loch Ness, known as the Loch Ness Monster — or Nessie. Some describe it as a plesiosaur-like reptile with diamond-shaped fins." },
       { "text": "The earliest known mention comes from Roman legionaries, who carved strange beasts they saw in Scotland — including a creature resembling Nessie." },
@@ -82,7 +82,7 @@
     "id": "yeti_bigfoot",
     "title": "The Yeti and Bigfoot",
     "short": "A mysterious humanoid creature reported around the world — from the Himalayas to America.",
-    "images": ["bigfoot1.jpg", "bigfoot2.webp"],
+    "image": ["bigfoot1.jpg", "bigfoot2.webp"],
     "content": [
       { "text": "In 1921, an expedition climbing Everest heard terrifying screams behind a hill. When they went to investigate, they found huge human-like footprints. Europeans started calling the creature the 'Abominable Snowman'." },
       { "text": "In 1951, explorer Eric Shipton photographed giant barefoot tracks on Everest — a 31×16 cm footprint. The USSR even formed a commission dedicated to catching Bigfoot." },
@@ -107,7 +107,7 @@
     "id": "men_in_black",
     "title": "Men in Black",
     "short": "Mysterious figures linked to conspiracy theories and alien encounters.",
-    "images": ["men-in-black1.webp", "meninblack2.webp"],
+    "image": ["men-in-black1.webp", "meninblack2.webp"],
     "content": [
       { "text": "Men in Black frequently appear in mass culture and conspiracy theories related to UFOs and alien abductions. They often show up at people’s homes, claiming to be federal agents trying to find out what witnesses have seen." },
       { "text": "The term was first introduced by American writers Gray Barker and John Kelley in 1967. Barker attributed them significant influence on world history, claiming they had encounters with figures like Caesar, Napoleon, and Jefferson." },
@@ -129,7 +129,7 @@
     "id": "stonehenge",
     "title": "Stonehenge",
     "short": "A mysterious stone monument surrounded by theories ranging from aliens to ancient calendars.",
-    "images": ["stonehenge1.jpg", "stonehenge2.avif"],
+    "image": ["stonehenge1.jpg", "stonehenge2.avif"],
     "content": [
       { "text": "Stonehenge is a complex of stone structures located in Wiltshire, England. It is one of the most famous archaeological sites and a UNESCO World Heritage Site." },
       { "text": "Despite being almost ruined, Stonehenge still holds many mysteries with no definite answers. Theories about its origin range from Atlanteans and aliens to druids and even nuclear reactors." },
@@ -152,7 +152,7 @@
     "id": "john_titor_story",
     "title": "John Titor — The Time Traveler Legend",
     "short": "A mysterious time traveler from 2036 claiming to prevent future catastrophe.",
-    "images": ["johntitor1.jpg", "johntitor2.jpg"],
+    "image": ["johntitor1.jpg", "johntitor2.jpg"],
     "content": [
       { "text": "In 2000, a user named Timetravel_0 appeared on the Time Travel Institute forum claiming to be a time traveler from the year 2036." },
       { "text": "He said his mission was to find an IBM 5100 computer to help avoid a global disaster by rolling back systems in his timeline." },
@@ -180,7 +180,7 @@
     "id": "bermuda_triangle_mystery",
     "title": "The Mystery of the Bermuda Triangle: Facts, Incidents, and Theories",
     "short": "An in-depth look at disappearances, research, and theories surrounding the Bermuda Triangle.",
-    "images": ["bermudatriangle1.jpg", "bermudatriangle2.jpg"],
+    "image": ["bermudatriangle1.jpg", "bermudatriangle2.jpg"],
     "content": [
       { "text": "The Bermuda Triangle, also known as the 'Devil’s Triangle,' is a loosely defined region in the western part of the North Atlantic Ocean. It stretches roughly between Miami, Bermuda, and Puerto Rico, covering about 500,000 square miles." },
       { "text": "This area gained notoriety because of a number of aircraft and ships reportedly disappearing under mysterious circumstances. The fascination began to grow mainly in the mid-20th century with several high-profile incidents that sparked curiosity and fear." },
@@ -204,7 +204,7 @@
     "id": "megalodon_myth_and_facts",
     "title": "Megalodon: Myth, Evidence, and Scientific Perspective",
     "short": "Examining the myths, alleged sightings, and science behind Megalodon's extinction.",
-    "images": ["megaladon1.avif", "megaladon2.jpg"],
+    "image": ["megaladon1.avif", "megaladon2.jpg"],
     "content": [
       { "text": "Megalodon was a giant prehistoric shark, larger than most dinosaurs, known primarily from fossilized teeth and partial skeletons." },
       { "text": "Popular culture and internet headlines often claim Megalodon still exists or that mysterious giant sharks cause shipwrecks and disappearances." },
@@ -226,7 +226,7 @@
     "id": "werewolves_and_lycanthropy",
     "title": "Werewolves",
     "short": "Mythology, global variations, and real medical explanations behind the werewolf legend.",
-    "images": ["werewolf1.webp", "werewolf2.webp"],
+    "image": ["werewolf1.webp", "werewolf2.webp"],
     "content": [
       { "text": "Werewolves are mythological creatures capable of transforming from humans into animals or vice versa." },
       { "text": "The term lycanthrope specifically refers to a werewolf taking the form of a wolf." },
@@ -247,7 +247,7 @@
     "id": "poltergeist_phenomenon",
     "title": "Poltergeist Phenomenon",
     "short": "Unexplained disturbances involving noises, moving objects, and mysterious activity.",
-    "images": ["polteheist1.jpg", "polterheist2.jpg"],
+    "image": ["polteheist1.jpg", "polterheist2.jpg"],
     "content": [
       { "text": "Poltergeist is a term derived from German words meaning 'noisy spirit,' referring to an unexplained phenomenon involving noises, moving objects, spontaneous fires, and other disturbances." },
       { "text": "Common manifestations include flying objects, doors opening and closing by themselves, lights turning on and off, and strange sounds." },
