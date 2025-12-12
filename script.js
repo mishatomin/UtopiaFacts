@@ -15,6 +15,12 @@ async function loadLanguage(lang) {
 
     if (title) title.textContent = t.hero_title;
     if (subtitle) subtitle.textContent = t.hero_subtitle;
+
+  
+    const footer = document.querySelector(".footer-quote");
+    if (footer && t.footer_quote) {
+        footer.textContent = t.footer_quote;
+    }
 }
 
 // ----------------------
@@ -26,7 +32,11 @@ async function loadTheories(lang) {
 
     fillDropdown();
     fillCards();
-    fillArticle();
+
+    
+    if (document.getElementById("article-content")) {
+        fillArticle();
+    }
 }
 
 // ----------------------
@@ -86,6 +96,9 @@ function fillArticle() {
     const section = document.getElementById("article-content");
     if (!section) return;
 
+   
+    section.innerHTML = "";
+
     const id = sessionStorage.getItem("currentTheoryId");
     if (!id) return;
 
@@ -136,6 +149,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const lang = sessionStorage.getItem("lang") || "en";
     setLang(lang);
 });
+
 
 
 
