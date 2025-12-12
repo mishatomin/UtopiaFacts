@@ -1,193 +1,144 @@
 console.log("JS LOADED!");
 
-// ------------------------------
-// GLOBAL STATE
-// ------------------------------
 let currentLang = "en";
 let theories = [];
 
-// ------------------------------
-// LANGUAGE
-// ------------------------------
+// ----------------------
+// LOAD LANGUAGE
+// ----------------------
 async function loadLanguage(lang) {
-    try {
-        const res = await fetch(`lang_${lang}.json`);
-        const data = await res.json();
+    const res = await fetch(`lang_${lang}.json`);
+    const t = await res.json();
 
-        const titleEl = document.getElementById("hero-title");
-        const subEl = document.getElementById("hero-subtitle");
+    const title = document.getElementById("hero-title");
+    const subtitle = document.getElementById("hero-subtitle");
 
-        // Эти элементы есть только на index.html, поэтому проверяем
-        if (titleEl) titleEl.textContent = data.hero_title;
-        if (subEl) subEl.textContent = data.hero_subtitle;
-
-    } catch (err) {
-        console.error("Language load error:", err);
-    }
+    if (title) title.textContent = t.hero_title;
+    if (subtitle) subtitle.textContent = t.hero_subtitle;
 }
 
-// ------------------------------
-// LOAD THEORIES (EN / FI)
-// ------------------------------
+// ----------------------
+// LOAD THEORIES
+// ----------------------
 async function loadTheories(lang) {
-    try {
-        const res = await fetch(`theories_${lang}.json`);
-        theories = await res.json();
-        console.log("Theories loaded:", theories);
+    const res = await fetch(`theories_${lang}.json`);
+    theories = await res.json();
 
-        buildDropdown();
-        buildCards();
-    } catch (err) {
-        console.error("Theories load error:", err);
-    }
+    fillDropdown();
+    fillCards();
+    fillArticle();
 }
 
-// ------------------------------
-// BUILD DROPDOWN MENU
-// ------------------------------
-function buildDropdown() {
-    const dropdown = document.getElementById("dropdown");
-    if (!dropdown) return;
+// ----------------------
+// DROPDOWN
+// ----------------------
+function fillDropdown() {
+    const dd = document.getElementById("dropdown");
+    if (!dd) return;
 
-    dropdown.innerHTML = "";
+    dd.innerHTML = "";
 
-    theories.forEach(item => {
-        const div = document.createElement("div");
-        div.className = "drop-item";
-        div.textContent = item.title;
-        div.onclick = () => openArticle(item.id);
-        dropdown.appendChild(div);
+    theories.forEach(t => {
+        const btn = document.createElement("button");
+        btn.className = "dropdown-item";
+        btn.textContent = t.title;
+        btn.onclick = () => openArticle(t.id);
+        dd.appendChild(btn);
     });
 }
 
-// ------------------------------
-// BUILD CARDS ON HOME PAGE
-// ------------------------------
-function buildCards() {
-    const container = document.getElementById("theory-container");
-    if (!container) return; // на article.html этого блока нет
+function toggleMenu() {
+    document.getElementById("dropdown").classList.toggle("hidden");
+}
 
-    container.innerHTML = "";
+// ----------------------
+// CARDS
+// ----------------------
+function fillCards() {
+    const grid = document.getElementById("theory-container");
+    if (!grid) return;
 
-    theories.forEach(item => {
+    grid.innerHTML = "";
+
+    theories.forEach(t => {
         const card = document.createElement("div");
         card.className = "card";
-        card.onclick = () => openArticle(item.id);
+        card.onclick = () => openArticle(t.id);
 
         const img = document.createElement("img");
-        // image — это массив имён файлов, папка называется img
-        img.src = "img/" + item.image[0];
-        img.alt = item.title;
+        img.src = "./img/" + t.image[0];
 
         const title = document.createElement("h3");
-        title.textContent = item.title;
+        title.textContent = t.title;
 
-        const p = document.createElement("p");
-        p.textContent = item.short;
+        const short = document.createElement("p");
+        short.textContent = t.short;
 
-        card.appendChild(img);
-        card.appendChild(title);
-        card.appendChild(p);
-
-        container.appendChild(card);
+        card.append(img, title, short);
+        grid.appendChild(card);
     });
 }
 
-// ------------------------------
-// OPEN ARTICLE (NAVIGATE)
-// ------------------------------
+// ----------------------
+// ARTICLE PAGE
+// ----------------------
+function fillArticle() {
+    const section = document.getElementById("article-content");
+    if (!section) return;
+
+    const id = sessionStorage.getItem("currentTheoryId");
+    if (!id) return;
+
+    const t = theories.find(x => x.id === id);
+    if (!t) return;
+
+    const h1 = document.createElement("h1");
+    h1.textContent = t.title;
+    section.appendChild(h1);
+
+    t.image.forEach(imgName => {
+        const img = document.createElement("img");
+        img.className = "article-img";
+        img.src = "./img/" + imgName;
+        section.appendChild(img);
+    });
+
+    t.content.forEach(block => {
+        const p = document.createElement("p");
+        p.textContent = block.text;
+        section.appendChild(p);
+    });
+}
+
 function openArticle(id) {
-    sessionStorage.setItem("articleId", id);
-    window.location.href = "article.html"; // без s
+    sessionStorage.setItem("currentTheoryId", id);
+    location.href = "article.html";
 }
 
-// ------------------------------
-// LOAD ARTICLE PAGE CONTENT
-// ------------------------------
-async function loadArticlePage() {
-    const articleSection = document.getElementById("article-content");
-    if (!articleSection) return; // мы не на странице статьи
-
-    const id = sessionStorage.getItem("articleId");
-    if (!id) {
-        articleSection.innerHTML = "<h2>Article not found.</h2>";
-        return;
-    }
-
-    try {
-        const res = await fetch(`theories_${currentLang}.json`);
-        const data = await res.json();
-        const item = data.find(t => t.id === id);
-
-        if (!item) {
-            articleSection.innerHTML = "<h2>Article not found.</h2>";
-            return;
-        }
-
-        let html = `<h1>${item.title}</h1>`;
-
-        // картинки
-        item.image.forEach(file => {
-            html += `<img src="img/${file}" class="article-img" alt="${item.title}">`;
-        });
-
-        // текстовые блоки
-        item.content.forEach(block => {
-            html += `<p>${block.text}</p>`;
-        });
-
-        articleSection.innerHTML = html;
-
-        // заполнить dropdown и на странице статьи
-        theories = data;
-        buildDropdown();
-
-    } catch (err) {
-        console.error("Article load error:", err);
-        articleSection.innerHTML = "<h2>Error loading article.</h2>";
-    }
-}
-
-// ------------------------------
-// MENU TOGGLE
-// ------------------------------
-function toggleMenu() {
-    const dd = document.getElementById("dropdown");
-    if (dd) dd.classList.toggle("hidden");
-}
-
-// ------------------------------
-// SWITCH LANGUAGE
-// ------------------------------
+// ----------------------
+// LANGUAGE SWITCH
+// ----------------------
 function setLang(lang) {
     currentLang = lang;
     sessionStorage.setItem("lang", lang);
 
-    // подсветка активной кнопки
-    const enBtn = document.getElementById("en-btn");
-    const fiBtn = document.getElementById("fi-btn");
-    if (enBtn && fiBtn) {
-        enBtn.classList.toggle("active", lang === "en");
-        fiBtn.classList.toggle("active", lang === "fi");
-    }
-
     loadLanguage(lang);
     loadTheories(lang);
 
-    // если мы на странице статьи — перегружаем её контент на новом языке
-    setTimeout(loadArticlePage, 100);
+    document.getElementById("en-btn").classList.toggle("active", lang === "en");
+    document.getElementById("fi-btn").classList.toggle("active", lang === "fi");
 }
 
-// ------------------------------
-// STARTUP
-// ------------------------------
-window.onload = () => {
-    const savedLang = sessionStorage.getItem("lang") || "en";
-    currentLang = savedLang;
+// ----------------------
+// START
+// ----------------------
+window.addEventListener("DOMContentLoaded", () => {
+    const lang = sessionStorage.getItem("lang") || "en";
+    setLang(lang);
+});
 
-    setLang(currentLang);      // язык + теории (карточки + меню)
-    loadArticlePage();         // если мы на article.html — подгрузит статью
-};
+
+
 
 
 
